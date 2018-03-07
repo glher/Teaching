@@ -14,7 +14,7 @@ class Solver:
         mat = self.buildmatrix(diffusion_coefficients)
 
         rhs = np.zeros(self.size)
-        rhs[0] = -diffusion_coefficients[1] * self.phi0
+        rhs[0] = -(diffusion_coefficients[0] + diffusion_coefficients[1]) * self.phi0
 
         if self.verbose > 0:
             print("System of equations:")
@@ -48,18 +48,24 @@ class Solver:
     def buildmatrix(self, diffusion_coefficients):
 
         a = []
+        #
+        # A = np.array([[-(d0+2*d1+d2), d1+d2, 0., 0.],
+        #               [d1+d2, -(d1+2*d2+d3), d2+d3, 0.],
+        #               [0., d2+d3, -(d2+2*d3+d4), d3+d4],
+        #               [0., 0., d3+d4, -(d3+2*d4+d5)]])
+
         for i in range(self.size):
             line = np.zeros(self.size)
             if i == 0:
-                line[i] = -(diffusion_coefficients[i+1] + diffusion_coefficients[i+2])
-                line[i+1] = diffusion_coefficients[i+2]
+                line[i] = -(diffusion_coefficients[i] + 2*diffusion_coefficients[i+1] + diffusion_coefficients[i+2])
+                line[i+1] = diffusion_coefficients[i+1] + diffusion_coefficients[i+2]
             elif i == self.size-1:
-                line[i - 1] = diffusion_coefficients[i + 1]
-                line[i] = -(diffusion_coefficients[i + 1] + diffusion_coefficients[i + 2])
+                line[i - 1] = diffusion_coefficients[i] + diffusion_coefficients[i+1]
+                line[i] = -(diffusion_coefficients[i] + 2*diffusion_coefficients[i+1] + diffusion_coefficients[i+2])
             else:
-                line[i-1] = diffusion_coefficients[i+1]
-                line[i] = -(diffusion_coefficients[i+1] + diffusion_coefficients[i+2])
-                line[i+1] = diffusion_coefficients[i+2]
+                line[i-1] = diffusion_coefficients[i] + diffusion_coefficients[i+1]
+                line[i] = -(diffusion_coefficients[i] + 2*diffusion_coefficients[i+1] + diffusion_coefficients[i+2])
+                line[i+1] = diffusion_coefficients[i+1] + diffusion_coefficients[i+2]
             a.append(line)
         a = np.asarray(a)
 
