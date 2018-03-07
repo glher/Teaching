@@ -1,4 +1,5 @@
 import numpy as np
+import sys
 from cst import parameters
 
 
@@ -23,6 +24,24 @@ class Solver:
             if self.verbose > 0:
                 print("[{0}] = [{1:3g}]".format(" + ".join(row), rhs[i]))
 
+        if parameters.solver == 'jacobi':
+            x = self.jacobi_solver(mat, rhs)
+        elif parameters.solver == 'gauss-seidel':
+            x = self.gauss_seidel_solver(mat, rhs)
+        else:
+            sys.exit('Unknown solver')
+
+        if self.verbose > 1:
+            print("Solution: {0}".format(x))
+        error = np.dot(mat, x) - rhs
+        if self.verbose > 1:
+            print("Error: {0}".format(error))
+        x = np.insert(x, 0, self.phi0)
+        x = np.append(x, 0)
+        return x
+
+    def gauss_seidel_solver(self, mat, rhs):
+
         x = np.zeros_like(rhs)
         for it_count in range(1, self.iterations_number):
             x_new = np.zeros_like(x)
@@ -35,14 +54,22 @@ class Solver:
             if np.allclose(x, x_new, rtol=1e-8):
                 break
             x = x_new
+        return x
 
-        if self.verbose > 1:
-            print("Solution: {0}".format(x))
-        error = np.dot(mat, x) - rhs
-        if self.verbose > 1:
-            print("Error: {0}".format(error))
-        x = np.insert(x, 0, self.phi0)
-        x = np.append(x, 0)
+    def jacobi_solver(self, mat, rhs):
+
+        x = np.zeros_like(rhs)
+        for it_count in range(self.iterations_number):
+            x_new = np.zeros_like(x)
+            if self.verbose > 1:
+                print("Iteration {0}: {1}".format(it_count, x))
+            for i in range(mat.shape[0]):
+                s1 = np.dot(mat[i, :i], x[:i])
+                s2 = np.dot(mat[i, i + 1:], x[i + 1:])
+                x_new[i] = (rhs[i] - s1 - s2) / mat[i, i]
+            if np.allclose(x, x_new, rtol=1e-8):
+                break
+            x = x_new
         return x
 
     def buildmatrix(self, diffusion_coefficients):
