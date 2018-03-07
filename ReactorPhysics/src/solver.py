@@ -28,6 +28,8 @@ class Solver:
             x = self.jacobi_solver(mat, rhs)
         elif parameters.solver == 'gauss-seidel':
             x = self.gauss_seidel_solver(mat, rhs)
+        elif parameters.solver == 'tridiag':
+            x = self.tridiag_solver(mat, rhs)
         else:
             sys.exit('Unknown solver')
 
@@ -70,6 +72,12 @@ class Solver:
             if np.allclose(x, x_new, rtol=1e-8):
                 break
             x = x_new
+        return x
+
+    def tridiag_solver(self, mat, rhs):
+        x = np.linalg.solve(mat, rhs)
+        if not np.allclose(np.dot(mat, x), rhs):
+            print('Damn')
         return x
 
     def buildmatrix(self, diffusion_coefficients):
