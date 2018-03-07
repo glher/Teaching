@@ -1,12 +1,12 @@
 import numpy as np
-import parameters
+from cst import parameters
 
 
 class Solver:
 
     def __init__(self):
         self.iterations_number = parameters.iterations_limit
-        self.size = int(parameters.length/parameters.deltax)-1
+        self.size = int(parameters.length / parameters.deltax) - 1
         self.phi0 = parameters.phi0
         self.verbose = parameters.verbose
 
@@ -64,7 +64,3 @@ class Solver:
         a = np.asarray(a)
 
         return a
-
-
-
-

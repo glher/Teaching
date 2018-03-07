@@ -1,6 +1,6 @@
-from geometry import Geometry
-from solver import Solver
-from graphs import Graphs
+from src.geometry import Geometry
+from src.solver import Solver
+from src.graphs import Graphs
 
 geometry = Geometry()
 diffusion_coefficients = geometry.run()

@@ -1,12 +1,14 @@
 import numpy as np
 from bisect import bisect_left
-import parameters
+import os
+from cst import parameters
+from cst import paths_manager as paths
 
 
 class Geometry:
 
     def __init__(self):
-        self.filename = 'geometry.txt'
+        self.filename = os.path.join(paths.dat, 'geometry.txt')
         self.length = parameters.length
         self.deltax = parameters.deltax
         self.points = np.linspace(0, self.length, int(self.length/self.deltax)+1)

@@ -1,5 +1,8 @@
+import os
 from matplotlib import pyplot as plt
-from geometry import Geometry
+from src.geometry import Geometry
+from cst import paths_manager as paths
+
 
 class Graphs:
 
@@ -10,4 +13,4 @@ class Graphs:
 
     def plot(self):
         plt.plot(self.x, self.y)
-        plt.savefig('flux.png')
+        plt.savefig(os.path.join(paths.res, 'flux.png'))
