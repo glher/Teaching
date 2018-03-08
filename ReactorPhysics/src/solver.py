@@ -1,3 +1,14 @@
+"""
+    File name: solver.py
+    Author: Guillaume L'HER
+    Date created: 3/7/2018
+    Date last modified: 3/7/2018
+    Python Version: 3.5
+
+    Description: This module is the solver. It sets up the linear equations system and solves it using different
+    solver (Jacobi, Gauss-Seidel, TriDiag).
+"""
+
 import numpy as np
 import sys
 from cst import parameters
@@ -12,6 +23,12 @@ class Solver:
         self.verbose = parameters.verbose
 
     def run(self, diffusion_coefficients):
+        """
+        This function sets up the right hand side of the matrix equation and call the different solver based on a
+        user-defined parameter. It then generates the error.
+        :param diffusion_coefficients: vector of the diffusion coefficients given the geometry
+        :return: flux for each point
+        """
         mat = self.buildmatrix(diffusion_coefficients)
 
         rhs = np.zeros(self.size)
@@ -43,7 +60,13 @@ class Solver:
         return x
 
     def gauss_seidel_solver(self, mat, rhs):
-
+        """
+        The Gauss-Seidel is a variant of the Jacobi solver. It does the same but updates the values of determined
+        results within the same iteration.
+        :param mat: matrice of coefficients
+        :param rhs: right hand side of the equation
+        :return: flux vector
+        """
         x = np.zeros_like(rhs)
         for it_count in range(1, self.iterations_number):
             x_new = np.zeros_like(x)
@@ -59,7 +82,13 @@ class Solver:
         return x
 
     def jacobi_solver(self, mat, rhs):
-
+        """
+        The Jacobi method solves the first equation for x1, the second for x2, etc. It then starts from an initial
+        guess for each value. Compute the result: this is the first iteration. Repeat and converge.
+        :param mat: matrice of coefficients
+        :param rhs: right hand side of the equation
+        :return: flux vector
+        """
         x = np.zeros_like(rhs)
         for it_count in range(self.iterations_number):
             x_new = np.zeros_like(x)
@@ -75,19 +104,25 @@ class Solver:
         return x
 
     def tridiag_solver(self, mat, rhs):
+        """
+        Solve a linear matrix equation, or system of linear scalar equations.
+        Computes the “exact” solution, x, of the well-determined, i.e., full rank, linear matrix equation ax = b.
+        :param mat:
+        :param rhs:
+        :return: flux vector
+        """
         x = np.linalg.solve(mat, rhs)
         if not np.allclose(np.dot(mat, x), rhs):
             print('Damn')
         return x
 
     def buildmatrix(self, diffusion_coefficients):
-
+        """
+        Builds the matrix of coefficients for an arbitrary sized system
+        :param diffusion_coefficients: list of dissufion coefficients per node
+        :return: matrix of coefficients
+        """
         a = []
-        #
-        # A = np.array([[-(d0+2*d1+d2), d1+d2, 0., 0.],
-        #               [d1+d2, -(d1+2*d2+d3), d2+d3, 0.],
-        #               [0., d2+d3, -(d2+2*d3+d4), d3+d4],
-        #               [0., 0., d3+d4, -(d3+2*d4+d5)]])
 
         for i in range(self.size):
             line = np.zeros(self.size)
