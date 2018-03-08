@@ -6,10 +6,8 @@ function [flux] = solver1(diffusion_coefficient)
     global phi_e;
     matrice_coeff = buildmatrix(size, diffusion_coefficient);
     rhs = zeros(size, 1);
-    rhs
     rhs(1) = -(diffusion_coefficient(1) + diffusion_coefficient(2)) * phi0;
     rhs(size) = -(diffusion_coefficient(size-1) + diffusion_coefficient(size)) * phi_e;
-    rhs
     flux = linsolve(matrice_coeff, rhs);
     flux = [phi0; flux; phi_e];
 end
