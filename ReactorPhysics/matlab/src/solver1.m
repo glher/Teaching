@@ -1,15 +1,17 @@
 function [flux] = solver1(diffusion_coefficient)
-%SOLVER Summary of this function goes here
-%   Detailed explanation goes here
     global len;
     global deltax;
     size = int32(len/deltax) - 1;
     global phi0;
+    global phi_e;
     matrice_coeff = buildmatrix(size, diffusion_coefficient);
     rhs = zeros(size, 1);
+    rhs
     rhs(1) = -(diffusion_coefficient(1) + diffusion_coefficient(2)) * phi0;
+    rhs(size) = -(diffusion_coefficient(size-1) + diffusion_coefficient(size)) * phi_e;
+    rhs
     flux = linsolve(matrice_coeff, rhs);
-    flux = [phi0; flux; 0];
+    flux = [phi0; flux; phi_e];
 end
 
 function [matrice_coefficients] = buildmatrix(size, diffusion_coefficient)
