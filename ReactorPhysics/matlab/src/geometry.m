@@ -1,6 +1,6 @@
 function [d_coeff] = geometry()
 
-    [diffusion_coefficient, distance] = get_diff_coeff();
+    [diffusion_coefficient, distance, macrosig] = get_diff_coeff();
     d_coeff = [];
     global deltax;
     global len;
@@ -9,9 +9,15 @@ function [d_coeff] = geometry()
         ix = find(distance>points(i),1);
         d_coeff = [d_coeff, diffusion_coefficient(ix)];
     end
+    global phi_e;
+    if phi_e == 'extrapolated'
+        delta_e = 0.7104 * 1./macrosig(length(macrosig));
+        points = [points, len+delta_e];
+        d_coeff = [d_coeff, d_coeff(length(d_coeff))];
+    end
 end
 
-function [diffusion_coefficient, distance] = get_diff_coeff()
+function [diffusion_coefficient, distance, macrosig] = get_diff_coeff()
     filetext = fileread('dat/geometry.txt');
     filetext = strsplit(filetext,'\n');
     distance = [];

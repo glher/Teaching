@@ -1,15 +1,28 @@
 function [flux] = solver1(diffusion_coefficient)
     global len;
     global deltax;
-    size = int32(len/deltax) - 1;
     global phi0;
     global phi_e;
+    global phi_e_val;
+    if phi_e ~= 'extrapolated'
+        size = int32(len/deltax) - 1;
+    else
+        size = int32(len/deltax);
+    end
     matrice_coeff = buildmatrix(size, diffusion_coefficient);
     rhs = zeros(size, 1);
     rhs(1) = -(diffusion_coefficient(1) + diffusion_coefficient(2)) * phi0;
-    rhs(size) = -(diffusion_coefficient(size-1) + diffusion_coefficient(size)) * phi_e;
-    flux = linsolve(matrice_coeff, rhs);
-    flux = [phi0; flux; phi_e];
+    if phi_e ~= 'extrapolated'
+        rhs(size) = -(diffusion_coefficient(size-1) + diffusion_coefficient(size)) * phi_e;
+        flux = linsolve(matrice_coeff, rhs);
+        flux = [phi0; flux; phi_e];
+    else
+        rhs(size) = -(diffusion_coefficient(size-1) + diffusion_coefficient(size)) * phi_e_val;
+        flux = linsolve(matrice_coeff, rhs);
+        flux = [phi0; flux];
+    end
+        
+    
 end
 
 function [matrice_coefficients] = buildmatrix(size, diffusion_coefficient)

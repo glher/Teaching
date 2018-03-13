@@ -1,8 +1,10 @@
 global len;
 len = 50.;
 global deltax;
-deltax = 10;
+deltax = 10.;
 global phi0;
 phi0 = 1000.;
 global phi_e;
-phi_e = 0;
+phi_e = 'extrapolated';
+global phi_e_val;
+phi_e_val = 0.;
