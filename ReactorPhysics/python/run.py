@@ -8,15 +8,34 @@
     Description: This module is the main script. It launches the various specific modules.
 """
 
-from src.geometry import Geometry
-from src.solver import Solver
-from src.graphs import Graphs
+# from src.geometry import Geometry
 
-geometry = Geometry()
-diffusion_coefficients = geometry.run()
+from src.deck_reader import MaterialSolver, GeometrySolver
 
-solver = Solver()
-flux = solver.run(diffusion_coefficients)
+from python.src.solver import NeutronicSolver
+from python.src.graphs import Graphs
+
+geometry = GeometrySolver().initialize()
+material = MaterialSolver().initialize()
+
+print(material)
+
+import sys;sys.exit()
+
+
+
+
+# geometry = Geometry()
+# diffusion_coefficients = geometry.run()
+isotopic_vector = material_solver.initialize()
+diffusion_coefficient = geometry.run(isotopic_vector)
+
+for bu in burnup_steps:
+    neutronic_solver = NeutronicSolver()
+    flux = neutronic_solver.run(diffusion_coefficients)
+
+    bateman_solver = MaterialSolver()
+    isotopic_vector = material_solver.update(isotopic_vector, flux)
 
 graphs = Graphs(flux)
 graphs.plot()

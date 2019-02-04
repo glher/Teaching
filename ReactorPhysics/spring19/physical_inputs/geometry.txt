@@ -1,0 +1,4 @@
+* BEGIN geometry
+0 0.05 mat1
+0.05 50 mat2
+* END

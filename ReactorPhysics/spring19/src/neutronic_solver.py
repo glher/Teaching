@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
     File name: solver.py
     Author: Guillaume L'HER
@@ -11,14 +12,15 @@
 
 import numpy as np
 import sys
-from cst import parameters
+from simulation_inputs import parameters
 
 
-class Solver:
+class NeutronicSolver:
 
-    def __init__(self):
+    def __init__(self, geometry):
+        length = geometry['distance'][-1]
         self.iterations_number = parameters.iterations_limit
-        self.size = int(parameters.length / parameters.deltax) - 1
+        self.size = int(length / parameters.deltax) - 1
         self.phi0 = parameters.phi0
         self.verbose = parameters.verbose
 
@@ -34,11 +36,11 @@ class Solver:
         rhs = np.zeros(self.size)
         rhs[0] = -(diffusion_coefficients[0] + diffusion_coefficients[1]) * self.phi0
 
-        if self.verbose > 0:
+        if self.verbose > 1:
             print("System of equations:")
         for i in range(mat.shape[0]):
             row = ["{0:3g}*x{1}".format(mat[i, j], j + 1) for j in range(mat.shape[1])]
-            if self.verbose > 0:
+            if self.verbose > 1:
                 print("[{0}] = [{1:3g}]".format(" + ".join(row), rhs[i]))
 
         if parameters.solver == 'jacobi':
@@ -50,10 +52,10 @@ class Solver:
         else:
             sys.exit('Unknown solver')
 
-        if self.verbose > 1:
+        if self.verbose > 2:
             print("Solution: {0}".format(x))
         error = np.dot(mat, x) - rhs
-        if self.verbose > 1:
+        if self.verbose > 2:
             print("Error: {0}".format(error))
         x = np.insert(x, 0, self.phi0)
         x = np.append(x, 0)
@@ -70,7 +72,7 @@ class Solver:
         x = np.zeros_like(rhs)
         for it_count in range(1, self.iterations_number):
             x_new = np.zeros_like(x)
-            if self.verbose > 1:
+            if self.verbose > 2:
                 print("Iteration {0}: {1}".format(it_count, x))
             for i in range(mat.shape[0]):
                 s1 = np.dot(mat[i, :i], x_new[:i])
@@ -92,7 +94,7 @@ class Solver:
         x = np.zeros_like(rhs)
         for it_count in range(self.iterations_number):
             x_new = np.zeros_like(x)
-            if self.verbose > 1:
+            if self.verbose > 2:
                 print("Iteration {0}: {1}".format(it_count, x))
             for i in range(mat.shape[0]):
                 s1 = np.dot(mat[i, :i], x[:i])
