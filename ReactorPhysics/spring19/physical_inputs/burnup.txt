@@ -1,0 +1,4 @@
+* BEGIN burnup
+power 100
+steps 5 10 10 10
+* END
