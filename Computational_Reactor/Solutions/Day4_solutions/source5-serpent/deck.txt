@@ -1,0 +1,79 @@
+set title "source5"
+% --- Description ---
+%
+% source5
+%
+% T Rider 12 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp source4
+%
+% --- Library Paths ---
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 sph 0 0 0 1
+surf 2 sph 0 2 0 1
+surf 3 cyly 0 0 3 -1 3
+surf 4 cyly 0 0 8 -4 6
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -4 3
+cell 20 0 void -3 1 2
+cell 30 0 200 -2
+cell 40 0 200 -1
+cell 50 0 outside 4
+
+% --- Materials -----
+mat 100 -11.4 tmp 300 
+82207.03c 1
+
+mat 200 -1.12 tmp 300
+1001.03c -0.09677
+6000.03c -0.3871
+8016.03c -0.51613
+
+% --- Source ---
+set nps 100000
+src 1 ss -1 se 0.14
+src 2 ss -2 se 1.88
+src 3 ss 1 se 0.14
+src 4 ss 2 se 1.88
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- Detectors ---
+det 1 dc 10 dv 1897.52
+
+% --- options ---
+set ures 1
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500
+
+

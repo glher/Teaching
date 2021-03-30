@@ -1,0 +1,90 @@
+set title "simple LWR"
+
+% --- Description ---
+%
+% simple LWR
+% 
+% T. Rider 20 April 2016 CSM
+%
+% 
+% ------------------
+
+include "../libpaths.txt"
+include "../inventory-395.txt"
+
+%----Surfaces-------
+
+surf 9 cyl 0 0 200 0 400
+
+%------Pins----------
+
+pin 1 
+endsfuel 0.396
+gap      0.416
+cladding 0.466
+coolant
+
+%-----Pin-Lattice-----
+
+lat 10 6 0.0 0.0 1.3 1
+
+%——Container———
+
+cell boundaryBox	0 fill 10       -9
+cell boundaryBoxOut	0 outside 	 9
+
+% --- Materials -----
+
+mat endsfuel -10 tmp 900
+8016.09c 6.5e-01 
+92235.09c 1.4e-02 
+92238.09c 3.36e-02 
+
+mat gap -0.2692e-2 tmp 900
+  2004.09c 1
+
+% zircalloy
+mat cladding -6.55000 tmp 90040000.06c  -0.98135  % Mass fraction of natural zirconium24000.50c  -0.00100  % Mass fraction of natural chromium26000.55c  -0.00135  % Mass fraction of natural iron28000.42c  -0.00055  % Mass fraction of natural nickel50000.42c  -0.01450  % Mass fraction of natural tin8016.06c  -0.00125  % Mass fraction of O-16
+
+mat coolant -1 moder lwtr 1001 tmp 500
+ 1001.03c 2
+ 8016.03c 1
+therm lwtr lwe6.08t    
+
+% --- options:
+
+set ures 1
+
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 1000 40 20 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 1
+
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500

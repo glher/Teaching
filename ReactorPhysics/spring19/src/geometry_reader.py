@@ -1,9 +1,6 @@
 # Import the generic package you will need
 import re
-import numpy as np
-from bisect import bisect_left
 # Import your own necessary modules, in this case the constants and parameters files.
-from simulation_inputs import parameters
 from src.tools import MiscFunctions
 
 

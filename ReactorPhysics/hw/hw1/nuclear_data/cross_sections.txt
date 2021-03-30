@@ -1,0 +1,4 @@
+#ID;siga;sigs;sigf
+1001;30.27;3.32e-1;0
+92238;2.683;9.3;16.8e-6
+# Add in the thermal cross-sections for O-16 and U-235.

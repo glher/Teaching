@@ -1,0 +1,80 @@
+set title "tal1"
+% --- Description ---
+%
+% tal1
+%
+% T Rider 13 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp tal1
+%
+% --- Library Paths ---
+
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 sph 0 0 0 8.741
+surf 2 sph 0 0 0 8.751
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -1
+cell 15 0 void 1 -2
+cell 20 0 outside 2
+
+% --- Materials -----
+mat 100 -18.74 tmp 300
+92235.03c -94.73 
+92238.03c -5.27
+
+% --- Source ---
+src 1 sp 0 0 0 
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 10000 400 200 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- Detectors ---
+%
+% ADD YOUR DETECTORS HERE
+%
+% “det" detector# detectorType data/moreSpecifics
+det 1 ds 1 1
+det 3 dc 10 dv 2797.51
+det 4 dc 15 dv 9.61233
+
+% --- options ---
+set ures 1
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500
+
+
+
+

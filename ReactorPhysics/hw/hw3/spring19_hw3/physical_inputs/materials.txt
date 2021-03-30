@@ -1,0 +1,18 @@
+???
+
+# This gives a material named mat1, with a density of 10.5 g/cm^3. It is UO2 with natural uranium.
+# (Remove the # signs to uncomment)
+
+# * BEGIN material
+# mat1 10.5
+# 92235 0.0063
+# 92238 0.8752
+# 8016 0.1185
+# * END
+
+# Write the following materials:
+# - fuel: density of 11 g/cm^3, UO2 with U enriched at 4.5% weight.
+# - water: density of 0.8 g/cm^3
+
+# Do not hesitate to write a python script to compute these values, with a variable enrichment in U-235. This is a good
+# way to familiarize yourself with python.

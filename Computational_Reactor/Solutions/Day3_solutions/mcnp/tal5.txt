@@ -1,0 +1,20 @@
+tal5 - Godiva - using KSRC & surfaces
+c
+c CELL CARDS
+10   100  -18.74  -1
+20   0             1
+ 
+c SURFACE CARDS
+1    so   8.741
+ 
+c DATA CARDS
+kcode 50  1.0  5  110
+ksrc  0. 0. 0.
+imp:n 1 0
+m100  92235 -94.73  92238 -5.27
+c
+fmesh4:n  geom=xyz  origin= -9 -9 -9
+     imesh= 9   iints= 100
+     jmesh= 9   jints= 100
+     kmesh= 9   kints= 1
+mplot  fmesh 4   freq 5

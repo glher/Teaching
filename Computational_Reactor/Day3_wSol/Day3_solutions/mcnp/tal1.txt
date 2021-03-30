@@ -1,0 +1,23 @@
+tal1 - Godiva - using KSRC & surfaces
+c
+c CELL CARDS
+10   100  -18.74  -1
+20   0             1
+ 
+c SURFACE CARDS
+1    so   8.741
+ 
+c DATA CARDS
+kcode 1000  1.0  10  50
+ksrc  0. 0. 0.
+imp:n 1 0
+m100  92235 -94.73  92238 -5.27
+c
+c OUTER SURFACE CURRENT TALLY
+f1:n  1
+c
+c OUTER SURFACE CURRENT TALLY
+f2:n  1
+c 
+c CELL FLUX TALLY
+f4:n  10

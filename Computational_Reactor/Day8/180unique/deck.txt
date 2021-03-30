@@ -1,0 +1,92 @@
+set title "180unique"
+
+% --- Description ---
+%
+% 180unique
+% 
+% T. Rider 2 May 2015 CSM
+%
+% AIM
+% 
+% 
+% -----Libraries-----
+
+include "../libpaths.txt"
+include "../inventory-395.txt"
+
+%-----Surfaces-------
+
+surf 9  cuboid -6.5 6.5 -6.5 6.5 -50 532.015	      % boundary box for assembly
+surf 19 cylz 0 0 120 -50 532.015                        % inner vessel wall
+surf 20 cylz 0 0 130 -50 532.015			      % outer vessel wall
+surf 29 cuboid -0.65 0.65 -0.65 0.65 -50 532.015	      % boundry box for pin
+
+
+
+%---Empty-Pin-Space---
+cell blank    202 m3 -29
+cell blankOut 202 outside 29
+
+%-------Pins--------
+include "geometry/pins.txt"
+
+%-----Assemblies----
+include "geometry/assemblies.txt"
+
+%---Empty-Lattice---
+cell WaterBox    203 m3 -9
+cell WaterBoxOut 203 outside 9
+
+%--Reactor-Layout---
+include "geometry/lattice.txt"
+
+cell inVessel 		0 	fill 400 		-19
+cell vessel   		0 	m4 		19 	-20
+cell vesselOut 		0 	outside 	20
+
+
+% --- Materials -----
+
+include "materials/m1.txt"	% Spring material
+include "materials/m2.txt"	% Cladding
+include "materials/m3.txt"	% Moderator
+include "materials/m4.txt"	% Vessel
+
+include "materials/materials.txt" % Fuel
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 1000 10 10 1
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- Options for burnup calculation:
+
+set bumode  2  % CRAM method
+set pcc     1  % Predictor-corrector calculation on
+set xscalc  2  % Cross sections from spectrum
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% ------- Burnup ---------
+
+
+
+
+
+% --- Optimization options.
+set opti 1
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 1000 1000
+mesh 1 500 500
+mesh 2 1000 1000
+mesh 3 1000 1000

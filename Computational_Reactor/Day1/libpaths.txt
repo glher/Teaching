@@ -1,0 +1,12 @@
+% --- Cross section library file path:
+
+set acelib "/opt/serpent/xsdata/sss_endfb7u.xsdata"
+
+%therm tsl-HinH2O "/opt/serpent/xsdata/endfb7.1/ENDF-B-VII.1/thermal_scatt/tsl-HinH2O.endf"
+
+
+% --- Decay and fission yield libraries:
+
+set declib "/opt/serpent/xsdata/sss_endfb7.dec"
+set nfylib "//opt/serpent/xsdata/sss_endfb7.nfy"
+

@@ -1,0 +1,108 @@
+set title "tal2"
+% --- Description ---
+%
+% tal2
+%
+% T Rider 13 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp tal2
+%
+% --- Library Paths ---
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+%
+% ADD SURF 4 AND 5, CYLINDERS WITH RAD GREATER THAN SURF 1 AND 2
+%
+% "surf", surf#, surf type, data
+surf 1 cyl 0 0 0.44 -180 180
+surf 2 cyl 0 0 0.49 -180 180
+surf 3 cuboid -.7 .7 -.7 .7 -210 210
+surf 4 cyl 0 0 0.45 -180 180
+surf 5 cyl 0 0 0.50 -180 180
+
+% --- Cells ---
+%
+% ADD CELLS 15 AND 25, THIN SHELLS AROUND FUEL SURFACE AND CLADDING SURFACE
+%
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -1
+cell 15 0 200 1 -4
+cell 20 0 200 4 -2
+cell 25 0 300 2 -5
+cell 30 0 300 5 -3
+cell 40 0 outside 3
+
+% --- Materials -----
+mat 100 0.6925613 tmp 300 
+92238.03c 2.238e-2 
+92235.03c 8.2213e-4
+8016.03c 4.6054e-2
+
+mat 200 0.04291 tmp 300 
+40000.03c 4.291e-2
+
+mat 300 0.100059 moder lwtr 1001 tmp 575 
+1001.03c 6.6706e-2
+8016.03c 3.3343e-2
+therm lwtr lwe7.10t
+
+% --- Source ---
+%src 1 sp 0 0 0 
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 10000 400 200 .55
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+
+% --- Detectors ---
+%
+% ADD YOUR DETECTORS HERE
+%
+% “det" detector# detectorType data/moreSpecifics
+
+mat U235 1.0 92235.09c 1.0
+mat U238 1.0 92238.09c 1.0
+
+det 1 dc 10 dv 219
+det 2 dm 100 dr -6 U235 dv 219
+det 3 dm 100 dr -6 U238 dv 219
+det 4 ds 1 0 dv 9.95257E+02
+det 5 ds 2 0 dv 1.10835E+03
+det 6 dm 100 dv 219
+det 7 dc 15 dv 10.0657
+det 8 dc 25 dv 11.1966
+det 9 dm 100 dr -6 100 dv 219
+
+% --- options ---
+set ures 1
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500

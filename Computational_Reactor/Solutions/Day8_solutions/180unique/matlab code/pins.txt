@@ -1,0 +1,1080 @@
+pin 11 
+m11        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 12 
+m12        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 13 
+m13        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 14 
+m14        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 15 
+m15        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 16 
+m16        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 17 
+m17        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 18 
+m18        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 19 
+m19        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 20 
+m20        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 21 
+m21        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 22 
+m22        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 23 
+m23        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 24 
+m24        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 25 
+m25        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 26 
+m26        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 27 
+m27        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 28 
+m28        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 29 
+m29        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 30 
+m30        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 31 
+m31        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 32 
+m32        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 33 
+m33        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 34 
+m34        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 35 
+m35        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 36 
+m36        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 37 
+m37        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 38 
+m38        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 39 
+m39        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 40 
+m40        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 41 
+m41        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 42 
+m42        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 43 
+m43        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 44 
+m44        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 45 
+m45        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 46 
+m46        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 47 
+m47        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 48 
+m48        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 49 
+m49        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 50 
+m50        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 51 
+m51        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 52 
+m52        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 53 
+m53        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 54 
+m54        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 55 
+m55        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 56 
+m56        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 57 
+m57        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 58 
+m58        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 59 
+m59        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 60 
+m60        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 61 
+m61        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 62 
+m62        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 63 
+m63        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 64 
+m64        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 65 
+m65        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 66 
+m66        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 67 
+m67        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 68 
+m68        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 69 
+m69        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 70 
+m70        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 71 
+m71        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 72 
+m72        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 73 
+m73        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 74 
+m74        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 75 
+m75        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 76 
+m76        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 77 
+m77        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 78 
+m78        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 79 
+m79        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 80 
+m80        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 81 
+m81        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 82 
+m82        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 83 
+m83        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 84 
+m84        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 85 
+m85        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 86 
+m86        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 87 
+m87        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 88 
+m88        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 89 
+m89        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 90 
+m90        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 91 
+m91        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 92 
+m92        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 93 
+m93        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 94 
+m94        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 95 
+m95        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 96 
+m96        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 97 
+m97        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 98 
+m98        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 99 
+m99        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 100 
+m100        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 101 
+m101        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 102 
+m102        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 103 
+m103        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 104 
+m104        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 105 
+m105        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 106 
+m106        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 107 
+m107        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 108 
+m108        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 109 
+m109        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 110 
+m110        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 111 
+m111        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 112 
+m112        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 113 
+m113        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 114 
+m114        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 115 
+m115        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 116 
+m116        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 117 
+m117        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 118 
+m118        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 119 
+m119        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 120 
+m120        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 121 
+m121        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 122 
+m122        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 123 
+m123        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 124 
+m124        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 125 
+m125        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 126 
+m126        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 127 
+m127        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 128 
+m128        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 129 
+m129        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 130 
+m130        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 131 
+m131        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 132 
+m132        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 133 
+m133        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 134 
+m134        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 135 
+m135        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 136 
+m136        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 137 
+m137        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 138 
+m138        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 139 
+m139        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 140 
+m140        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 141 
+m141        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 142 
+m142        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 143 
+m143        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 144 
+m144        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 145 
+m145        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 146 
+m146        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 147 
+m147        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 148 
+m148        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 149 
+m149        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 150 
+m150        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 151 
+m151        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 152 
+m152        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 153 
+m153        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 154 
+m154        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 155 
+m155        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 156 
+m156        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 157 
+m157        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 158 
+m158        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 159 
+m159        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 160 
+m160        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 161 
+m161        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 162 
+m162        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 163 
+m163        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 164 
+m164        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 165 
+m165        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 166 
+m166        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 167 
+m167        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 168 
+m168        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 169 
+m169        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 170 
+m170        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 171 
+m171        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 172 
+m172        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 173 
+m173        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 174 
+m174        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 175 
+m175        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 176 
+m176        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 177 
+m177        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 178 
+m178        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 179 
+m179        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 180 
+m180        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 181 
+m181        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 182 
+m182        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 183 
+m183        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 184 
+m184        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 185 
+m185        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 186 
+m186        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 187 
+m187        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 188 
+m188        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 189 
+m189        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+
+pin 190 
+m190        0.396 
+gap         0.416 
+cladding    0.466 
+coolant 
+

@@ -1,0 +1,15 @@
+g2 Godiva critical --using SDEF
+c Cell card
+10 100 -18.74 -1 tmp=2.585E-08 $ cell#, mat#, den[g/cc], surf, importance
+20 0 1 $ void mat# = 0
+
+c surface card
+1 so 8.741 $ surf#, sph@origen, radius
+
+c data card
+imp:n 1 0
+m100 92235.70c -94.73 92238.670c -5.27 $material ZAID Weight-frac ZAID Weight-frac
+kcode 10000 1.0 200 300 
+SDEF pos=0 0 0 rad=d1 $ pos= guess 3 #s, rad= d surf#
+SI1 0.0 8.741 $ inside r, outside r
+SP1  -21 2 $ ~R^2

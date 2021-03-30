@@ -1,0 +1,91 @@
+set title "tal4"
+% --- Description ---
+%
+% tal4
+%
+% T Rider 14 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp tal4
+%
+% --- Library Paths ---
+include "/Users/thennigh/nuclear/serpent-shared/input-decks/imf-thermal-transport/run0001/inventory-395.txt"
+include "/Users/thennigh/nuclear/serpent-shared/input-decks/imf-thermal-transport/run0001/libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 cyl 0 0 0.44 -180 180
+surf 2 cyl 0 0 0.49 -180 180
+surf 3 cuboid -.7 .7 -.7 .7 -210 210
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -1
+cell 20 0 200 1 -2
+cell 30 0 300 2 -3
+cell 40 0 outside 3
+
+% --- Materials -----
+mat 100 0.6925613 tmp 300 
+92238.03c 2.238e-2 
+92235.03c 8.2213e-4
+8016.03c 4.6054e-2
+
+mat 200 0.04291 tmp 300 
+40000.03c 4.291e-2
+
+mat 300 0.100059 moder lwtr 1001 tmp 575 
+1001.03c 6.6706e-2
+8016.03c 3.3343e-2
+therm lwtr lwe7.10t
+
+% --- Source ---
+%src 1 sp 0 0 0 
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 10000 400 200 .55
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+
+% --- Detectors ---
+
+mat U235 1.0 92235.09c 1.0
+mat U238 1.0 92238.09c 1.0
+
+ene 1 1 0 .625e-6 20
+
+det 1 dc 10 dc 20 dc 30 de 1
+det 2 dr 18 U235 de 1
+det 3 dr 18 U238 de 1
+det 4 ds 1 -1 
+det 7 ds 1 1 
+det 5 ds 2 -1 
+det 6 ds 2 1 
+
+
+% --- options ---
+set ures 1
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+
+
+

@@ -1,0 +1,94 @@
+set title "puc6b"
+% --- Description ---
+%
+% puc6b
+%
+% T Rider 8 Feb 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp puc6
+%
+% --- Library Paths ---
+
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 cyl 0 0 12.49 0 101.7
+surf 2 cyl 0 0 12.79 -1 103.7
+surf 3 pz 39.24
+surf 4 cuboid -17.79 17.79 -17.79 17.79 -1 102.7
+surf 5 cuboid -35.58 35.58 -53.37 53.37 -1 102.7 % box that can fit 2x3 cans
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 1 100 -1 -3
+cell 20 1 void -1 3
+cell 30 1 200 1 -2
+cell 40 1 void 2 -4
+cell 50 1 outside 4
+
+lat 2 1 0 0 2 3 35.58
+1 1
+1 1
+1 1
+
+cell 60 0 fill 2 -5
+cell 99 0 outside 5
+
+
+% --- Materials -----
+mat 100 9.927e-2 moder lwtr 1001 tmp 300 
+1001.03c 6.007e-2
+8016.03c 3.654e-2
+7014.03c 2.3611e-3
+94239.03c 2.7682e-4
+therm lwtr lwe7.00t
+
+mat 200 8.636e-2 tmp 300
+26056.03c 1
+
+% --- Source ---
+%src 1 sp -17.79 0 19.62
+%src 2 sp 17.79 0 19.62
+
+% --- options:
+
+set ures 1
+
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 10000 400 200 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500
+
+

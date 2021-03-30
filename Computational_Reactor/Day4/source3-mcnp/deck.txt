@@ -1,0 +1,22 @@
+shield --Photon point source in Pb shield
+10 100 -11.4 -4 3 tmp=2.585E-08 imp:n=1 $ Lead Shield
+20 0 -3 1 2 imp:n=1 $ Void
+30 200 -1.12 -2 tmp=2.585E-08 imp:n=1 $ Poly sphere, center at y=2
+40 200 -1.12 -1 tmp=2.585E-08 imp:n=1 $ Poly sphere, center at origen
+50 0 4 imp:n=0 $ Void, Exterior
+
+1 SO 1.0 $ Sphere at origin with 1 cm rad
+2 S 0.0 2.0 0.0 1.0 $ Shere at 0,2,0 with 1 cm rad
+3 RCC 0 -1 0 0 4 0 3 $ right circular cylinder
+4 RCC 0 -4 0 0 10 0 8 $ Right circular cylinder 
+
+c
+c USE SDEF COMMAND TO SPECIFY ENERGY, CELL, AND POSITION DISTRIBUTIONS
+c USE SI AND SP TO DESCRIBE THE DISTRIBUTIONS CALLED IN SDEF
+c
+c SET MODE TO N
+c SPECIFY THE NUMBER OF PARTICLES USING NPS
+c
+m100 82207.70c 1.0
+m200 1001.70c -0.09677 6000.70c -0.3871 8016.70c -0.51613 $ polyethylene
+F4:n 10 $ cell flux

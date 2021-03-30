@@ -1,0 +1,69 @@
+set title "b1"
+% --- Description ---
+%
+% b1
+%
+% T Rider 25 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp b1
+%
+% --- Library Paths ---
+
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 sph 0 0 0 8.741
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -1
+cell 20 0 outside 1
+
+% --- Materials -----
+mat 100 -18.74 tmp 300
+92235.03c -94.73 
+92238.03c -5.27
+
+% --- Source ---
+src 1 sp 0 0 0 
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 1000 50 10 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- Options for burnup calculation:
+
+set bumode  2  % CRAM method
+set pcc     1  % Predictor-corrector calculation on
+set xscalc  2  % Cross sections from spectrum
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Burnup ---
+
+% total power, W.
+%
+% ADD POWER HERE
+%
+% Burn steps
+%
+% ADD BURNUP STEPS HERE
+
+% --- Optimization options.
+set opti 1
+
+% —— plot ——
+plot 1 500 500
+mesh 1 500 500
+

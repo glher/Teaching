@@ -1,0 +1,57 @@
+set title "g2"
+
+% --- Library Paths ---
+
+include "inventory-395.txt"
+include "libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 sph 0 0 0 8.741
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -1
+cell 20 0 outside 1
+
+% --- Source ---
+src 1 sc 10
+
+% --- Materials -----
+mat 100 -18.74 tmp 300
+92235.03c -94.73 
+92238.03c -5.27
+
+% --- Boundary conditions:
+
+set bc 1
+
+% --- options:
+
+set ures no
+
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 10000 300 200 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+

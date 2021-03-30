@@ -1,0 +1,58 @@
+set title "Simple serpent input"
+% --- Description ---
+%
+% simple
+%
+% T Rider 11 Jan 2015 CSM
+%
+% AIM
+% make a simple input deck to test if serpent is working
+%
+% --- Library Paths ---
+
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 sph 0 0 0 10
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 fuel -1
+cell 20 0 outside 1
+
+% --- Source ---
+src 1 sp 0.0 0.0 0.0
+
+% --- Materials -----
+mat fuel -5.624 tmp 900
+8016.09c 6.5e-01 
+92235.09c 1e-01 
+92238.09c 3.4e-01
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 500 10 10 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- Options for burnup calculation:
+
+set bumode  2  % CRAM method
+set pcc     1  % Predictor-corrector calculation on
+set xscalc  2  % Cross sections from spectrum
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+
+% --- Optimization options.
+set opti 1
+
+

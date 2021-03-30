@@ -3,7 +3,7 @@ import re
 import numpy as np
 from bisect import bisect_left
 # Import your own necessary modules, in this case the constants and parameters files.
-from simulation_inputs import parameters
+import simulation_inputs.parameters as parameters
 
 
 class SolverReader:

@@ -1,0 +1,13 @@
+% --- Material volumes:
+
+% Produced Tue Apr 26 00:35:53 2016 by MC volume calculation routine by
+% sampling 10000 random points in the geometry.
+
+set mvol
+
+fuel1           1 4.99840E+06 % (0.029)
+fuel2           1 5.10080E+06 % (0.032)
+fuel3           1 4.71680E+06 % (0.036)
+gap             0 1.29920E+06 % (0.066)
+cladding        0 4.30080E+06 % (0.036)
+coolant         0 2.99776E+07 % (0.012)

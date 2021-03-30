@@ -1,0 +1,11 @@
+# EXAMPLE:
+# This has a power of 100 MWth and will update the material and flux at: 0MWd/kg, 5MWd/kg, 15MWd/kg, 25MWd/kg
+# (Remove the # signs to uncomment)
+
+# * BEGIN burnup
+# power 100
+# steps 5 10 10
+# * END
+
+# Give the following burnup parameters:
+# A power of 150 MWth and update the material and flux at 0MWd/kg, 2MWd/kg, 10MWd/kg, 25MWd/kg, 50MWd/kg and 53MWd/kg

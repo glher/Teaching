@@ -1,0 +1,83 @@
+set title "simple LWR"
+
+% --- Description ---
+%
+% simple LWR
+% 
+% T. Rider 20 April 2016 CSM
+%
+% 
+% ------------------
+
+include "../libpaths.txt"
+include "../inventory-395.txt"
+
+%----Surfaces-------
+
+% ADD CYLINDER SURFACE
+
+%------Pins----------
+
+% ADD PIN 1 HERE
+
+%-----Pin-Lattice-----
+
+% ADD INFINITE LATTICE HERE (TYPE 6)
+
+%——Container———
+
+% PUT LATTICE INSIDE CYLINDER IN CELL HERE
+% ADD OUTSIDE CELL HERE
+
+% --- Materials -----
+
+% MAKE UP YOUR OWN FUEL!
+
+mat gap -0.2692e-2 tmp 900
+  2004.09c 1
+
+% zircalloy
+mat clad -6.55000 tmp 90040000.06c  -0.98135  % Mass fraction of natural zirconium24000.50c  -0.00100  % Mass fraction of natural chromium26000.55c  -0.00135  % Mass fraction of natural iron28000.42c  -0.00055  % Mass fraction of natural nickel50000.42c  -0.01450  % Mass fraction of natural tin8016.06c  -0.00125  % Mass fraction of O-16
+
+mat coolant -1 moder lwtr 1001 tmp 500
+ 1001.03c 2
+ 8016.03c 1
+therm lwtr lwe6.08t    
+
+% --- options:
+
+set ures 1
+
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 1000 40 20 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 1
+
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500

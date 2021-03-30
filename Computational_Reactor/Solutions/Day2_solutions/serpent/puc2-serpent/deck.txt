@@ -1,0 +1,86 @@
+set title "puc2"
+% --- Description ---
+%
+% puc2
+%
+% T Rider 12 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp puc2
+%
+% --- Library Paths ---
+
+include "../inventory-395.txt"
+include "../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 cyl 0 0 12.49 0 101.7
+surf 2 cyl 0 0 12.79 -1 103.7
+surf 3 pz 39.24
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+%
+% EDIT THIS SECTION!!!!
+%
+% PLACE CELLS 10 & 20 INTO UNIVERSE 1 AND REMOVE SURFACE 1 AS A CONFINING SURFACE
+% THEN CREATE A CELL 25 INSIDE OF SURFACE 1 IN UNIVERSE 0 AND FILL IT WITH UNIVERSE 1
+%
+cell 10 1 100 -3
+cell 20 1 void 3
+cell 25 0 fill 1 -1
+cell 30 0 200 1 -2
+cell 40 0 outside 2
+
+% --- Materials -----
+mat 100 9.927e-2 moder lwtr 1001 tmp 300 
+1001.03c 6.007e-2
+8016.03c 3.654e-2
+7014.03c 2.3611e-3
+94239.03c 2.7682e-4
+therm lwtr lwe7.00t
+
+mat 200 8.636e-2 tmp 300
+26056.03c 1
+
+% --- Source ---
+src 1 sp 0 0 19.62
+
+% --- options:
+
+set ures 1
+
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+
+% --- Neutrons  -----
+% 
+%       pts  act inact
+set pop 10000 400 200 1 
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+
+% —— plot ——
+plot 1 500 500
+plot 2 500 500
+plot 3 500 500
+mesh 1 500 500
+mesh 2 500 500
+mesh 3 500 500

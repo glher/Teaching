@@ -10,18 +10,9 @@
 # 51 points:
 # 0 cm, 1 cm, 2 cm, 3 cm, 4 cm, ..., 50 cm
 deltax = 1.
-# Define your initial flux
-phi0 = 1000.
-# Define your iterations limit for the solvers
-iterations_limit = 100000
-# Here, you can either select a Gauss-Seider solver or you can select a Tri-Diag solver.
-# solver = 'gauss-seidel'
-solver = 'tridiag'
+# Define your nu
+nu = 2.4
 
 # Define how much information you want to print when running your program (0: none, 1: little, 2: more, 3: full on,
 # usually, or as defined in your code)
 verbose = 1
-
-# Define the burnup steps you want to have, in MWd/kg, as well as your power, in MWth.
-power = 100
-burnup_steps = [10, 10, 10, 10, 10, 10]

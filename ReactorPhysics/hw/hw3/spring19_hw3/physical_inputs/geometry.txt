@@ -1,0 +1,13 @@
+???
+
+# This gives a 1-D geometry along x, starting at 0 to 0.05 cm, with the material mat1 and from 0.05 cm to 50 cm
+# with the material mat2
+# (Remove the # signs to uncomment)
+
+# * BEGIN geometry
+# 0 0.05 mat1
+# 0.05 50 mat2
+# * END
+
+# Write the following geometry: A 1-D slab along x with water between 0 and 10 cm, fuel between 10 and 40 cm and water
+# between 40 and 50 cm.

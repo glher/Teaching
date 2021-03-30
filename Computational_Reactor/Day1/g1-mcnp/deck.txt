@@ -1,0 +1,15 @@
+g1 - Godiva - using KSRC & surfaces
+c
+c CELL CARDS
+c cell# material# materialDensity confiningSurface#s “tmp=“temperature[MeV] “imp:n=”neutronImportance 
+
+c SURFACE CARDS
+c surface# surfaceType surfaceInfo
+ 
+c DATA CARDS
+c “kcode” #neutronsTracked initialKeff inactiveCycles activeCycles
+kcode
+c “ksrc” xPosition yPosition zPosition
+ksrc
+c “m”material# ZIAD.lib fraction ZAID.lib fraction …
+m

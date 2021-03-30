@@ -1,7 +1,6 @@
 # Import the generic package you will need
 import re
 # Import your own necessary modules, in this case the constants and parameters files.
-from nuclear_data import mass
 from src.tools import MiscFunctions
 
 
@@ -42,6 +41,16 @@ water 0.78
 
     """
 
+    def __init__(self):
+
+        # Read the microscopic cross-section from your nuclear_data/cross_sections.txt file
+        self.cross_sections = self.read_xs()
+        # Read the mass numbers from your nuclear_data/mass_numbers.txt file
+        self.mass_number = self.read_mass_number()
+        # Read the atomic mass from your nuclear_data/atomic_masses.txt file
+        self.atomic_mass = self.read_atomic_mass()
+
+
     def initialize(self):
         """
         This function is the initialization of your system. It is not calculating the materials, such as a Bateman
@@ -53,15 +62,12 @@ water 0.78
         # Read the material from your file and initialize your "materials" dictionary
         materials = self.read_material()
 
-        # Read the microscopic cross-section from your dat/xs.txt file
-        microxs = self.read_xs()
-
         # Compute the macroscopic cross-section using:
         #    - the total density
         #    - the weight percentage of each isotopes
         #    - The microscopic cross-section of each isotopes (scattering and absorption)
         # It then updates the "materials" dictionary with that information
-        materials = self.get_macroxs(materials, microxs)
+        materials = self.get_macroxs(materials)
 
         # Compute the diffusion coefficient of a given material using the macroscopic cross-section and the average
         # cosine of the scattering angle. It then updates the "materials" dictionary with that information.
@@ -90,8 +96,7 @@ water 0.78
                                                               + materials[m]['macrosig']['sca'] * (1 - mu0)))
         return materials
 
-    @staticmethod
-    def get_avg_cosine(materials):
+    def get_avg_cosine(self, materials):
         """
         This function computes the average cosine of the scattering angle in the lab system, with is equal to:
         mu0 = 2/(3A), where A is the average mass number of your material.
@@ -104,11 +109,10 @@ water 0.78
         for isotope in materials['isotopes']:
             # Ass in the mass weighted percentage of mass number for each isotope.
             # Careful, this multiplies by weight percent, not atomic percent!
-            avg_mass_number += mass.atomic[isotope] * materials['isotopes'][isotope]
+            avg_mass_number += self.atomic_mass[isotope] * materials['isotopes'][isotope]
         return 2 / (3 * avg_mass_number)
 
-    @staticmethod
-    def get_macroxs(materials, cross_sections):
+    def get_macroxs(self, materials):
         """
         This function computes the macroscopic cross-section from the microscopic cross-sections (contained in the
         "cross_sections" variable and the number density. The number density is computed using the total material
@@ -134,21 +138,75 @@ water 0.78
             # For each isotopes in the material
             for isotope in materials[m]['isotopes']:
                 # Compute the number density
-                n_iso = rho_glob * materials[m]['isotopes'][isotope] * avogadro / mass.masses[isotope]
+                n_iso = rho_glob * materials[m]['isotopes'][isotope] * avogadro / self.atomic_mass[isotope]
                 # Add in the isotope participation to the macroscopic cross-section
-                macrosig_a += n_iso * cross_sections[isotope]['abs']
-                macrosig_s += n_iso * cross_sections[isotope]['sca']
-                macrosig_f += n_iso * cross_sections[isotope]['fis']
+                macrosig_a += n_iso * self.cross_sections[isotope]['abs']
+                macrosig_s += n_iso * self.cross_sections[isotope]['sca']
+                macrosig_f += n_iso * self.cross_sections[isotope]['fis']
             # Update the "materials" dictionary with the information
             materials[m]['macrosig'] = {'abs': macrosig_a, 'sca': macrosig_s, 'fis': macrosig_f}
         return materials
 
 
     @staticmethod
+    def read_atomic_mass():
+        """
+        This function reads the mass number from the dat/atomic_masses.txt file given.
+        If a line starts with a '#', this is a comment and the code ignores the line.
+        :return: atomicmass: dictionary containing the mass number for each isotope in the database
+        """
+        # Initialize the dictionary
+        atomicmass = {}
+        # Open the nuclear_data/atomic_masses.txt file for reading
+        with open('nuclear_data/atomic_masses.txt', 'r') as dat:
+            # For each line in the file
+            for aline in dat.readlines():
+                # If it starts with a '#', go to the next line right away
+                if aline.startswith('#'):
+                    continue
+                # This code is only reached if we didn't have a '#' character at the start of the line
+                # Split the line into a list using ';' as a separator. So, "a;b;c" becomes [a, b, c] for the code
+                aline = aline.split(';')
+                print(aline)
+                # Update the dictionary using the first item on the line as key. If you go to the txt file, you
+                # will see that this is the ZAID number.
+                atomicmass[aline[0]] = float(aline[1].rstrip())
+
+        return atomicmass
+
+
+    @staticmethod
+    def read_mass_number():
+        """
+        This function reads the mass number from the dat/mass_numbers.txt file given.
+        If a line starts with a '#', this is a comment and the code ignores the line.
+        :return: massnumber: dictionary containing the mass number for each isotope in the database
+        """
+        # Initialize the dictionary
+        massnumber = {}
+        # Open the nuclear_data/mass_numbers.txt file for reading
+        with open('nuclear_data/mass_numbers.txt', 'r') as dat:
+            # For each line in the file
+            for mline in dat.readlines():
+                # If it starts with a '#', go to the next line right away
+                if mline.startswith('#'):
+                    continue
+                # This code is only reached if we didn't have a '#' character at the start of the line
+                # Split the line into a list using ';' as a separator. So, "a;b;c" becomes [a, b, c] for the code
+                mline = mline.split(';')
+                # Update the dictionary using the first item on the line as key. If you go to the txt file, you
+                # will see that this is the ZAID number.
+                massnumber[mline[0]] = float(mline[1].rstrip())
+
+        return massnumber
+
+
+    @staticmethod
     def read_xs():
         """
-        This function reads the microscopic cross-section from the dat/xs.txt file given. In that data file, the
-        cross-sections are given in barns for simplicity, hence the multiplication by 1e-24 to come back to SI units.
+        This function reads the microscopic cross-section from the nuclear_data/cross_sections.txt file given.
+        In that data file, the cross-sections are given in barns for simplicity, hence the multiplication by 1e-24
+        to come back to SI units.
         If a line starts with a '#', this is a comment and the code ignores the line.
         :return: xs: dictionary containing the microscopic cross-sections for each isotope in the database
         """
@@ -164,7 +222,7 @@ water 0.78
                 # This code is only reached if we didn't have a '#' character at the start of the line
                 # Split the line into a list using ';' as a separator. So, "a;b;c" becomes [a, b, c] for the code
                 xsline = xsline.split(';')
-                # Update the dictionary using the first item on the line as key. If you go to the dat/xs.txt file, you
+                # Update the dictionary using the first item on the line as key. If you go to the txt file, you
                 # will see that this is the ZAID number. Then, you can see that the file must follow a very strict order
                 # when defining its columns. It goes zaid;absorption;scattering;fission.
                 xs[xsline[0]] = {'abs': float(xsline[1]) * 1e-24,

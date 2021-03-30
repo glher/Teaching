@@ -1,0 +1,13 @@
+g1 godiva sphere $title
+c Cell Cards
+10 100 -18.74 -1 tmp=2.585E-08 imp:n=1 $ cell# mat# den[g/cc] surf importance
+20 0 1 imp:n=0 $ void mat# = 0
+
+c Surface Cards
+1 so 8.741 $ surf# sph@origen radius
+
+c Data Cards
+m100 92235.70c -94.73 92238.70c -5.27 $material ZAID Weight-frac ZAID Weight-frac
+kcode 10000 1.0 200 400 
+ksrc 0.0 0.0 0.0
+print

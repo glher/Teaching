@@ -1,0 +1,64 @@
+set title "source1"
+% --- Description ---
+%
+% source1
+%
+% T Rider 11 Jan 2015 CSM
+%
+% AIM
+% make input deck similar to mcnp exp source1
+%
+% --- Library Paths ---
+
+include “../inventory-395.txt"
+include “../libpaths.txt"
+
+% --- Surfaces ---
+% "surf", surf#, surf type, data
+surf 1 cyl 0 0 5 0 10
+
+% --- Cells ---
+% "cell", cell name, universe#, material, confining surfaces
+cell 10 0 100 -1
+cell 20 0 outside 1
+
+% --- Materials -----
+mat 100 -1.06 tmp 300
+1001.03c -0.103
+6000.03c -0.105
+7014.03c -0.03
+8016.03c -0.749
+
+% --- Source ---
+% 
+% SET NPS TO 1000
+% USE “SRC” COMMAND TO SPECIFY SOURCE POINT OF ENERGY 0.14 MEV AND POS (0,0,5)
+%
+
+
+% --- Cut-offs:
+
+set fpcut   1E-25
+set stabcut 1E-12
+
+% --- Detectors ---
+det 1 dc 10 dv 785.398
+
+% --- options ---
+set ures 1
+set dix 1
+
+% --- Group constant generation:
+
+set gcu 0
+set nfg 4
+
+% --- print depleted materials for static calc
+
+set printm 1
+
+% --- Optimization options.
+set opti 4
+
+
+
