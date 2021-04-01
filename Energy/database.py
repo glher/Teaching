@@ -5,37 +5,42 @@
 # Current situation #
 #####################
 
+# Country dependent
+
 # Installed capacity in GW
-installed_capacity = {'2020': {'nuclear': 63,
-                               'thermal': 18.9,
-                               'hydro': 25.7,
-                               'solar': 10.4,
-                               'wind': 17.6,
-                               'biomass': 2.2,
-                               }
+installed_capacity = {'France': {'2020': {'nuclear': 63,
+                                          'thermal': 18.9,
+                                          'hydro': 25.7,
+                                          'solar': 10.4,
+                                          'wind': 17.6,
+                                          'biomass': 2.2,
+                                          }
+                                 }
                       }
 
 # Annual production values in TWh
-annual_production = {'2020': {'nuclear': 335.4,
-                              'thermal': 37.6,
-                              'hydro': 65.1,
-                              'solar': 12.6,
-                              'wind': 39.7,
-                              'biomass': 9.6,
-                              }
+annual_production = {'France': {'2020': {'nuclear': 335.4,
+                                         'thermal': 37.6,
+                                         'hydro': 65.1,
+                                         'solar': 12.6,
+                                         'wind': 39.7,
+                                         'biomass': 9.6,
+                                         }
+                                }
                      }
 
 # Average load factor
-average_load_factor = {'nuclear': 0.65,
-                       'solar': 0.14,
-                       'wind_onshore': 0.25,
-                       'wind_offshore': 0.40}
+average_load_factor = {'France': {'nuclear': 0.65,
+                                  'solar': 0.14,
+                                  'wind_onshore': 0.25,
+                                  'wind_offshore': 0.40}
+                       }
 
 # The minimum yearly load seen in France during the year
-minimum_yearly_load = {'2020': 30}
+minimum_yearly_load = {'France': {'2020': 30}}
 
 # Electricity demand in TWh
-electricity_demand = {'2020': 473.}
+electricity_demand = {'France': {'2020': 473.}}
 
 
 ################
@@ -51,10 +56,11 @@ capital_costs = {'2020': {'nuclear': 6100,
 
 dismantling_costs = {'2020': {'nuclear': 1000}}
 
-# Cost of storage in $/kW
-storage_costs = {'2020': {'pumped_hydro': 2638,
-                          'compressed_air': 1669,
-                          'batteries': 1446}
+# Cost of storage in $/kW for power capacity and $/kWh for energy capacity
+# Note that the $/kWh is used
+storage_costs = {'2020': {'pumped_hydro': {'energy_capacity': 105, 'power_capacity': 2638},
+                          'compressed_air': {'energy_capacity': 155, 'power_capacity': 1669},
+                          'batteries': {'energy_capacity': 375, 'power_capacity': 1446}}
                  }
 
 # Cost of upgrading the grid in $/kW installed
@@ -77,7 +83,7 @@ lifetimes = {'2020': {'pumped_hydro': 100,
                       'solar': 25,
                       'wind_onshore': 25,
                       'wind_offshore': 20,
-                      'batteries': 10,
+                      'batteries': 15,
                       'grid': 50,
                       'compressed_air': 25}
              }
@@ -96,6 +102,9 @@ maximum_renewable_production = {'wind_onshore': 0.7,
 # remaining 40%) for wind, and by ~20% of the time (and thus, 20% of the production during the remaining
 # 80%) for solar. Consequently, we want to account for this low-generation period with storage abilities.
 # Consequently, batteries are used to compensate for the 20% low-generation share.
-storage_capacity = {'wind_onshore': 0.4,
-                    'wind_offshore': 0.4,
-                    'solar': 0.8}
+backup_capacity = {'wind_onshore': 0.4,
+                   'wind_offshore': 0.3,
+                   'solar': 0.8}
+
+# Storage capacity contains the information for given plants, in MW and MWh
+storage_capacity = {'2020': {'batteries': {'energy_capacity': 240, 'power_capacity': 60}}}
