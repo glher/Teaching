@@ -1,0 +1,267 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Preface}{v}{chapter*.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\nonumberline Contents}{vi}{chapter*.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {2}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {3}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {1.1}The Main Ideas}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {1.1}The Main Ideas}{1}{section.1.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {1.2}What This Text Does}{1}{section.1.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {1.2}What This Text Does}{1}{section.1.2}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {1.3}What This Text Does Not Do}{2}{section.1.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {1.3}What This Text Does Not Do}{2}{section.1.3}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Energy and Society}{4}{part*.6}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {2}Energy History}{5}{chapter.2}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {4}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {5}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {3}Energy Impact - The story of modernization}{6}{chapter.3}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {6}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {7}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Climate Change, the biggest challenge in human history}{7}{part*.8}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {4}Greenhouse Effect, a reminder}{8}{chapter.4}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {8}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {9}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {5}Climate Models}{9}{chapter.5}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {10}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {11}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {6}Natural Hazards Amplification}{10}{chapter.6}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {12}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {13}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Energies, a varied portfolio}{11}{part*.10}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {7}Fossil Fuels}{12}{chapter.7}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {14}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {15}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {8}Renewables}{13}{chapter.8}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {16}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {17}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {8.1}Biomass}{15}{section.8.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.1}Biomass}{15}{section.8.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {8.2}Solar}{15}{section.8.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.2}Solar}{15}{section.8.2}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {8.3}Wind}{15}{section.8.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.3}Wind}{15}{section.8.3}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {8.4}Hydroelectricity}{15}{section.8.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.4}Hydroelectricity}{15}{section.8.4}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {8.5}Geothermal}{15}{section.8.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {8.5}Geothermal}{15}{section.8.5}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {9}Nuclear}{17}{chapter.9}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {18}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {19}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {10}Carbon Capture}{18}{chapter.10}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {20}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {21}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {11}Energy Storage}{19}{chapter.11}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {22}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {23}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {12}Electrical Transmission Grid}{20}{chapter.12}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {24}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {25}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline First Order System Assessments}{21}{part*.13}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {13}The Transition Needs}{22}{chapter.13}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {26}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {27}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.1}France}{23}{section.13.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.1}France}{23}{section.13.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.2}United States of America}{25}{section.13.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.2}United States of America}{25}{section.13.2}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.3}Brazil}{25}{section.13.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.3}Brazil}{25}{section.13.3}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.4}China}{25}{section.13.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.4}China}{25}{section.13.4}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.5}Nigeria}{25}{section.13.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.5}Nigeria}{25}{section.13.5}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {14}Technology Costs}{26}{chapter.14}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {28}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {29}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.1}Nuclear}{26}{section.14.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.1}Nuclear}{26}{section.14.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.2}Gas with Carbon Capture}{27}{section.14.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.2}Gas with Carbon Capture}{27}{section.14.2}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.3}Solar}{27}{section.14.3}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.3}Solar}{27}{section.14.3}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.4}Wind}{28}{section.14.4}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.4}Wind}{28}{section.14.4}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.5}Storage}{30}{section.14.5}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.5}Storage}{30}{section.14.5}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.6}Grid}{31}{section.14.6}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.6}Grid}{31}{section.14.6}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {14.7}Summary}{31}{section.14.7}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {14.7}Summary}{31}{section.14.7}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {15}A Renewable Solution?}{32}{chapter.15}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {30}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {31}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {16}A Renewable Problem}{33}{chapter.16}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {32}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {33}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {17}A Bigger Renewable Problem}{34}{chapter.17}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {34}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {35}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline A path forward?}{35}{part*.23}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {18}The Nuclear Problem}{36}{chapter.18}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {36}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {37}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {19}The World Needs}{37}{chapter.19}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {38}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {39}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {20}Mental Health -- Coping with the situation}{38}{chapter.20}%
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {40}
+\defcounter {refsection}{0}\relax
+\etoc@startlocaltoc {41}
+\defcounter {refsection}{0}\relax
+\contentsline {part}{\nonumberline Appendix}{39}{part*.25}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {A}Heading on Level\xspace 0 (chapter)}{40}{appendix.A}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {A.1}Heading on Level\xspace 1 (section)}{40}{section.A.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {A.1}Heading on Level\xspace 1 (section)}{40}{section.A.1}
+\defcounter {refsection}{0}\relax
+\contentsline {subsection}{\nonumberline Heading on Level\xspace 2 (subsection)}{40}{section*.26}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsubsection}{\numberline {A.1.0}Heading on Level\xspace 2 (subsection)}{40}{section*.26}
+\defcounter {refsection}{0}\relax
+\contentsline {subsubsection}{\nonumberline Heading on Level\xspace 3 (subsubsection)}{40}{section*.27}%
+\defcounter {refsection}{0}\relax
+\contentsline {paragraph}{\nonumberline Heading on Level\xspace 4 (paragraph)}{41}{section*.28}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {A.2}Lists}{41}{section.A.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {A.2}Lists}{41}{section.A.2}
+\defcounter {refsection}{0}\relax
+\contentsline {subsection}{\nonumberline Example for list\xspace (itemize)}{41}{section*.29}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsubsection}{\numberline {A.2.0}Example for list\xspace (itemize)}{41}{section*.29}
+\defcounter {refsection}{0}\relax
+\contentsline {subsubsection}{\nonumberline Example for list\xspace (4*itemize)}{41}{section*.30}%
+\defcounter {refsection}{0}\relax
+\contentsline {subsection}{\nonumberline Example for list\xspace (enumerate)}{41}{section*.31}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsubsection}{\numberline {A.2.0}Example for list\xspace (enumerate)}{41}{section*.31}
+\defcounter {refsection}{0}\relax
+\contentsline {subsubsection}{\nonumberline Example for list\xspace (4*enumerate)}{42}{section*.32}%
+\defcounter {refsection}{0}\relax
+\contentsline {subsection}{\nonumberline Example for list\xspace (description)}{42}{section*.33}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsubsection}{\numberline {A.2.0}Example for list\xspace (description)}{42}{section*.33}
+\defcounter {refsection}{0}\relax
+\contentsline {subsubsection}{\nonumberline Example for list\xspace (4*description)}{42}{section*.34}%
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {B}Fonts Testing}{43}{appendix.B}%
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {B.1}Font Sizes}{43}{section.B.1}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {B.1}Font Sizes}{43}{section.B.1}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {B.2}Font Families}{43}{section.B.2}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {B.2}Font Families}{43}{section.B.2}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{Alphabetical Index}{46}{section*.35}%
