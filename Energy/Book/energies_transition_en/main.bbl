@@ -1,0 +1,215 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{hoste2009matching}{article}{}
+      \name{author}{3}{}{%
+        {{hash=268ea6366e84543c498b15eedde0f363}{%
+           family={Hoste},
+           familyi={H\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=69825440f2c28ab2472ac1129b4f8bff}{%
+           family={Dvorak},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ab9ea5648ef9accb143dbfc05c98267b}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Mark\bibnamedelima Z},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{d77e58f6d1d99fb94cdf800499de6ccf}
+      \strng{fullhash}{d77e58f6d1d99fb94cdf800499de6ccf}
+      \strng{bibnamehash}{d77e58f6d1d99fb94cdf800499de6ccf}
+      \strng{authorbibnamehash}{d77e58f6d1d99fb94cdf800499de6ccf}
+      \strng{authornamehash}{d77e58f6d1d99fb94cdf800499de6ccf}
+      \strng{authorfullhash}{d77e58f6d1d99fb94cdf800499de6ccf}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sanford University, Department of Civil and Environmental Engineering}
+      \field{title}{Matching hourly and peak demand by combining different renewable energy sources}
+      \field{year}{2009}
+    \endentry
+    \entry{brown2018synergies}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ad9f5a3d8c696d78ce2a831ce8ac7524}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6716f0753225cc0b65ab40bd1e230cd2}{%
+           family={Schlachtberger},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5e8b4035821f2bcda2524c851cc2f777}{%
+           family={Kies},
+           familyi={K\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0062b8b085c5b528d513a89a838a9616}{%
+           family={Schramm},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=868f5c7a4620dd4a8ebc7d90787024e8}{%
+           family={Greiner},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{fullhash}{34fea52f102919c5e14e06cc705cbb4c}
+      \strng{bibnamehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authorbibnamehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authornamehash}{85437fe07696e4c57f916c83d4ba5581}
+      \strng{authorfullhash}{34fea52f102919c5e14e06cc705cbb4c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy}
+      \field{title}{Synergies of sector coupling and transmission reinforcement in a cost-optimised, highly renewable European energy system}
+      \field{volume}{160}
+      \field{year}{2018}
+      \field{pages}{720\bibrangedash 739}
+      \range{pages}{20}
+    \endentry
+    \entry{boretti2020cost}{article}{}
+      \name{author}{2}{}{%
+        {{hash=17cb5f73e40d964b11c3290e708e110b}{%
+           family={Boretti},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=29be89ea7749bdd871dfd965930b73a9}{%
+           family={Castelletto},
+           familyi={C\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e80874d1fe37da21734a8c3dd0999a99}
+      \strng{fullhash}{e80874d1fe37da21734a8c3dd0999a99}
+      \strng{bibnamehash}{e80874d1fe37da21734a8c3dd0999a99}
+      \strng{authorbibnamehash}{e80874d1fe37da21734a8c3dd0999a99}
+      \strng{authornamehash}{e80874d1fe37da21734a8c3dd0999a99}
+      \strng{authorfullhash}{e80874d1fe37da21734a8c3dd0999a99}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{number}{1}
+      \field{title}{Cost of wind energy generation should include energy storage allowance}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+    \endentry
+    \entry{clack2017evaluation}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=0d6e64f3bd54507012268362c1f3a64a}{%
+           family={Clack},
+           familyi={C\bibinitperiod},
+           given={Christopher\bibnamedelima TM},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=3931cb0e8032aed3200ef00ed4498012}{%
+           family={Qvist},
+           familyi={Q\bibinitperiod},
+           given={Staffan\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8166fdcbbc7076feeefdc149fc140076}{%
+           family={Apt},
+           familyi={A\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c3ac5cbebee9ff33aee89fcbde771be1}{%
+           family={Bazilian},
+           familyi={B\bibinitperiod},
+           given={Morgan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d7ad701a99ff05eafd63581f2c15a3f}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4b32c4e5a2b1ebf84f710e072622479a}{%
+           family={Caldeira},
+           familyi={C\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=436e25609a5e8f78d485f754f4af4176}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Steven\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c788026c4f8c6a110d0efedca310f62a}{%
+           family={Diakov},
+           familyi={D\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0eec7bb39771f279883353db80c8dfc4}{%
+           family={Handschy},
+           familyi={H\bibinitperiod},
+           given={Mark\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e9886e60d8f4b6add22ccba074a9b653}{%
+           family={Hines},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima DH},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{0461f43fdfac11a40db78af2061ada6e}
+      \strng{fullhash}{fbc8ef390be8a0f50635de88e3c205e9}
+      \strng{bibnamehash}{0461f43fdfac11a40db78af2061ada6e}
+      \strng{authorbibnamehash}{0461f43fdfac11a40db78af2061ada6e}
+      \strng{authornamehash}{0461f43fdfac11a40db78af2061ada6e}
+      \strng{authorfullhash}{fbc8ef390be8a0f50635de88e3c205e9}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{26}
+      \field{title}{Evaluation of a proposal for reliable low-cost grid power with 100\% wind, water, and solar}
+      \field{volume}{114}
+      \field{year}{2017}
+      \field{pages}{6722\bibrangedash 6727}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
