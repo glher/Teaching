@@ -1,4 +1,4 @@
-# FRANCE
+# CHINA
 
 
 
@@ -28,15 +28,15 @@ annual_production:
 average_load_factor:
     2020:
         nuclear: 0.65
-        solar: 0.14
-        wind_onshore: 0.25
-        wind_offshore: 0.40
-# The minimum yearly load seen in France during the year
+        solar: 0.17
+        wind_onshore: 0.21
+        wind_offshore: 0.35
+# The minimum yearly load seen in USA during the year
 minimum_yearly_load:
-    2020: 30
+    2020: 300
 # Electricity demand in TWh
 electricity_demand:
-    2020: 473.
+    2020: 6510.
 
 
 
@@ -92,9 +92,9 @@ lifetimes:
         batteries: 15
         compressed_air: 25
         nuclear: 60
-        solar: 25
-        wind_onshore: 25
-        wind_offshore: 20
+        solar: 30
+        wind_onshore: 30
+        wind_offshore: 25
         grid: 50
 # Maximum production at any given time over a year. That is, 70% of wind onshore capacity being activated at the same
 # time is the maximum you can expect, based on historical data.
@@ -113,6 +113,6 @@ maximum_renewable_production:
 # Consequently, batteries are used to compensate for the 20% low-generation share.
 backup_capacity:
     2020:
-        wind_onshore: 0.1
-        wind_offshore: 0.1
-        solar: 0.1
+        wind_onshore: 0.4
+        wind_offshore: 0.3
+        solar: 0.8

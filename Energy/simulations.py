@@ -6,45 +6,61 @@ clean_non_renewables = ['nuclear']
 fossils = ['thermal']
 
 
-def get_energy_need(scenario, year=2020):
+def get_energy_need(scenario, f, year=2020):
     """
     Here the goal is to assess the need in TWh to satisfy, and the corresponding installed capacity needed.
     We assess the quantity of non-renewable electricity to replace to meet the demand, assuming that we set ourselves
     in a no imports, no exports situation.
     """
-    rebuild_need = db['electricity_demand'][year]
-    if scenario == '100_renewable':
-        initial_need = db['electricity_demand'][year] - sum([db['annual_production'][year][i] for i in renewables])
-    elif scenario == '100_nuclear':
-        initial_need = db['electricity_demand'][year] - sum([db['annual_production'][year][i]
-                                                             for i in renewables + clean_non_renewables])
-    else:
-        raise ValueError(f'The scenario given ({scenario}) does not exist')
-    return rebuild_need, initial_need
+    rebuild_need = f * db['electricity_demand'][year]
+    # if scenario == '100_renewable':
+    #     initial_need = db['electricity_demand'][year] - sum([db['annual_production'][year][i] for i in renewables])
+    # elif scenario == '100_nuclear':
+    #     initial_need = db['electricity_demand'][year] - sum([db['annual_production'][year][i]
+    #                                                          for i in renewables + clean_non_renewables])
+    # else:
+    #     raise ValueError(f'The scenario given ({scenario}) does not exist')
+    # return rebuild_need, initial_need
+    return rebuild_need
 
 
-def get_power_capacity_need(source, rebuild_need, initial_need, year=2020):
+def get_power_capacity_need(source, rebuild_need, year=2020):
     """
     Here we want to get the installed power capacity needed to reach the energy production need, given the load factor.
     """
-    production_source, _ = source
-    initial_p_installed = initial_need / (db['average_load_factor'][year][production_source] * 8760 * 1e-3)
+    production_source, _ = source[0], source[1]
+    # initial_p_installed = initial_need / (db['average_load_factor'][year][production_source] * 8760 * 1e-3)
     rebuild_p_installed = rebuild_need / (db['average_load_factor'][year][production_source] * 8760 * 1e-3)
     print('\nInitial\n========')
     print(f'Installation: {rebuild_p_installed:.1f} GW without storage')
-    return initial_p_installed, rebuild_p_installed
+    # return initial_p_installed, rebuild_p_installed
+    return rebuild_p_installed
 
 
-def get_storage(source, rebuild_p_installed, period=24, year=2020):
-    production_source, storage_source = source
+def get_storage(source, rebuild_p_installed, period=24, year=2020, backup=-1):
+    production_source = source[0]
     # Energy capacity in GWh (X% of time for 20% lowest production for energy power need, for one day)
     # print(db.electricity_demand[year] * db.storage_capacity[production_source] * period * 1e-3)
-    energy_capacity = db['electricity_demand'][year] * db['backup_capacity'][year][production_source]
+    # energy_capacity = db['electricity_demand'][year] * db['backup_capacity'][year][production_source]
+    # print('\nStorage\n========')
+    # print(f'{1e-3 * energy_capacity * period:.1f} TWh needs to cover {period / 24:.1f} day')
+    # Get the demand per hour (annual TWh/ #h year) and multiply this by the number of hours needed
+    print(f'backup: {backup}')
+    if backup < 0:
+        energy_capacity = 1e3 * db['electricity_demand'][year] / 8760. * db['backup_capacity'][year][production_source]
+    else:
+        energy_capacity = 1e3 * db['electricity_demand'][year] / 8760. * backup
+    energy_capacity *= source[2]
+
     print('\nStorage\n========')
     print(f'{1e-3 * energy_capacity * period:.1f} TWh needs to cover {period / 24:.1f} day')
+    # energy_capacity = rebuild_p_installed * db['backup_capacity'][year][production_source]
+    # print('\nStorage\n========')
+    # print(f'{1e-3 * energy_capacity * period:.1f} TWh needs to cover {period / 24:.1f} day')
+
     # Power capacity
     ideal_storage_installed = (db['maximum_renewable_production'][year][production_source]
-                               * db['electricity_demand'][year] - db['minimum_yearly_load'][year])
+                               * db['electricity_demand'][year] - db['minimum_yearly_load'][year]) * source[2]
     print(f'{ideal_storage_installed:.1f} GW ideal installed storage')
     # Get the equivalent given the storage option
     # for batteries:
@@ -82,18 +98,28 @@ def get_storage(source, rebuild_p_installed, period=24, year=2020):
     return energy_capacity
 
 
-def get_power_capacity_need_with_storage(source, rebuild_p_installed, storage_installed, year=2020):
+def get_power_capacity_need_with_storage(source, rebuild_p_installed, storage_installed, year=2020, doit=False):
     """
     Here we want to get the installed power capacity needed to reach the energy production need, given the load factor.
     """
-    production_source, storage_source = source
-    p_installed = rebuild_p_installed + storage_installed * (1 / db['storage_loss'][year][storage_source] - 1)
+    if doit:
+        storage_source = source[1]
+        p_installed = rebuild_p_installed + storage_installed * (1 / db['storage_loss'][year][storage_source] - 1)
+    else:
+        p_installed = rebuild_p_installed
 
     return p_installed
 
 
+def get_dismantling():
+    # Costs in millions $
+    investment_cleanup = 1e-6 * db['dismantling_costs'][year]['nuclear'] * db['installed_capacity'][year]['nuclear']
+    print(f'Dismantling of current nuclear: ${1e-3 * investment_cleanup:.1f} billions')
+    return investment_cleanup
+
+
 def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020, period=24):
-    production_source, storage_source = source
+    production_source, storage_source = source[0], source[1]
 
     # Number of production builds:
     n_prod_build = int((timeframe - 1) / float(db['lifetimes'][year][production_source])) + 1
@@ -105,8 +131,6 @@ def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=202
 
     print('\nCosts\n======')
     # Costs in millions $
-    investment_cleanup = db['dismantling_costs'][year]['nuclear'] * db['installed_capacity'][year]['nuclear']
-    print(f'Dismantling of current nuclear: ${1e-3 * investment_cleanup:.1f} billions')
     investment_production = n_prod_build * rebuild_capacity * db['capital_costs'][year][production_source]
     print(f'Installation: {rebuild_capacity:.1f} GW')
     print(f'Deployment of the production means: ${1e-3 * investment_production:.1f} billions')
@@ -121,35 +145,112 @@ def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=202
     print(f'Investment into storage technology: ${1e-3 * investment_storage:.1f} billions')
 
     # Cost in trillions $
-    total_investments = 1e-6 * (investment_cleanup + investment_production + investment_grid + investment_storage)
+    total_investments = 1e-6 * (investment_production + investment_grid + investment_storage)
     print(f'Total investments over {timeframe} years: ${total_investments:.2f} trillions')
+    return total_investments
 
 
-scenario = '100_renewable'
-sub_scenario = ('wind_onshore', 'batteries')
+investments = 0
+scenarios = {
+    'S1': {'scenario': '100_renewable',
+           'sub_scenario': [('wind_onshore', 'pumped_hydro', 1.0)],
+           'backup': 1.0},
+    'S2': {'scenario': '100_renewable',
+           'sub_scenario': [('wind_onshore', 'batteries', 1.0)],
+           'backup': 1.0},
+    'S3': {'scenario': '100_renewable',
+           'sub_scenario': [('wind_offshore', 'pumped_hydro', 1.0)],
+           'backup': 1.0},
+    'S4': {'scenario': '100_renewable',
+           'sub_scenario': [('wind_offshore', 'batteries', 1.0)],
+           'backup': 1.0},
+    'S5': {'scenario': '100_renewable',
+           'sub_scenario': [('solar', 'pumped_hydro', 1.0)],
+           'backup': 1.0},
+    'S6': {'scenario': '100_renewable',
+           'sub_scenario': [('solar', 'batteries', 1.0)],
+           'backup': 1.0},
+    'S7': {'scenario': '100_nuclear',
+           'sub_scenario': [('nuclear', '', 1.0)]},
+    'S8a': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'batteries', 0.3),
+                             ('wind_offshore', 'batteries', 0.1),
+                             ('solar', 'batteries', 0.6)],
+            'backup': 0.1},
+    'S8b': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.3),
+                             ('wind_offshore', 'pumped_hydro', 0.1),
+                             ('solar', 'pumped_hydro', 0.6)],
+            'backup': 0.1},
+    'S8c': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'batteries', 0.15),
+                             ('wind_onshore', 'pumped_hydro', 0.15),
+                             ('wind_offshore', 'batteries', 0.05),
+                             ('wind_offshore', 'pumped_hydro', 0.05),
+                             ('solar', 'batteries', 0.3),
+                             ('solar', 'pumped_hydro', 0.3)],
+            'backup': 0.1},
+    'S9a': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.5),
+                             ('wind_onshore', '', 0.15),
+                             ('wind_offshore', '', 0.05),
+                             ('solar', '', 0.3)]},
+    'S9b': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.2),
+                             ('wind_onshore', '', 0.24),
+                             ('wind_offshore', '', 0.08),
+                             ('solar', '', 0.48)]},
+    'S9c': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.8),
+                             ('wind_onshore', '', 0.06),
+                             ('wind_offshore', '', 0.02),
+                             ('solar', '', 0.12)]}
+}
+sn = 'S9b'
+country = 'france'
 year = 2020
 period = 24*7
+timeframe = 100
 
+scenario_type = scenarios[sn]
+scenario = scenario_type['scenario']
+backup = -1
+print(f'Scenario: {sn}\n\n')
+for sub_scenario in scenario_type['sub_scenario']:
 
-with open("france.yml", 'r') as stream:
-    try:
-        db = yaml.safe_load(stream)
-    except yaml.YAMLError as exc:
-        print(exc)
+    # Right now, the only things that changes between countries are:
+    # Consumption
+    # Minimum installed capacity consumed
+    # Load factors
+    with open(f"{country}.yml", 'r') as stream:
+        try:
+            db = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
 
-print(f'Scenario: {scenario.replace("_", "% ")}')
-print(f'  --> Sub-Scenario: {sub_scenario[0].replace("_", " ")} with {sub_scenario[1].replace("_", " ")} storage')
-rebuild_need, initial_need = get_energy_need(scenario, year=year)
-initial_capacity, rebuild_capacity = get_power_capacity_need(sub_scenario, rebuild_need, initial_need, year=year)
-energy_capacity = 0
-if scenario == '100_renewable':
-    # storage
-    # Here we calculate the maximum production that will need to be stored, based on a low demand
-    # Note that this can be lowered by using the surplus energy for different needs (desalination, hydrogen production,
-    # etc). However, enough needs to be stored in batteries to account for the inverse maximal production/demand peak
-    energy_capacity = get_storage(sub_scenario, rebuild_capacity, period=period, year=2020)
-    rebuild_capacity = get_power_capacity_need_with_storage(sub_scenario, rebuild_capacity, energy_capacity,
-                                                            year=year)
-    # max_storage = maximum_renewable_production[sub_scenario] * rebuild_capacity - minimum_yearly_load[year]
-    # print(max_storage)
-get_cost(sub_scenario, rebuild_capacity, energy_capacity, timeframe=100, year=year, period=period)
+    print(f'\n\n  --> Sub-Scenario: {sub_scenario[0].replace("_", " ")}'
+          f' with {sub_scenario[1].replace("_", " ")} storage,'
+          f' at {100 * sub_scenario[2]:.0f}%')
+    rebuild_need = get_energy_need(scenario, sub_scenario[2], year=year)
+    rebuild_capacity = get_power_capacity_need(sub_scenario, rebuild_need, year=year)
+    energy_capacity = 0
+    if scenario == '100_renewable':
+        # storage
+        # Here we calculate the maximum production that will need to be stored, based on a low demand
+        # Note that this can be lowered by using the surplus energy for different needs (desalination, hydrogen
+        # production, etc). However, enough needs to be stored in batteries to account for the inverse maximal
+        # production/demand peak
+        if 'backup' in scenario_type.keys():
+            backup = scenario_type['backup']
+        energy_capacity = get_storage(sub_scenario, rebuild_capacity, period=period, year=2020, backup=backup)
+        rebuild_capacity = get_power_capacity_need_with_storage(sub_scenario, rebuild_capacity, energy_capacity,
+                                                                year=year)
+        # max_storage = maximum_renewable_production[sub_scenario] * rebuild_capacity - minimum_yearly_load[year]
+        # print(max_storage)
+    total_investments = get_cost(sub_scenario, rebuild_capacity, energy_capacity,
+                                 timeframe=timeframe, year=year, period=period)
+    investments += total_investments
+
+cost_dismantling = get_dismantling()
+investments += cost_dismantling
+print(f'\n\nCombined investments: ${investments:.2f} trillions')

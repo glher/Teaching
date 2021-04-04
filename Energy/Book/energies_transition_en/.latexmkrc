@@ -1,6 +1,6 @@
 # Output a pdf
 $pdf_mode = 1;
-$pdflatex = 'pdflatex -output-directory=examples/documentation -shell-escape %O %S';
+$pdflatex = 'pdflatex -shell-escape %O %S';
 
 # By default compile only the file called 'main.tex'
 @default_files = ('main.tex');
