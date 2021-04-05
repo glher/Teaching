@@ -1,8 +1,8 @@
 \setchapterpreamble[u]{\margintoc}
-\chapter{Scenario Assessments}
+\chapter{Scenario Assessments -- Renewable}
 \labch{scenario_assessments}
 
-In this chapter I will go over the physical limitations of 100\% Renewable scenarios, from pumped storage locations and scale to batteries materials mining and photovoltaic and wind land area constraints.
+In this chapter I will go over the physical limitations of renewable scenarios. Most of the show-stoppers we will identify are consequences of the needs for massive amount of storage, from pumped storage locations and scale to batteries materials mining. We will also discuss other commonly mentioned renewable development issues.
 
 
 \section{Pumped Storage Locations}
@@ -137,17 +137,17 @@ This implies that the hard limit on installed wind power is around 45,000 GW or 
 
 The installed wind power capacity necessary to power the entire US energy sector using wind would be around 8 TW. Given the lifetime of the wind turbine, this puts us at around 30 TW over a century. Obviously, in reality the need would be lower as the grid is not going to be powered by 100\% wind. But it does go to show that in a energy mix of say 50/50 between solar and wind, not even considering the batteries issues we discussed, the world decarbonized energy needs would likely be causing consequential resource issues from Neodynium and Dysprosium notably.
 
-Will we develop a more efficient, more sustainable technology along the way? Maybe. But there is absolutely no guarantees of this\sidenote[][-2mm]{There have been, and still are, strong motivations to avoid the use of Rare Earth Elements, if only due to geopolitical reasons: most of the more easily accessible resources are in China. They have yet to come to something, fingers crossed}.
+Will we develop a more efficient, more sustainable technology along the way? Maybe. But there is absolutely no guarantees of this\sidenote[][-2mm]{There have been, and still are, strong motivations to avoid the use of Rare Earth Elements, if only due to geopolitical reasons: most of the more easily accessible resources are in China. They have yet to come to something scalable.}.
 
-This is not a show-stopper by any means, but it is something to have in mind, and another hint at the best solution, a complete mix of low-carbon sources.
+This is something essential to have in mind when thinking about a sustainable clean energy infrastructure, and another hint at the best solution, a complete mix of low-carbon sources.
 
 \section{Materials III -- Copper}
 
-We can see the pattern here, the finite material problem is the crux of the renewable world. Another material of vital importance in the manufacturing of wind turbines, solar panels, and batteries\sidenote[][-2mm]{On top of plethora of essential everyday items} is copper. The reason it is so prevalent is because of its great efficiency at conducting electricity.
+We can see the pattern here, the finite material problem is the crux of the renewable world, and the technology world in general. Another material of vital importance in the manufacturing of wind turbines, solar panels, and batteries\sidenote[][-2mm]{On top of plethora of essential everyday items} is copper. The reason it is so prevalent is because of its great efficiency at conducting electricity.
 
 Solar energy uses approximately 5,000 tons of copper per GW installed, while wind power uses 2,000 tons of copper per GW installed. Recall from the previous section that switching the entire grid to wind energy would require around 30 TW over a century. This represents 60 megatons of copper, only for the USA. Considering solar energy requires even more, it is safe to assume that this would be close to a lower bound.
 
-And here is the catch\ldots The identified reserves are 2100 MT, with an estimated 3600 MT that are undiscovered. The current annual demand for copper represents around 25 MT and accelerating quickly (0.5-1MT additional demand per year). 
+The identified reserves are 2100 MT, with an estimated 3600 MT that are undiscovered. The current annual demand for copper represents around 25 MT and accelerating quickly (0.5-1MT additional demand per year). 
 
 \begin{lstlisting}[caption={An example of an incorrect interpolation.}]
 year = 0
@@ -162,7 +162,7 @@ print(year)
 
 Running this little code snippet shows that we can expect, under this rate increase and a business as usual scenario, that we would have around 30 years worth of reserves (identified and undiscovered).
 
-We have discussed previously the danger of extrapolating into the future, and this is exactly what happened here. We took the rate of consumption increase and projected that ad infinitum. This is not a correct assumption, as it is obvious to see that the market would respond negatively to such a demand. In our case, with our simple first order approach, all we can really say is, well, nothing without a huge uncertainty range.
+We have discussed previously the danger of extrapolating into the future, and this is exactly what happened here. We took the rate of consumption increase and projected that ad infinitum. This is not a correct assumption, as it is obvious to see that the market would very quickly respond negatively to such a demand. In our case, with our simple first order approach, all we can really say is, well, nothing without a huge uncertainty range.
 
 If we consider that demand stays constant, which is actually a fair, optimistic lower bound in today's digital world, then we see that we could get over two centuries of copper.
 
@@ -172,7 +172,7 @@ Or, another way to look at it is to consider what we are likely to use for our e
 
 $5700\textrm{ (reserves) } - 100\textrm{ (years) } * 25\textrm{ (consumption) } = 3200\textrm{ (reserves left)}$
 
-We can quickly identified that in this scenario, we will have consumed all the identified resources, and be left with the undiscovered resources\sidenote[][-2mm]{And they could be anywhere}, even before considering a real 100\% renewable worldwide push. Still, it is not unreasonable to assume that these resources can be discovered.
+We can quickly identify that in this scenario, we will have consumed all the identified resources, and be left with the undiscovered resources\sidenote[][-2mm]{And they could be anywhere}, even before considering a real 100\% renewable worldwide push. Still, it is not unreasonable to assume that these resources can be discovered.
 
 This seems pretty high. Now, let's apply a quick and dirty estimate of the world energy need in installed renewable capacity. The current energy consumption in the world is estimated at around 160000 TWh, or 160 PetaWh. From that let us compute the lower and higher bound of copper consumption from the energy transition to 100\% renewable.
 
@@ -183,6 +183,13 @@ On the other hand, translating to solar power and assuming an average capacity f
 
 What we consequently see is that under a very favorable projected consumption rate, considered constant, the needs for Copper over the next century under a 100\% renewable scenario\sidenote[][-2mm]{Without accounting for batteries} can be grossly estimated between 3,000 and 4,300 megatons, or 52\% to 75\% of all undiscovered reserves, and 1.4 to 2 times the discovered resources.
 
+\section{Materials IV -- Platinum}
+
+Platinum is currently vital to any efficient process of producing hydrogen. In a renewable scenario, this would be extremely beneficial to store energy, and create a clean energy economy.
+
+Let us try to estimate the needs for Platinum, and the limitations it would impose on the scale of a hydrogen economy.
+
+https://www.advancedsciencenews.com/is-there-enough-platinum-to-run-a-solar-powered-hydrogen-economy/
 
 \section{Locations I -- Renewable Siting}
 
@@ -190,7 +197,7 @@ What we consequently see is that under a very favorable projected consumption ra
 
 \section{Health Production Impact}
 
-Solar panel and intensive mining does cause a lot of problems today. This would need to be monitored for such a large extension
+Solar panel manufacturing and intensive mining does cause a lot of problems today. This would need to be monitored for such a large extension. Note that his argument applies across multiple domains and is not in any way limited to renewable energy. The scale of the projects makes it that this becomes an important concern to at least be aware of.
 
 \blindtext
 
