@@ -1,0 +1,143 @@
+\setchapterpreamble[u]{\margintoc}
+\chapter{Scenarios Case Study}
+\labch{scenario_computation}
+
+In this chapter I will go over computing the amount of capacity to install, the amount of storage to install, the impact to expect on the grid, and the impact of a renewable mix versus what we will end up computing, a homogeneous system.
+
+
+
+\section{Recalling the Assumptions}
+
+The question of electricity imports and global exchange is important, and a difficult one to account for. That is, if there is not enough electricity available in France, can I ask my neighbors to sell me some? In our first order calculation, we are considering that no, this is not an option. The reasoning why follows. Say you have a dark, cold, calm day in France. Your wind and solar energies sources are thus severely hampered. You technically would have three options.
+
+\begin{itemize}
+	\item Use your storage capacity
+	\item Ask the neighbors
+	\item Learn to not use electricity
+\end{itemize}
+
+
+Well, from multiple observations in Europe, when such a situation happens somewhere in France for example, things are not looking great in other parts of Europe, due to meteorological effects such as anticyclones and depressions. This is especially within immediate neighboring countries such as Germany or Spain. Any electricity the neighbors would produce would be used for their own needs, and put into their storage for future domestic use if any is left. Our main assumption is that the installed capacity is enough to power yourself, but that you are not building up out of the goodness of your heart for your neighbors\sidenote[][-2mm]{And I argue that it makes for a poor investment to try and overbuild your capacity even more to sell your surplus, as most of your surplus would happen when other countries are not especially in dire need}.
+
+We also assume that consumption stays constant over time. Additionally, and importantly, the main assumption is that we want a world and a society that is not radically different from today, hence the ability to dispatch energy when and where you want it.
+
+Another crucial point to consider is that the low-carbon grid we want needs to be sustainable\marginnote[-2mm]{You may come across articles or headlines that claim that the cost of transition to a fully decarbonized system is a given amount of trillions of dollars for a given country. This does not have to be false, but, again, we want a sustainable, long term grid. If we had a technology today that was able to completely decarbonize our grid for \$5 trillion dollars for a country like the USA and could be built in a month, it would be great, nay, incredible. But if I then told you that the lifetime of that technology is one year, so that every year, you needed to rebuild it anew, the cost would be incredibly high and crippling to the current world economy. Even if this was doable, it would then go against the assumption that we do not want to change to a radically different society in a very short time span. In my experience, this is ignored most of the time, and is coherent with the easy pitfalls of "this is the next-generation problems" tropes}. It is not enough to switch to a low carbon system and, once its lifetime is up, give up on it. Lifetime cycles need to be accounted for over a long period. In this demonstration, we consider 100 years to be a representative period. We will drop this to 50 years to see the sensitivity.
+
+
+\begin{table}[ht]
+\caption[Input Data and Notations]{Input Data and Notations}
+\labtab{input_notations}
+\begin{tabular}{ c c c }
+	\toprule
+	Data & Notation & Units\\
+	\midrule
+	Annual Energy Production Needs & $E_a$ & TWh \\
+	Installed Capacity & $P_i$ & GW\\
+	Technology Load Factor & $f$ & \% \\
+	Peak Production & $p_{max}$ & \% \\
+	Energy Storage Capacity & $E_s$ & TWh\\
+	Power Storage Capacity & $P_s$ & GW \\
+	Power Excess & $P_e$ & GW \\
+	Storage Round-Trip Efficiency & $e$ & \% \\
+	Installed Capacity with Storage & $P_{i,s}$ & GW \\
+	Minimum Yearly Need & $P_{min}$ & GW \\
+	Energy Storage Fraction & $f_s$ & \% \\
+	Installation Costs & $C_i$ & \$ \\
+	Storage Costs & $C_s$ & \$ \\
+	Dismantling Costs & $C_d$ & \$ \\
+	Grid Costs & $C_g$ & \$ \\
+	Duration of Storage need & $t$ & hours \\
+	\bottomrule
+\end{tabular}
+\end{table}
+
+
+\section{How Many GigaWatts?}
+
+We have seen from \vrefch{transition_needs} the amount of energy to be produced annually, in TWh, per country of interest. In that chapter we also derived the load factor per technology, in the latest years.
+
+
+An important factor to consider now is the capacity of electricity you need to install in order to obtain this necessary energy produced at the end of any given year. This is shown in equation~\ref{eqn_power_installed}.
+
+\begin{remark}
+In order to obtain the energy generated over a year in Wh, one needs to multiply the power installed by the number of hours in a year\sidenote[][-2mm]{Mind the units! Recall that $E_a$ is in Terrawatt-hour, which is a thousand Gigawatt-hour and a billion kilowatt-hour. So, the $P_i$ obtained will be in Terrawatt. We are most used to dealing with installed capacity in Gigawatt, which implies a multiplication by $10^{-3}$ of your result}.
+
+\begin{equation}\label{eqn_power_installed}
+P_i = \frac{E_a}{f * 8760}
+\end{equation}
+
+\end{remark}
+
+\section{Storage Requirements}
+
+
+
+\begin{kaobox}[frametitle=What we have said]
+Wind and Solar can be down or low for extended periods of time, during which batteries have to pick up the slack. This represents $x$ TWh over the year and gives us a battery output required assuming a duration period to cover of $y$ days.
+
+While this may seem to not take advantage of a combining effect, this is actually a reasonable assumption in the real, non-perfectly-optimized, world. In such optimized modeling simulations, real world constraints such as geopolitics and social difficulties are often ignored or misrepresented.
+
+\end{kaobox}
+
+
+
+
+
+
+
+\section{Grid impact}
+
+We are making the assumption here that the grid is able to deal with a lot of excess energy, or that this is used for non-time-dependent processes like hydrogen production, desalination, or other. This comes with grid requirements which can be very difficult to meet.
+
+Grids have been designed to accommodate for around the power capacity that is currently installed, in a mostly centralized, optimized, system. In order to move to a 100\% renewable system, hence mostly decentralized, non-optimized, system, grid developments will be necessary, and transmission lines will have to be built. In terms of cost, it is no secret that it is a lot more expensive to install 500 lines of 100 MW (accommodating an installed capacity of 50 GW) than 25 lines of 2 GW (accommodating the same installed capacity). Materials, public works, distance covered, all those and more factor into the increased price.
+
+More importantly, the installed capacity being greater, the grid has to be reinforced to account for the maximum expected output. While the load factor over the year is relatively low for wind or solar, you will have peaks throughout the year at up to 70\% and 90\% of the installed capacity respectively\sidenote[][-2mm]{A sunny day at noon, a windy day on all your wind farms, and all of the sudden you have way more energy than you know what to do with!}. 
+
+You are presented with three basic options for this energy.
+\begin{itemize}
+\item Store it
+\item Use it
+\item Dump it
+\end{itemize}
+
+The first option is to store it for future use as long as you have the installed storage power capacity. Given your requirements, this has to be done in priority. The second option is to use that excess energy for auxiliary uses, such as hydrogen production. This is not as simple as it seems, and is unfortunately not a magical solution, though it has a lot of merits. The third option is to accept the loss and curtail your production.
+
+
+\begin{remark}
+Consequently, the grid should be ready to deal with an excess power up to what is given in the following equation.
+
+\begin{equation}\label{excess_power}
+P_e = P_i * p_{max} - P_{min}
+\end{equation}
+\end{remark}
+
+
+\section{Energy Mix}
+
+As mentioned several times, we are considering homogeneous scenarios. The production comes either from solar, or from wind, or from nuclear, and so forth. In reality, a mix would be beneficial for multiple reasons, including economical competition and load factor smoothing. Load factor smoothing would be the idea that you have nights, you have windless days, but since you have windy nights or sunny calm days, by definition the overlaps increases the load factor of your system.
+
+We can use the simulated data discussed previously to quickly estimate the impact.
+
+\begin{itemize}
+\item Get the solar production per hour
+\item Get the wind production per hour
+\item Sum the two
+\item Get the load factor for solar only
+\item Get the load factor for wind only
+\item Get the load factor for combination
+\end{itemize}
+
+
+
+\section{The Digest}
+
+
+\begin{kaoboxgreen}[frametitle=Main Takeaways]
+
+\begin{itemize}
+\item We derive the main simple equation to be used to approximate the costs of a scenario
+\item The capacity to install per scenario is given depending on a constant need assumption
+\item The storage consequence is approached, and we go easy on it
+\end{itemize}
+  
+\end{kaoboxgreen}

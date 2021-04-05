@@ -1,0 +1,79 @@
+\setchapterpreamble[u]{\margintoc}
+\chapter{Carbon Footprints}
+\labch{carbon_footprints}
+
+In this chapter I will go over estimating the carbon footprints for each technology.
+
+
+
+\section{Direct versus Indirect emissions}
+
+Fossil fuels emit a lot of carbon equivalent gases into the atmosphere. For several generation sources, often referred to as "clean", there is no direct greenhouse gases emissions. This is the case for nuclear, wind, solar, geothermal, biomass and hydroelectricity. However, this does not mean that these technologies do not have a carbon footprint. Indeed, the intensive manufacturing process of the capture elements (wind turbines, solar panels, reactor buildings, \ldots) emit a non negligible amount of $\mathrm{CO_2}$. These emissions are denoted "indirect".
+
+\begin{kaobox}[frametitle=A look at some values]
+
+Let us take a step back and consider how the emissions are usually scored. You will see values given in $gCO_2/kWh$. This is a value one has to be careful with, as a kWh may not be representative of an indirect emission. Solar is usually cited at around 50 g per kWh.
+
+To illustrate this, consider two 5kW solar systems, both built in the exact same way, same plant, same location. Then, use one of these systems in Fairbanks, AK, and the other in Phoenix, AZ. As expected, the performance would be radically different, and we can for example assume the load factor to be 10\% in Fairbanks and 30\% in Phoenix. In that situation, the Alaskan system would generate 4,400 kWh, while the Arizonian system would generate 3 times as much, at 13,000 kWh, over a year.
+
+So, this implies that the Alaskan solar system emits 220 kilograms of $\mathrm{CO_2}$
+per year and the Arizonian solar system emits 650 kilograms of $\mathrm{CO_2}$ (still the factor 3).
+
+But this is obviously incorrect, as the emission from solar are indirect, and thus both system emitted the same amount of $\mathrm{CO_2}$, when they were manufactured.
+
+In order to compute the right value, the $gCO_2/kWh$ should be accompanied by a capacity factor value or at least a location, or in other words, the $gCO_2/kW$ should be given.
+https://www.nature.com/articles/ncomms13728
+
+This issue is true of every means of production where the emissions are indirect and occur during manufacturing.
+
+\end{kaobox}
+
+
+
+\section{Technologies footprint}
+
+%For batteries: https://www.ivl.se/download/18.14d7b12e16e3c5c36271070/1574923989017/C444.pdf
+%(Dai, et al., 2019)
+
+%Batteries between 60 and 120 kg per kWh
+
+
+%http://www.world-nuclear.org/uploadedFiles/org/WNA/Publications/Working_Group_Reports/comparison_of_lifecycle.pdf
+
+Be careful, kWh for battery refer to their "rated" energy capacity, not their energy production over their lifetime.
+
+\begin{table*}[h]
+\caption[Carbon emissions per technology]{Carbon emissions per technology}
+\labtab{carbon_emissions_technology}
+\begin{tabular}{ c c c c c }
+	\toprule
+	Technology & Direct Emissions (g / kWh) & \multicolumn{3}{c}{Indirect Emissions (g / kW)} \\
+	&  & Manufacturing & Maintenance & Decommission \\
+	\midrule
+	Natural Gas & - & - & - & - \\
+	Coal & - & - & - & - \\
+	Nuclear & - & - & - & - \\
+	Petroleum & - & - & - & - \\
+	Solar & - & - & - & - \\
+	Wind & - & - & - & - \\
+	Hydro & - & - & - & - \\
+	Batteries & - & - & - & - \\
+	\bottomrule
+\end{tabular}
+
+\end{table*}
+
+% This table may be too complex to fill
+
+
+\begin{kaobox}[frametitle=Indirect emissions\ldots until a cleaner grid?]
+
+It is also important to note that the reason why the indirect emissions of renewable energies manufacturing is so high is due to the current energy mix of the manufacturing places. A solar panel made in China will have a higher $\mathrm{CO_2}$ cost than a solar panel made in Europe, because of the type of energy used in its manufacturing.
+
+As the grid moves toward a cleaner version, the indirect emissions will decrease. At the same time, it is easy to think that the more the grid moves toward a cleaner version, the more the cost and ease of mining and manufacturing could go up.
+
+\end{kaobox}
+
+%\section{Countries Transition}
+
+%This section looks at the savings, for each transition scenario, in terms of $\mathrm{CO_2}$, by comparing the tons of $\mathrm{CO_2}$ today (extrapolated to 100 years) to the resulting transition results (after 100 years).
