@@ -112,10 +112,39 @@ def get_power_capacity_need_with_storage(source, rebuild_p_installed, storage_in
 
 
 def get_dismantling():
-    # Costs in millions $
+    # Costs in trillions $
     investment_cleanup = 1e-6 * db['dismantling_costs'][year]['nuclear'] * db['installed_capacity'][year]['nuclear']
-    print(f'Dismantling of current nuclear: ${1e-3 * investment_cleanup:.1f} billions')
+    print(f'Dismantling of current nuclear: ${1e3 * investment_cleanup:.1f} billions')
     return investment_cleanup
+
+
+def get_co2(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020, period=24):
+    production_source, storage_source = source[0], source[1]
+
+    # Number of production builds:
+    n_prod_build = int((timeframe - 1) / float(db['lifetimes'][year][production_source])) + 1
+    # Number of storage builds
+    if storage_capacity > 0:
+        n_stor_build = int((timeframe - 1) / float(db['lifetimes'][year][storage_source])) + 1
+    # Number of grid builds
+    # n_grid_build = int((timeframe - 1) / float(db['lifetimes'][year]['grid'])) + 1
+    
+    print('\nCarbon\n======')
+    # Costs in millions $
+    carbon_production = n_prod_build * rebuild_capacity * db['carbon_costs'][year][production_source] # megatons
+    # print(f'Installation: {rebuild_capacity:.1f} GW')
+    print(f'Deployment of the production means: {carbon_production:.1f} megatons')
+
+    if storage_capacity > 0:
+        carbon_storage = n_stor_build * storage_capacity * period * db['carbon_costs'][year][storage_source]  # megatons
+    else:
+        carbon_storage = 0
+    print(f'Deployment of storage technology: {carbon_storage:.1f} megatons')
+
+    # investment_grid = n_grid_build * db['grid_costs'][year] * rebuild_capacity
+    # print(f'Upgrade to the grid: ${1e-3 * investment_grid:.1f} billions')
+    total_carbon = carbon_production + carbon_storage
+    return total_carbon
 
 
 def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020, period=24):
@@ -151,62 +180,90 @@ def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=202
 
 
 investments = 0
+carbon = 0
 scenarios = {
-    'S1': {'scenario': '100_renewable',
-           'sub_scenario': [('wind_onshore', 'pumped_hydro', 1.0)],
-           'backup': 1.0},
-    'S2': {'scenario': '100_renewable',
-           'sub_scenario': [('wind_onshore', 'batteries', 1.0)],
-           'backup': 1.0},
-    'S3': {'scenario': '100_renewable',
-           'sub_scenario': [('wind_offshore', 'pumped_hydro', 1.0)],
-           'backup': 1.0},
-    'S4': {'scenario': '100_renewable',
-           'sub_scenario': [('wind_offshore', 'batteries', 1.0)],
-           'backup': 1.0},
-    'S5': {'scenario': '100_renewable',
-           'sub_scenario': [('solar', 'pumped_hydro', 1.0)],
-           'backup': 1.0},
-    'S6': {'scenario': '100_renewable',
-           'sub_scenario': [('solar', 'batteries', 1.0)],
-           'backup': 1.0},
-    'S7': {'scenario': '100_nuclear',
-           'sub_scenario': [('nuclear', '', 1.0)]},
-    'S8a': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'batteries', 0.3),
-                             ('wind_offshore', 'batteries', 0.1),
-                             ('solar', 'batteries', 0.6)],
+    'S1a': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'pumped_hydro', 1.0)],
+            'backup': 1.0},
+    'S1b': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'batteries', 1.0)],
+            'backup': 1.0},
+    'S1c': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_offshore', 'pumped_hydro', 1.0)],
+            'backup': 1.0},
+    'S1d': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_offshore', 'batteries', 1.0)],
+            'backup': 1.0},
+    'S1e': {'scenario': '100_renewable',
+            'sub_scenario': [('solar', 'pumped_hydro', 1.0)],
+            'backup': 1.0},
+    'S1f': {'scenario': '100_renewable',
+            'sub_scenario': [('solar', 'batteries', 1.0)],
+            'backup': 1.0},
+    'S2a': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.375),
+                             ('wind_offshore', 'pumped_hydro', 0.125),
+                             ('solar', 'pumped_hydro', 0.5)],
             'backup': 0.1},
-    'S8b': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.3),
-                             ('wind_offshore', 'pumped_hydro', 0.1),
-                             ('solar', 'pumped_hydro', 0.6)],
+    'S2b': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'batteries', 0.375),
+                             ('wind_offshore', 'batteries', 0.125),
+                             ('solar', 'batteries', 0.5)],
             'backup': 0.1},
-    'S8c': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'batteries', 0.15),
-                             ('wind_onshore', 'pumped_hydro', 0.15),
-                             ('wind_offshore', 'batteries', 0.05),
-                             ('wind_offshore', 'pumped_hydro', 0.05),
-                             ('solar', 'batteries', 0.3),
+    'S2c': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.225),
+                             ('wind_offshore', 'pumped_hydro', 0.075),
+                             ('solar', 'pumped_hydro', 0.7)],
+            'backup': 0.1},
+    'S2d': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'batteries', 0.225),
+                             ('wind_offshore', 'batteries', 0.075),
+                             ('solar', 'batteries', 0.7)],
+            'backup': 0.1},
+    'S2e': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.525),
+                             ('wind_offshore', 'pumped_hydro', 0.175),
                              ('solar', 'pumped_hydro', 0.3)],
             'backup': 0.1},
-    'S9a': {'scenario': 'nuclear_renewable',
+    'S2f': {'scenario': '100_renewable',
+            'sub_scenario': [('wind_onshore', 'batteries', 0.525),
+                             ('wind_offshore', 'batteries', 0.175),
+                             ('solar', 'batteries', 0.3)],
+            'backup': 0.1},
+    'S3a': {'scenario': '100_nuclear',
+            'sub_scenario': [('nuclear', '', 1.0)]},
+    'S4a': {'scenario': 'nuclear_renewable',
             'sub_scenario': [('nuclear', '', 0.5),
                              ('wind_onshore', '', 0.15),
                              ('wind_offshore', '', 0.05),
                              ('solar', '', 0.3)]},
-    'S9b': {'scenario': 'nuclear_renewable',
-            'sub_scenario': [('nuclear', '', 0.2),
-                             ('wind_onshore', '', 0.24),
-                             ('wind_offshore', '', 0.08),
-                             ('solar', '', 0.48)]},
-    'S9c': {'scenario': 'nuclear_renewable',
-            'sub_scenario': [('nuclear', '', 0.8),
-                             ('wind_onshore', '', 0.06),
-                             ('wind_offshore', '', 0.02),
-                             ('solar', '', 0.12)]}
+    'S4b': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.5),
+                             ('wind_onshore', '', 0.2),
+                             ('wind_offshore', '', 0.1),
+                             ('solar', '', 0.2)]},
+    'S4c': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.25),
+                             ('wind_onshore', '', 0.225),
+                             ('wind_offshore', '', 0.075),
+                             ('solar', '', 0.45)]},
+    'S4d': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.25),
+                             ('wind_onshore', '', 0.3),
+                             ('wind_offshore', '', 0.15),
+                             ('solar', '', 0.3)]},
+    'S4e': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.75),
+                             ('wind_onshore', '', 0.075),
+                             ('wind_offshore', '', 0.025),
+                             ('solar', '', 0.15)]},
+    'S4f': {'scenario': 'nuclear_renewable',
+            'sub_scenario': [('nuclear', '', 0.75),
+                             ('wind_onshore', '', 0.1),
+                             ('wind_offshore', '', 0.05),
+                             ('solar', '', 0.1)]},
 }
-sn = 'S9b'
+sn = 'S3a'
 country = 'france'
 year = 2020
 period = 24*7
@@ -249,8 +306,12 @@ for sub_scenario in scenario_type['sub_scenario']:
         # print(max_storage)
     total_investments = get_cost(sub_scenario, rebuild_capacity, energy_capacity,
                                  timeframe=timeframe, year=year, period=period)
+    total_carbon = get_co2(sub_scenario, rebuild_capacity, energy_capacity,
+                           timeframe=timeframe, year=year, period=period)
     investments += total_investments
+    carbon += total_carbon
 
 cost_dismantling = get_dismantling()
 investments += cost_dismantling
 print(f'\n\nCombined investments: ${investments:.2f} trillions')
+print(f'Combined carbon: {carbon:.2f} MT')

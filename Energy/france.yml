@@ -72,6 +72,19 @@ storage_costs:
 grid_costs:
     2020: 500.
 
+###############
+# Carbon data #
+###############
+
+carbon_costs:
+    2020:
+        pumped_hydro: 0
+        batteries: 0.1  # tons/kWh capacity
+        compressed_air: 0
+        nuclear: 4.5  # tons / kW
+        solar: 1  # tons / kW
+        wind_onshore: 0.6  # tons / kW
+        wind_offshore: 0.6  # tons / kW
 
 
 ###############
