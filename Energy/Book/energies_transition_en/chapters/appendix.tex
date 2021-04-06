@@ -1,73 +1,50 @@
 \setchapterstyle{lines}
 \labch{appendix}
-\blinddocument
+%\blinddocument
 
-\chapter{Fonts Testing}
+\chapter{On Some Mathematical Information}
 
-\section{Font Sizes}
+\section{First Order Calculations}
 
-{\tiny The quick brown fox jumps over the lazy dog.}
+Let us imagine I ask you to compute the speed of a vehicle on a straight road, knowing that it traveled the distance between my house and my friend's house, two blocks down in 4.34 seconds.
 
-{\scriptsize The quick brown fox jumps over the lazy dog.}
+In order to do so, we would need to do $v = \frac{d}{t}$.
 
-{\footnotesize The quick brown fox jumps over the lazy dog.}
+In our case, $d = \mathrm{two blocks}$, $t = 4.34s$.
 
-{\small The quick brown fox jumps over the lazy dog.}
+We see that we do not have the distance covered, but looking it up, we see that if we assume we are in the USA, then we quickly discover that a block is not the same depending on the city, and that it is not the same depending on if we are going north-south or east-west. Nonetheless, we can say that 100m is a pretty good block approximation.
 
-{\normalsize The quick brown fox jumps over the lazy dog.}
+So, this means we have $d = 200m$
 
-{\large The quick brown fox jumps over the lazy dog.}
+Now, one could do $v = {200}/{4.34} = 46.08 m/s$. That's not wrong per se. One has been taught in school to mind the significant numbers, so we could round it down to $46 m/s$.
 
-{\Large The quick brown fox jumps over the lazy dog.}
+Now, we know that our 200 meters distance is a rough approximation. It could very well be 400 meters, or 75 meters. So, instead of doing an annoying division by 4.34 seconds, why not divide by 5? It's so much easier. We see that we estimate the speed to be 40 m/s.
 
-{\LARGE The quick brown fox jumps over the lazy dog.}
+Now, I will tell you that the distance was actually, after careful measurements, 179.4 meters. Well, this gives us a result of $v = 41.3 m/s$. It turns out our approximate calculation was actually closer to reality than using one of the accurate figures.
 
-{\huge The quick brown fox jumps over the lazy dog.}
+Don't be fooled, this could have gone the other way, and I could have told you that the distance was in fact 235.1 meters, in which case the speed would have been 54.2 m/s.
 
-{\Huge The quick brown fox jumps over the lazy dog.}
+What I want to show here is that when dealing with such large uncertainties, while it may not hurt to deal with the figures you know to be accurate, it doesn't make your result more trustworthy. When such situations arise in science, well, first you ask for more details or go measure yourself, but importantly, you use uncertainty range in your answer. But people tend to not do well with uncertainties. We like to have an answer that is not "well, it's somewhere between 34.1 and 76.9".
+
+So, it is important to keep in mind what your goal is. Do you want to know how much gallons of fuel the vehicle used during that stint? Or do you want to know if the vehicle was going way over the speed limit?
+
+Translating to units one can relate to when it comes to vehicles, you can see that 50 m/s is around 180 kmh, or over 100 mph. It is safe to say that yes, the vehicle was going way over the speed limit in a city, and that holds true whether you had obtained 35 m/s (80 mph) or 75 m/s (way too fast)
+
+\begin{kaobox}
+Keep your goal in mind. Do you want an accurate response to a question which depend a lot on uncertain input data? Then, ask for better data or don't even try to be accurate. Do you want to get an idea if something is doable? Approximate to get there faster and in a clearer way when you explain it to others.
+\end{kaobox}
+
+Another way to look at this is that, given the original problem and its uncertainty, you come back to me a while later and tell me "We ran a lot of simulations and that there was one of the results that was a very good fit for the data in the middle of the uncertainty range: we believe the vehicle was a Mazda 3 with a half empty tank and 3 passengers, and the driver let go of the pedal after the first block", I would, rightfully, laugh and walk away. However, if you came back and told me "It probably was not an eighteen wheeler", I would tend to agree with you.                                                                  
 
 
-\section{Font Families}
 
-\sffamily\blindtext
+\section{Units}
 
-\textmd{The quick brown fox jumps over the lazy dog. Medium.}
+Units are a very important part of this book. You can see that we deal with W, kW, GW, TW, kWh, TWh, \ldots
 
-\textbf{The quick brown fox jumps over the lazy dog. Bold.}
+They are all important, and let us take a look at what they actually mean.
 
-\textup{The quick brown fox jumps over the lazy dog. Upright.}
+\section{Violin plots}
 
-\textit{The quick brown fox jumps over the lazy dog. Italics.}
-
-\textsl{The quick brown fox jumps over the lazy dog. Slanted.}
-
-\textsc{The quick brown fox jumps over the lazy dog. Small Caps.}
-
-\ttfamily\blindtext
-
-\textmd{The quick brown fox jumps over the lazy dog. Medium.}
-
-\textbf{The quick brown fox jumps over the lazy dog. Bold.}
-
-\textup{The quick brown fox jumps over the lazy dog. Upright.}
-
-\textit{The quick brown fox jumps over the lazy dog. Italics.}
-
-\textsl{The quick brown fox jumps over the lazy dog. Slanted.}
-
-\textsc{The quick brown fox jumps over the lazy dog. Small Caps.}
-
-\rmfamily\blindtext
-
-\textmd{The quick brown fox jumps over the lazy dog. Medium.}
-
-\textbf{The quick brown fox jumps over the lazy dog. Bold.}
-
-\textup{The quick brown fox jumps over the lazy dog. Upright.}
-
-\textit{The quick brown fox jumps over the lazy dog. Italics.}
-
-\textsl{The quick brown fox jumps over the lazy dog. Slanted.}
-
-\textsc{The quick brown fox jumps over the lazy dog. Small Caps.}
+How to read a violin plot? Median, quartiles, and distribution.
 

@@ -2,26 +2,7 @@
 \chapter{Scenarios Case Study}
 \labch{scenario_computation}
 
-In this chapter I will go over computing the amount of capacity to install, the amount of storage to install, the impact to expect on the grid, and the impact of a renewable mix versus what we will end up computing, a homogeneous system.
-
-
-
-\section{Recalling the Assumptions}
-
-The question of electricity imports and global exchange is important, and a difficult one to account for. That is, if there is not enough electricity available in France, can I ask my neighbors to sell me some? In our first order calculation, we are considering that no, this is not an option. The reasoning why follows. Say you have a dark, cold, calm day in France. Your wind and solar energies sources are thus severely hampered. You technically would have three options.
-
-\begin{itemize}
-	\item Use your storage capacity
-	\item Ask the neighbors
-	\item Learn to not use electricity
-\end{itemize}
-
-
-Well, from multiple observations in Europe, when such a situation happens somewhere in France for example, things are not looking great in other parts of Europe, due to meteorological effects such as anticyclones and depressions. This is especially within immediate neighboring countries such as Germany or Spain. Any electricity the neighbors would produce would be used for their own needs, and put into their storage for future domestic use if any is left. Our main assumption is that the installed capacity is enough to power yourself, but that you are not building up out of the goodness of your heart for your neighbors\sidenote[][-2mm]{And I argue that it makes for a poor investment to try and overbuild your capacity even more to sell your surplus, as most of your surplus would happen when other countries are not especially in dire need}.
-
-We also assume that consumption stays constant over time. Additionally, and importantly, the main assumption is that we want a world and a society that is not radically different from today, hence the ability to dispatch energy when and where you want it.
-
-Another crucial point to consider is that the low-carbon grid we want needs to be sustainable\marginnote[-2mm]{You may come across articles or headlines that claim that the cost of transition to a fully decarbonized system is a given amount of trillions of dollars for a given country. This does not have to be false, but, again, we want a sustainable, long term grid. If we had a technology today that was able to completely decarbonize our grid for \$5 trillion dollars for a country like the USA and could be built in a month, it would be great, nay, incredible. But if I then told you that the lifetime of that technology is one year, so that every year, you needed to rebuild it anew, the cost would be incredibly high and crippling to the current world economy. Even if this was doable, it would then go against the assumption that we do not want to change to a radically different society in a very short time span. In my experience, this is ignored most of the time, and is coherent with the easy pitfalls of "this is the next-generation problems" tropes}. It is not enough to switch to a low carbon system and, once its lifetime is up, give up on it. Lifetime cycles need to be accounted for over a long period. In this demonstration, we consider 100 years to be a representative period. We will drop this to 50 years to see the sensitivity.
+In this chapter I will go over computing the amount of capacity to install, the amount of storage to install, the impact to expect on the grid, and the resulting values given for each scenarios
 
 
 \begin{table}[ht]
@@ -111,23 +92,31 @@ P_e = P_i * p_{max} - P_{min}
 \end{equation}
 \end{remark}
 
+\section{Scenarios Results - Dollar Costs}
 
-\section{Energy Mix}
-
-As mentioned several times, we are considering homogeneous scenarios. The production comes either from solar, or from wind, or from nuclear, and so forth. In reality, a mix would be beneficial for multiple reasons, including economical competition and load factor smoothing. Load factor smoothing would be the idea that you have nights, you have windless days, but since you have windy nights or sunny calm days, by definition the overlaps increases the load factor of your system.
-
-We can use the simulated data discussed previously to quickly estimate the impact.
-
-\begin{itemize}
-\item Get the solar production per hour
-\item Get the wind production per hour
-\item Sum the two
-\item Get the load factor for solar only
-\item Get the load factor for wind only
-\item Get the load factor for combination
-\end{itemize}
+First, we calculate an estimate of the costs per scenario, for each country, in \vreftab{scenario_costs_estimates}. This shows that things get very expensive, and that some options are clearly more efficient economically than others. \vreftab{scenario_costs_ratio} shows the normalization relative to the least expensive scenario each time\sidenote[][-2mm]{Nuclear, with a score of 1}. Even though in our case studies we do not vary the prices locally, and assume that a project will cost the same in every country, we see that the ratios vary. This is mostly due to the effect of changing load factors. Not every country is equal when it comes to natural resources, and wind and solar are natural resources.
 
 
+\begin{table}[ht]
+\caption[Scenarios 1 Costs Estimate over 100 years per country (Trillions US Dollars -- Electricity only -- 7 days of storage)]{Scenario Costs Estimate over 100 years per country (Trillions 2020 US Dollars) -- Electricity only -- 7 days of storage}
+\labtab{scenario_costs_estimates}
+\begin{tabular}{ c c c c c c c }
+	\toprule
+	Country & S1a & S1b & S1c & S1d & S1e & S1f \\
+	\midrule
+	France   & 2.5 & 20.6 & 3.9 & 22.0 & 2.9 & 21.0 \\
+	USA   & - & - & - & - & - & - \\
+	Brazil   & - & - & - & - & - & - \\
+	China  & - & - & - & - & - & - \\
+	Nigeria  & - & - & - & - & - & - \\
+	Nigeria\sidenote[$\dagger$][-2mm]{With access to an average French person electricity}  & - & - & - & - & - & - \\
+	\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Scenarios Results - CO2 saved by country}
+
+\blindtext
 
 \section{The Digest}
 
@@ -135,7 +124,7 @@ We can use the simulated data discussed previously to quickly estimate the impac
 \begin{kaoboxgreen}[frametitle=Main Takeaways]
 
 \begin{itemize}
-\item We derive the main simple equation to be used to approximate the costs of a scenario
+\item We derive the main simple equations to be used to approximate the costs of a scenario
 \item The capacity to install per scenario is given depending on a constant need assumption
 \item The storage consequence is approached, and we go easy on it
 \end{itemize}

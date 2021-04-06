@@ -106,6 +106,12 @@
 			backrefpages = {citato a pagg.},
 		}
 	}{}
+	\IfLanguageName{french}{%
+		\DefineBibliographyStrings{french}{%
+			backrefpage = {cité page},
+			backrefpages = {cité page},
+		}
+	}{}
 }{
 	\@ifpackageloaded{babel}{%
 		\IfStringInList{english}{\bbl@loaded}{%
@@ -120,6 +126,12 @@
 				backrefpages = {citato a pagg.},
 			}
 		}{}
+        \IfStringInList{french}{\bbl@loaded}{%
+            \DefineBibliographyStrings{french}{%
+                backrefpage = {cité page},
+                backrefpages = {cité page},
+            }
+        }{}
 	}{}
 }
 
@@ -130,6 +142,11 @@
 % Command to format the marginnote created for cited items
 \NewDocumentCommand{\formatmargincitation}{m}{% The parameter is a single citation key
 	\parencite{#1}: \citeauthor*{#1} (\citeyear{#1}), \citetitle{#1}%
+}
+
+% Command to format the marginnote created for cited items
+\NewDocumentCommand{\formatmargincitationsimple}{m}{% The parameter is a single citation key
+	\parencite{#1}: \citeauthor*{#1} (\citeyear{#1})%
 }
 
 % Command to format the marginnote created for supercited items
@@ -160,7 +177,7 @@
     }%
 	\DeclareCiteCommand{\kaobiblio@sidecite}[\kaobiblio@marginnote]{%
 	}{%
-		\formatmargincitation{\thefield{entrykey}}%
+		\formatmargincitationsimple{\thefield{entrykey}}%
 	}{%
 		\\% separator between multiple citations
 	}{%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 APR 2021 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 APR 2021 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2226,7 +2226,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-Package biblatex Info: Redefining '\fullcite' on input line 302.
+Package biblatex Info: Redefining '\fullcite' on input line 319.
 )
 (./kaotheorems.sty
 Package: kaotheorems 
@@ -3946,7 +3946,7 @@ Package marginnote Info: Margin note 25.1 is on absolute page 25 on input line
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
-<images/power_generation_potential_sources.png, id=632, 650.43pt x 409.53pt>
+<images/power_generation_potential_sources.png, id=633, 650.43pt x 409.53pt>
 File: images/power_generation_potential_sources.png Graphic file (type png)
 <use images/power_generation_potential_sources.png>
 Package pdftex.def Info: images/power_generation_potential_sources.png  used on
@@ -4176,22 +4176,19 @@ Package marginnote Info: Margin note 35.1 is on absolute page 35 on input line
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 14.
 Package marginnote Info: Margin note 35.2 is on absolute page 35 on input line 
-14.
-Package marginnote Info: right page because not two side mode on input line 14.
+16.
+Package marginnote Info: right page because not two side mode on input line 16.
 
-Package marginnote Info: xpos seems to be 303.8782pt on input line 14.
-Package marginnote Info: Margin note 35.3 is on absolute page 35 on input line 
-19.
-Package marginnote Info: right page because not two side mode on input line 19.
-
-Package marginnote Info: xpos seems to be 195.4083pt on input line 19.
+Package marginnote Info: xpos seems to be 303.8782pt on input line 16.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 27.
+(mdframed)              on input line 24.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 36.
+(mdframed)              on input line 26.
 \openout4 = `main.mw'.
 
 [23
@@ -4201,179 +4198,168 @@ Package mdframed Info: mdframed detected package amsthm
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-Package mdframed Info: Not enough space on this page on input line 36.
 Package marginnote Info: Margin note 36.1 is on absolute page 36 on input line 
-38.
-Package marginnote Info: right page because not two side mode on input line 38.
+30.
+Package marginnote Info: right page because not two side mode on input line 30.
 
-Package marginnote Info: xpos seems to be 284.04399pt on input line 38.
+Package marginnote Info: xpos seems to be 195.4083pt on input line 30.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 52.
-Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
- line 52.
+(mdframed)              on input line 36.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 45.
 Package marginnote Info: Margin note 36.2 is on absolute page 36 on input line 
-60.
-Package marginnote Info: right page because not two side mode on input line 60.
+47.
+Package marginnote Info: right page because not two side mode on input line 47.
 
-Package marginnote Info: xpos seems to be 132.43732pt on input line 60.
-Package marginnote Info: Margin note 36.3 is on absolute page 37 on input line 
-64.
-Package marginnote Info: right page because not two side mode on input line 64.
-
-Package marginnote Info: xpos seems to be 320.28427pt on input line 64.
+Package marginnote Info: xpos seems to be 284.04399pt on input line 47.
 \openout4 = `main.mw'.
 
  [24] (./main.mw)
 \openout4 = `main.mw'.
 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 61.
+Package hyperref Info: bookmark level for unknown remark defaults to 0 on input
+ line 61.
 Package marginnote Info: Margin note 37.1 is on absolute page 37 on input line 
+69.
+Package marginnote Info: right page because not two side mode on input line 69.
+
+Package marginnote Info: xpos seems to be 132.43732pt on input line 69.
+Package marginnote Info: Margin note 37.2 is on absolute page 37 on input line 
 73.
 Package marginnote Info: right page because not two side mode on input line 73.
 
-Package marginnote Info: xpos seems to be 277.2522pt on input line 73.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 78.
+Package marginnote Info: xpos seems to be 320.28427pt on input line 73.
+Package marginnote Info: Margin note 37.3 is on absolute page 37 on input line 
+82.
+Package marginnote Info: right page because not two side mode on input line 82.
+
+Package marginnote Info: xpos seems to be 277.2522pt on input line 82.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 87.
-<images/renewable_production_hours_ranked.png, id=758, 390.45876pt x 279.0425pt
->
-File: images/renewable_production_hours_ranked.png Graphic file (type png)
-<use images/renewable_production_hours_ranked.png>
-Package pdftex.def Info: images/renewable_production_hours_ranked.png  used on 
-input line 104.
-(pdftex.def)             Requested size: 304.4553pt x 217.57988pt.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 96.
 \openout4 = `main.mw'.
 
  [25] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 38.1 is on absolute page 38 on input line 
-117.
-Package marginnote Info: right page because not two side mode on input line 117
-.
-Package marginnote Info: xpos seems to be 280.51344pt on input line 117.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 122.
+Package mdframed Info: Not enough space on this page on input line 96.
+<images/renewable_production_hours_ranked.png, id=766, 390.45876pt x 279.0425pt
+>
+File: images/renewable_production_hours_ranked.png Graphic file (type png)
+<use images/renewable_production_hours_ranked.png>
+Package pdftex.def Info: images/renewable_production_hours_ranked.png  used on 
+input line 113.
+(pdftex.def)             Requested size: 304.4553pt x 217.57988pt.
 \openout4 = `main.mw'.
 
  [26 <./images/renewable_production_hours_ranked.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 133.
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
 Package marginnote Info: Margin note 39.1 is on absolute page 39 on input line 
-133.
-Package marginnote Info: right page because not two side mode on input line 133
+126.
+Package marginnote Info: right page because not two side mode on input line 126
 .
-Package marginnote Info: xpos seems to be 324.69037pt on input line 133.
+Package marginnote Info: xpos seems to be 280.51344pt on input line 126.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 139.
+(mdframed)              on input line 131.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 142.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package marginnote Info: Margin note 39.2 is on absolute page 39 on input line 
+142.
+Package marginnote Info: right page because not two side mode on input line 142
+.
+Package marginnote Info: xpos seems to be 324.69037pt on input line 142.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 159.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 163.
+(mdframed)              on input line 148.
 \openout4 = `main.mw'.
 
  [27] (./main.mw)
@@ -4381,26 +4367,37 @@ Package mdframed Info: mdframed detected package amsthm
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 175.
+(mdframed)              on input line 168.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 172.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 184.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 193.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 201.
-)
-(./chapters/carbon_footprints.tex
 \openout4 = `main.mw'.
 
  [28] (./main.mw)
 \openout4 = `main.mw'.
 
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 202.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 210.
+)
+(./chapters/carbon_footprints.tex
+\openout4 = `main.mw'.
+
+ [29] (./main.mw)
+\openout4 = `main.mw'.
+
 
 chapter 14.
-Package marginnote Info: Margin note 41.1 is on absolute page 41 on input line 
+Package marginnote Info: Margin note 42.1 is on absolute page 42 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -4412,43 +4409,250 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 13.
-
-Overfull \hbox (49.96431pt too wide) in paragraph at lines 24--26
-\T1/zpllf/m/n/10 (-20) the $\OML/npxmi/m/it/10 gCO[]\LMS/npxsy/m/n/10 ù\OML/npx
-mi/m/it/10 kW$ \T1/zpllf/m/n/10 (-20) should be given. https://www.nature.com/a
-rticles/ncomms13728 
- []
-
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 29.
+(mdframed)              on input line 28.
+<images/co2_tech.png, id=815, 617.30624pt x 604.2575pt>
+File: images/co2_tech.png Graphic file (type png)
+<use images/co2_tech.png>
+Package pdftex.def Info: images/co2_tech.png  used on input line 31.
+(pdftex.def)             Requested size: 304.45134pt x 298.0158pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 \openout4 = `main.mw'.
 
-[29
+[30
 
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 43.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 45.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+<images/co2_solar_wind.png, id=829, 384.43625pt x 277.035pt>
+File: images/co2_solar_wind.png Graphic file (type png)
+<use images/co2_solar_wind.png>
+Package pdftex.def Info: images/co2_solar_wind.png  used on input line 49.
+(pdftex.def)             Requested size: 304.46388pt x 219.40479pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 56.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 58.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package marginnote Info: Margin note 43.1 is on absolute page 44 on input line 
+59.
+Package marginnote Info: right page because not two side mode on input line 59.
+
+Package marginnote Info: xpos seems to be 133.16534pt on input line 59.
+\openout4 = `main.mw'.
+
+[31 <./images/co2_tech.png>] (./main.mw)
+\openout4 = `main.mw'.
+
+<images/co2_nuclear.png, id=851, 382.42876pt x 277.035pt>
+File: images/co2_nuclear.png Graphic file (type png)
+<use images/co2_nuclear.png>
+Package pdftex.def Info: images/co2_nuclear.png  used on input line 62.
+(pdftex.def)             Requested size: 304.45538pt x 220.55035pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 67.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 67.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+<images/co2_coal_gas.png, id=856, 618.31pt x 603.25375pt>
+File: images/co2_coal_gas.png Graphic file (type png)
+<use images/co2_coal_gas.png>
+Package pdftex.def Info: images/co2_coal_gas.png  used on input line 71.
+(pdftex.def)             Requested size: 304.45578pt x 297.04208pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 69.
+(mdframed)              on input line 77.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 75.
+(mdframed)              on input line 83.
+Package marginnote Info: Margin note 44.1 is on absolute page 44 on input line 
+100.
+Package marginnote Info: right page because not two side mode on input line 100
+.
+Package marginnote Info: xpos seems to be 302.65247pt on input line 100.
+\openout4 = `main.mw'.
+
+[32 <./images/co2_solar_wind.png>] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [33 <./images/co2_nuclear.png> <./images/co2_coal_gas.png>] (./main.mw)
+\openout4 = `main.mw'.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 109.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 118.
 ) (./chapters/technology_costs.tex
 \openout4 = `main.mw'.
 
- [30] (./main.mw)
+
+[34
+
+] (./main.mw)
 \openout4 = `main.mw'.
 
 
 chapter 15.
-Package marginnote Info: Margin note 43.1 is on absolute page 43 on input line 
+Package marginnote Info: Margin note 47.1 is on absolute page 47 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
-Package marginnote Info: Margin note 43.2 is on absolute page 43 on input line 
+Package marginnote Info: Margin note 47.2 is on absolute page 47 on input line 
 5.
 Package marginnote Info: right page because not two side mode on input line 5.
 Package marginnote Info: xpos seems to be 161.52986pt on input line 5.
@@ -4458,70 +4662,70 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 21.
-Package marginnote Info: Margin note 43.3 is on absolute page 43 on input line 
+Package marginnote Info: Margin note 47.3 is on absolute page 47 on input line 
 30.
 Package marginnote Info: right page because not two side mode on input line 30.
 
 Package marginnote Info: xpos seems to be 165.31113pt on input line 30.
-Package marginnote Info: Margin note 43.4 is on absolute page 43 on input line 
+Package marginnote Info: Margin note 47.4 is on absolute page 47 on input line 
 34.
 Package marginnote Info: right page because not two side mode on input line 34.
 
 Package marginnote Info: xpos seems to be 156.45381pt on input line 34.
 \openout4 = `main.mw'.
 
-[31
+[35
 
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/solar_costs_evolution.png, id=849, 633.36626pt x 663.47874pt>
+<images/solar_costs_evolution.png, id=907, 633.36626pt x 663.47874pt>
 File: images/solar_costs_evolution.png Graphic file (type png)
 <use images/solar_costs_evolution.png>
 Package pdftex.def Info: images/solar_costs_evolution.png  used on input line 5
 0.
 (pdftex.def)             Requested size: 304.44725pt x 318.92174pt.
-Package marginnote Info: Margin note 44.1 is on absolute page 44 on input line 
+Package marginnote Info: Margin note 48.1 is on absolute page 48 on input line 
 55.
 Package marginnote Info: right page because not two side mode on input line 55.
 
 Package marginnote Info: xpos seems to be 341.29758pt on input line 55.
 \openout4 = `main.mw'.
 
- [32] (./main.mw)
+ [36] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [33 <./images/solar_costs_evolution.png>]
+ [37 <./images/solar_costs_evolution.png>]
 (./main.mw)
 \openout4 = `main.mw'.
 
-<images/dorr_optimistic_solar_costs.png, id=864, 621.32124pt x 357.335pt>
+<images/dorr_optimistic_solar_costs.png, id=923, 621.32124pt x 357.335pt>
 File: images/dorr_optimistic_solar_costs.png Graphic file (type png)
 <use images/dorr_optimistic_solar_costs.png>
 Package pdftex.def Info: images/dorr_optimistic_solar_costs.png  used on input 
 line 65.
 (pdftex.def)             Requested size: 135.71458pt x 78.05232pt.
-Package marginnote Info: Margin note 46.1 is on absolute page 46 on input line 
+Package marginnote Info: Margin note 50.1 is on absolute page 50 on input line 
 68.
 Package marginnote Info: right page because not two side mode on input line 68.
 
 Package marginnote Info: xpos seems to be 70.56247pt on input line 68.
-<images/technology_costs.png, id=865, 433.62pt x 289.08pt>
+<images/technology_costs.png, id=924, 433.62pt x 289.08pt>
 File: images/technology_costs.png Graphic file (type png)
 <use images/technology_costs.png>
 Package pdftex.def Info: images/technology_costs.png  used on input line 82.
 (pdftex.def)             Requested size: 304.45824pt x 202.97215pt.
-Package marginnote Info: Margin note 46.2 is on absolute page 46 on input line 
+Package marginnote Info: Margin note 50.2 is on absolute page 50 on input line 
 98.
 Package marginnote Info: right page because not two side mode on input line 98.
 
-Package marginnote Info: xpos seems to be 97.25229pt on input line 98.
+Package marginnote Info: xpos seems to be 374.32635pt on input line 98.
 \openout4 = `main.mw'.
 
- [34
+ [38
 
  <./images/dorr_optimistic_solar_costs.png> <./images/technology_costs.png>] (.
 /main.mw)
@@ -4533,7 +4737,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 107.
-Package marginnote Info: Margin note 47.1 is on absolute page 47 on input line 
+Package marginnote Info: Margin note 51.1 is on absolute page 51 on input line 
 110.
 Package marginnote Info: right page because not two side mode on input line 110
 .
@@ -4544,22 +4748,22 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 120.
-Package marginnote Info: Margin note 47.2 is on absolute page 47 on input line 
+Package marginnote Info: Margin note 51.2 is on absolute page 51 on input line 
 128.
 Package marginnote Info: right page because not two side mode on input line 128
 .
 Package marginnote Info: xpos seems to be 373.82196pt on input line 128.
-Package marginnote Info: Margin note 47.3 is on absolute page 48 on input line 
+Package marginnote Info: Margin note 51.3 is on absolute page 52 on input line 
 128.
 Package marginnote Info: right page because not two side mode on input line 128
 .
 Package marginnote Info: xpos seems to be 190.9024pt on input line 128.
 \openout4 = `main.mw'.
 
- [35] (./main.mw)
+ [39] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 48.1 is on absolute page 48 on input line 
+Package marginnote Info: Margin note 52.1 is on absolute page 52 on input line 
 132.
 Package marginnote Info: right page because not two side mode on input line 132
 .
@@ -4572,7 +4776,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 138.
 \openout4 = `main.mw'.
 
- [36] (./main.mw)
+ [40] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
@@ -4584,7 +4788,7 @@ Package mdframed Info: mdframed detected package amsthm
 )
 \openout4 = `main.mw'.
 
- [37] (./main.mw)
+ [41] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -4623,7 +4827,7 @@ Package mdframed Info: mdframed detected package amsthm
 part without number
 \openout4 = `main.mw'.
 
-[38
+[42
 
 
 
@@ -4664,11 +4868,11 @@ part without number
 
  (./chapters/transition_needs.tex
 chapter 16.
-Package marginnote Info: Margin note 51.1 is on absolute page 51 on input line 
+Package marginnote Info: Margin note 55.1 is on absolute page 55 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
-Package marginnote Info: Margin note 51.2 is on absolute page 51 on input line 
+Package marginnote Info: Margin note 55.2 is on absolute page 55 on input line 
 11.
 Package marginnote Info: right page because not two side mode on input line 11.
 
@@ -4687,7 +4891,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 32.
 \openout4 = `main.mw'.
 
-[39
+[43
 
 
 
@@ -4695,13 +4899,13 @@ Package mdframed Info: mdframed detected package amsthm
 \openout4 = `main.mw'.
 
 Package mdframed Info: Not enough space on this page on input line 32.
-<images/installed_capacity_france_2020.png, id=928, 433.62pt x 289.08pt>
+<images/installed_capacity_france_2020.png, id=986, 433.62pt x 289.08pt>
 File: images/installed_capacity_france_2020.png Graphic file (type png)
 <use images/installed_capacity_france_2020.png>
 Package pdftex.def Info: images/installed_capacity_france_2020.png  used on inp
 ut line 63.
 (pdftex.def)             Requested size: 304.45824pt x 202.97215pt.
-<images/annual_production_france_2020.png, id=929, 433.62pt x 289.08pt>
+<images/annual_production_france_2020.png, id=987, 433.62pt x 289.08pt>
 File: images/annual_production_france_2020.png Graphic file (type png)
 <use images/annual_production_france_2020.png>
 Package pdftex.def Info: images/annual_production_france_2020.png  used on inpu
@@ -4711,29 +4915,29 @@ t line 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package marginnote Info: Margin note 52.1 is on absolute page 52 on input line 
+Package marginnote Info: Margin note 56.1 is on absolute page 56 on input line 
 77.
 Package marginnote Info: right page because not two side mode on input line 77.
 
 Package marginnote Info: xpos seems to be 118.0788pt on input line 77.
-Package marginnote Info: Margin note 52.2 is on absolute page 53 on input line 
+Package marginnote Info: Margin note 56.2 is on absolute page 57 on input line 
 99.
 Package marginnote Info: right page because not two side mode on input line 99.
 
 Package marginnote Info: xpos seems to be 110.6302pt on input line 99.
-Package marginnote Info: Margin note 52.3 is on absolute page 53 on input line 
+Package marginnote Info: Margin note 56.3 is on absolute page 57 on input line 
 99.
 Package marginnote Info: right page because not two side mode on input line 99.
 
 Package marginnote Info: xpos seems to be 245.1121pt on input line 99.
-Package marginnote Info: Margin note 52.4 is on absolute page 53 on input line 
+Package marginnote Info: Margin note 56.4 is on absolute page 57 on input line 
 99.
 Package marginnote Info: right page because not two side mode on input line 99.
 
 Package marginnote Info: xpos seems to be 196.83453pt on input line 99.
 \openout4 = `main.mw'.
 
-[40 <./images/installed_capacity_france_2020.png>] (./main.mw)
+[44 <./images/installed_capacity_france_2020.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
@@ -4742,14 +4946,14 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 104.
-Package marginnote Info: Margin note 53.1 is on absolute page 53 on input line 
+Package marginnote Info: Margin note 57.1 is on absolute page 57 on input line 
 106.
 Package marginnote Info: right page because not two side mode on input line 106
 .
 Package marginnote Info: xpos seems to be 129.35638pt on input line 106.
 \openout4 = `main.mw'.
 
- [41 <./images/annual_production_france_2020.png>] (./main.mw)
+ [45 <./images/annual_production_france_2020.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
@@ -4762,81 +4966,76 @@ Package mdframed Info: mdframed detected package amsthm
 (./chapters/scenario_computation.tex
 \openout4 = `main.mw'.
 
- [42] (./main.mw)
+ [46] (./main.mw)
 \openout4 = `main.mw'.
 
 
 chapter 17.
-Package marginnote Info: Margin note 55.1 is on absolute page 55 on input line 
+Package marginnote Info: Margin note 59.1 is on absolute page 59 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
-Package marginnote Info: Margin note 55.2 is on absolute page 55 on input line 
-20.
-Package marginnote Info: right page because not two side mode on input line 20.
 
-Package marginnote Info: xpos seems to be 351.43634pt on input line 20.
-Package marginnote Info: Margin note 55.3 is on absolute page 55 on input line 
-24.
-Package marginnote Info: right page because not two side mode on input line 24.
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ [][][][]\T1/zpllf/b/n/9 Scenarios Re-sults - Dol-lar 
+ []
 
-Package marginnote Info: xpos seems to be 166.9303pt on input line 24.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ [][][][]\T1/zpllf/b/n/9 Scenarios Re-sults - CO2 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 44.
+Package marginnote Info: Margin note 59.2 is on absolute page 59 on input line 
+44.
+Package marginnote Info: right page because not two side mode on input line 44.
+
+Package marginnote Info: xpos seems to be 115.43031pt on input line 44.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 56.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 61.
 \openout4 = `main.mw'.
 
-[43
+[47
 
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 63.
-Package marginnote Info: Margin note 56.1 is on absolute page 56 on input line 
-63.
-Package marginnote Info: right page because not two side mode on input line 63.
+Package marginnote Info: Margin note 60.1 is on absolute page 60 on input line 
+75.
+Package marginnote Info: right page because not two side mode on input line 75.
 
-Package marginnote Info: xpos seems to be 116.37917pt on input line 63.
+Package marginnote Info: xpos seems to be 125.90002pt on input line 75.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 75.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 80.
+(mdframed)              on input line 88.
 \openout4 = `main.mw'.
 
- [44] (./main.mw)
-\openout4 = `main.mw'.
-
-Package marginnote Info: Margin note 57.1 is on absolute page 57 on input line 
-94.
-Package marginnote Info: right page because not two side mode on input line 94.
-
-Package marginnote Info: xpos seems to be 125.86462pt on input line 94.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 107.
-\openout4 = `main.mw'.
-
- [45] (./main.mw)
+ [48] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 135.
+(mdframed)              on input line 106.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 143.
-)
-(./chapters/scenario_assessment_s1s2.tex
+(mdframed)              on input line 114.
+) (./chapters/scenario_assessment_s1s2.tex
 \openout4 = `main.mw'.
 
- [46] (./main.mw)
+
+[49] (./main.mw)
 \openout4 = `main.mw'.
 
 
 chapter 18.
-Package marginnote Info: Margin note 59.1 is on absolute page 59 on input line 
+Package marginnote Info: Margin note 62.1 is on absolute page 62 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -4855,12 +5054,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
  [][][][]\T1/zpllf/b/n/9 Locations I -- Re-new-able 
  []
 
-Package marginnote Info: Margin note 59.2 is on absolute page 59 on input line 
+Package marginnote Info: Margin note 62.2 is on absolute page 62 on input line 
 14.
 Package marginnote Info: right page because not two side mode on input line 14.
 
 Package marginnote Info: xpos seems to be 288.25063pt on input line 14.
-<images/schema_hydro.png, id=1029, 414.54875pt x 199.74625pt>
+<images/schema_hydro.png, id=1084, 414.54875pt x 199.74625pt>
 File: images/schema_hydro.png Graphic file (type png)
 <use images/schema_hydro.png>
 Package pdftex.def Info: images/schema_hydro.png  used on input line 17.
@@ -4871,7 +5070,7 @@ Underfull \hbox (badness 2435) in paragraph at lines 18--18
 the
  []
 
-Package marginnote Info: Margin note 59.3 is on absolute page 59 on input line 
+Package marginnote Info: Margin note 62.3 is on absolute page 62 on input line 
 20.
 Package marginnote Info: right page because not two side mode on input line 20.
 
@@ -4881,18 +5080,18 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 24.
 \openout4 = `main.mw'.
 
-[47
+[50
 
 
  <./images/schema_hydro.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 60.1 is on absolute page 60 on input line 
+Package marginnote Info: Margin note 63.1 is on absolute page 63 on input line 
 48.
 Package marginnote Info: right page because not two side mode on input line 48.
 
 Package marginnote Info: xpos seems to be 125.80304pt on input line 48.
-Package marginnote Info: Margin note 60.2 is on absolute page 60 on input line 
+Package marginnote Info: Margin note 63.2 is on absolute page 63 on input line 
 71.
 Package marginnote Info: right page because not two side mode on input line 71.
 
@@ -4903,14 +5102,14 @@ Underfull \hbox (badness 1062) in paragraph at lines 71--71
  []
 
 
-LaTeX Warning: Hyper reference `ch:renewable_solution' on page 48 undefined on 
+LaTeX Warning: Hyper reference `ch:renewable_solution' on page 51 undefined on 
 input line 81.
 
 
-LaTeX Warning: Reference `ch:renewable_solution' on page 48 undefined on input 
+LaTeX Warning: Reference `ch:renewable_solution' on page 51 undefined on input 
 line 81.
 
-Package marginnote Info: Margin note 60.3 is on absolute page 60 on input line 
+Package marginnote Info: Margin note 63.3 is on absolute page 63 on input line 
 83.
 Package marginnote Info: right page because not two side mode on input line 83.
 
@@ -4923,21 +5122,42 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 92.
 \openout4 = `main.mw'.
 
-[48] (./main.mw)
+[51] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: Not enough space on this page on input line 92.
-Package marginnote Info: Margin note 61.1 is on absolute page 61 on input line 
+Package marginnote Info: Margin note 64.1 is on absolute page 64 on input line 
 98.
 Package marginnote Info: right page because not two side mode on input line 98.
 
 Package marginnote Info: xpos seems to be 174.05933pt on input line 98.
-Package marginnote Info: Margin note 61.2 is on absolute page 61 on input line 
+Package marginnote Info: Margin note 64.2 is on absolute page 64 on input line 
 102.
 Package marginnote Info: right page because not two side mode on input line 102
 .
 Package marginnote Info: xpos seems to be 166.8662pt on input line 102.
-<images/lithium_reserves_world.png, id=1059, 862.22125pt x 553.06625pt>
+Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 104.
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+<images/lithium_reserves_world.png, id=1117, 862.22125pt x 553.06625pt>
 File: images/lithium_reserves_world.png Graphic file (type png)
 <use images/lithium_reserves_world.png>
 Package pdftex.def Info: images/lithium_reserves_world.png  used on input line 
@@ -4945,106 +5165,106 @@ Package pdftex.def Info: images/lithium_reserves_world.png  used on input line
 (pdftex.def)             Requested size: 304.43956pt x 195.28078pt.
 \openout4 = `main.mw'.
 
- [49 <./images/lithium_reserves_world.png>] (./main.mw)
+ [52 <./images/lithium_reserves_world.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 62.1 is on absolute page 62 on input line 
-119.
-Package marginnote Info: right page because not two side mode on input line 119
+Package marginnote Info: Margin note 65.1 is on absolute page 65 on input line 
+118.
+Package marginnote Info: right page because not two side mode on input line 118
 .
-Package marginnote Info: xpos seems to be 177.08234pt on input line 119.
+Package marginnote Info: xpos seems to be 177.08234pt on input line 118.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 126.
+(mdframed)              on input line 125.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 132.
-Package marginnote Info: Margin note 62.2 is on absolute page 62 on input line 
-136.
-Package marginnote Info: right page because not two side mode on input line 136
+(mdframed)              on input line 131.
+Package marginnote Info: Margin note 65.2 is on absolute page 65 on input line 
+135.
+Package marginnote Info: right page because not two side mode on input line 135
 .
-Package marginnote Info: xpos seems to be 133.75572pt on input line 136.
+Package marginnote Info: xpos seems to be 133.75572pt on input line 135.
 
-Underfull \hbox (badness 3514) in paragraph at lines 136--136
+Underfull \hbox (badness 3514) in paragraph at lines 135--135
 []| \T1/zpllf/m/n/8 (+20) 8: This is ig-nor-ing the nu-mer-ous
  []
 
-Package marginnote Info: Margin note 62.3 is on absolute page 62 on input line 
-140.
-Package marginnote Info: right page because not two side mode on input line 140
+Package marginnote Info: Margin note 65.3 is on absolute page 65 on input line 
+139.
+Package marginnote Info: right page because not two side mode on input line 139
 .
-Package marginnote Info: xpos seems to be 319.7938pt on input line 140.
-Package marginnote Info: Margin note 62.4 is on absolute page 63 on input line 
-146.
-Package marginnote Info: right page because not two side mode on input line 146
+Package marginnote Info: xpos seems to be 319.7938pt on input line 139.
+Package marginnote Info: Margin note 65.4 is on absolute page 66 on input line 
+145.
+Package marginnote Info: right page because not two side mode on input line 145
 .
-Package marginnote Info: xpos seems to be 134.2255pt on input line 146.
+Package marginnote Info: xpos seems to be 134.2255pt on input line 145.
 \openout4 = `main.mw'.
 
-[50] (./main.mw)
+[53] (./main.mw)
 \openout4 = `main.mw'.
 
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 152.
-Package marginnote Info: Margin note 63.1 is on absolute page 63 on input line 
-152.
-Package marginnote Info: right page because not two side mode on input line 152
+nput line 151.
+Package marginnote Info: Margin note 66.1 is on absolute page 66 on input line 
+151.
+Package marginnote Info: right page because not two side mode on input line 151
 .
-Package marginnote Info: xpos seems to be 70.56247pt on input line 152.
+Package marginnote Info: xpos seems to be 70.56247pt on input line 151.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 152.
+(Font)              scaled to size 7.65005pt on input line 151.
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 6.79001pt on input line 153.
+(Font)              scaled to size 6.79001pt on input line 152.
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 5.95004pt on input line 153.
+(Font)              scaled to size 5.95004pt on input line 152.
 LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 5.335pt on input line 169.
-Package marginnote Info: Margin note 63.2 is on absolute page 63 on input line 
-175.
-Package marginnote Info: right page because not two side mode on input line 175
+(Font)              scaled to size 5.335pt on input line 168.
+Package marginnote Info: Margin note 66.2 is on absolute page 66 on input line 
+174.
+Package marginnote Info: right page because not two side mode on input line 174
 .
-Package marginnote Info: xpos seems to be 373.7492pt on input line 175.
+Package marginnote Info: xpos seems to be 373.7492pt on input line 174.
 \openout4 = `main.mw'.
 
- [51] (./main.mw)
+ [54] (./main.mw)
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 64.1 is on absolute page 64 on input line 
-179.
-Package marginnote Info: right page because not two side mode on input line 179
+Package marginnote Info: Margin note 67.1 is on absolute page 67 on input line 
+178.
+Package marginnote Info: right page because not two side mode on input line 178
 .
-Package marginnote Info: xpos seems to be 189.03958pt on input line 179.
-Package marginnote Info: Margin note 64.2 is on absolute page 64 on input line 
-184.
-Package marginnote Info: right page because not two side mode on input line 184
+Package marginnote Info: xpos seems to be 189.03958pt on input line 178.
+Package marginnote Info: Margin note 67.2 is on absolute page 67 on input line 
+183.
+Package marginnote Info: right page because not two side mode on input line 183
 .
-Package marginnote Info: xpos seems to be 270.84048pt on input line 184.
+Package marginnote Info: xpos seems to be 270.84048pt on input line 183.
 
-Overfull \hbox (0.10442pt too wide) in paragraph at lines 192--193
+Overfull \hbox (0.10442pt too wide) in paragraph at lines 191--192
 []\T1/zpllf/m/n/10 (-6) https://www.advancedsciencenews.com/is-there-enough-pla
 tinum-to-
  []
 
 \openout4 = `main.mw'.
 
-[52] (./main.mw)
+[55] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 208.
+(mdframed)              on input line 207.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 217.
+(mdframed)              on input line 216.
 ) (./chapters/scenario_assessment_s3s4.tex
 \openout4 = `main.mw'.
 
- [53] (./main.mw)
+ [56] (./main.mw)
 \openout4 = `main.mw'.
 
 
 chapter 19.
-Package marginnote Info: Margin note 66.1 is on absolute page 66 on input line 
+Package marginnote Info: Margin note 69.1 is on absolute page 69 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -5055,7 +5275,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 
 \openout4 = `main.mw'.
 
-[54
+[57
 
 
 ] (./main.mw)
@@ -5069,24 +5289,24 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 54.
 \openout4 = `main.mw'.
 
- [55] (./main.mw)
+ [58] (./main.mw)
 \openout4 = `main.mw'.
 
 ) (./chapters/transition_path.tex
 \openout4 = `main.mw'.
 
- [56]
+ [59]
 (./main.mw)
 \openout4 = `main.mw'.
 
 
 chapter 20.
-Package marginnote Info: Margin note 69.1 is on absolute page 69 on input line 
+Package marginnote Info: Margin note 72.1 is on absolute page 72 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
 
-LaTeX Warning: Hyper reference `sec:renewable_problem' on page 57 undefined on 
+LaTeX Warning: Hyper reference `sec:renewable_problem' on page 60 undefined on 
 input line 16.
 
 
@@ -5100,7 +5320,7 @@ ine 16.
 
 Package hyperref Warning: Suppressing link with empty target on input line 16.
 
-Package marginnote Info: Margin note 69.2 is on absolute page 69 on input line 
+Package marginnote Info: Margin note 72.2 is on absolute page 72 on input line 
 20.
 Package marginnote Info: right page because not two side mode on input line 20.
 
@@ -5113,7 +5333,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 24.
 \openout4 = `main.mw'.
 
-[57
+[60
 
 
 ] (./main.mw)
@@ -5128,7 +5348,7 @@ Package mdframed Info: mdframed detected package amsthm
 )
 \openout4 = `main.mw'.
 
- [58] (./main.mw)
+ [61] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5167,7 +5387,7 @@ Package mdframed Info: mdframed detected package amsthm
 part without number
 \openout4 = `main.mw'.
 
-[59
+[62
 
 
 
@@ -5208,7 +5428,7 @@ part without number
 
  (./chapters/world_needs.tex
 chapter 21.
-Package marginnote Info: Margin note 72.1 is on absolute page 72 on input line 
+Package marginnote Info: Margin note 75.1 is on absolute page 75 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -5221,7 +5441,7 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./chapters/not_all_doom.tex
 \openout4 = `main.mw'.
 
- [60
+ [63
 
 
 
@@ -5230,7 +5450,7 @@ Package mdframed Info: mdframed detected package amsthm
 
 
 chapter 22.
-Package marginnote Info: Margin note 73.1 is on absolute page 73 on input line 
+Package marginnote Info: Margin note 76.1 is on absolute page 76 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -5243,7 +5463,7 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./chapters/mental_health.tex
 \openout4 = `main.mw'.
 
- [61
+ [64
 
 
 ] (./main.mw)
@@ -5251,13 +5471,13 @@ Package mdframed Info: mdframed detected package amsthm
 
 
 chapter 23.
-Package marginnote Info: Margin note 74.1 is on absolute page 74 on input line 
+Package marginnote Info: Margin note 77.1 is on absolute page 77 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
 \openout4 = `main.mw'.
 
-[62
+[65
 
 
 ] (./main.mw)
@@ -5272,7 +5492,7 @@ Package mdframed Info: mdframed detected package amsthm
 )
 \openout4 = `main.mw'.
 
- [63] (./main.mw)
+ [66] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5311,7 +5531,7 @@ Package mdframed Info: mdframed detected package amsthm
 part without number
 \openout4 = `main.mw'.
 
-[64
+[67
 
 
 
@@ -5321,7 +5541,7 @@ part without number
  (./chapters/takeaway.tex)
 \openout4 = `main.mw'.
 
- [65
+ [68
 
 
 ] (./main.mw)
@@ -5363,7 +5583,7 @@ part without number
 part without number
 \openout4 = `main.mw'.
 
-[66
+[69
 
 
 
@@ -5404,122 +5624,18 @@ part without number
 
  (./chapters/appendix.tex
 chapter A.
-LaTeX Font Info:    Font shape `T1/zpllf/b/n' will be
-(Font)              scaled to size 11.64001pt on input line 3.
-\openout4 = `main.mw'.
-
-[67
-
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [68] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [69] (./main.mw)
-\openout4 = `main.mw'.
-
-
-chapter B.
-LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 4.85pt on input line 9.
-LaTeX Font Info:    Font shape `T1/zpllf/m/n' will be
-(Font)              scaled to size 16.76161pt on input line 23.
-LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
-(Font)              scaled to size 9.02084pt on input line 40.
-
-LaTeX Font Warning: Font shape `T1/qhv/m/sl' in size <10> not available
-(Font)              Font shape `T1/qhv/m/it' tried instead on input line 42.
-
-LaTeX Font Info:    Font shape `T1/qhv/m/it' will be
-(Font)              scaled to size 9.02084pt on input line 42.
-LaTeX Font Info:    Font shape `T1/qhv/m/sc' will be
-(Font)              scaled to size 9.02084pt on input line 44.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/qhv/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
 \openout4 = `main.mw'.
 
 [70
 
 
+
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-
-Overfull \hbox (2.57921pt too wide) in paragraph at lines 47--47
-[]\T1/fvm/m/n/10 Hello, here is some text without a meaning. This text should
- []
-
-
-Overfull \hbox (7.69624pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 show what a printed text will look like at this place. If you
- []
-
-
-Overfull \hbox (7.69624pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 read this text, you will get no information. Really? Is there
- []
-
-
-Overfull \hbox (23.04735pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 no information? Is there a difference between this text and some
-
- []
-
-
-Overfull \hbox (7.69624pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 nonsense like ``Huardest gefburn''? Kjift -- not at all! A blind
-
- []
-
-
-Overfull \hbox (5.13773pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 text like this gives you information about the selected font,
- []
-
-
-Overfull \hbox (17.93031pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 how the letters are written and an impression of the look. This
- []
-
-
-Overfull \hbox (7.69624pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 text should contain all letters of the alphabet and it should
- []
-
-
-Overfull \hbox (2.3242pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 be written in of the original language. There is no need for
- []
-
-
-Overfull \hbox (44.51994pt too wide) in paragraph at lines 47--47
-\T1/fvm/m/n/10 special content, but the length of words should match the langua
-ge. 
- []
-
-LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
-(Font)              scaled to size 8.50006pt on input line 50.
-LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10> not available
-(Font)              Font shape `T1/fvm/m/sl' tried instead on input line 54.
-LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
-(Font)              scaled to size 8.50006pt on input line 54.
-
-LaTeX Font Warning: Font shape `T1/fvm/m/sc' undefined
-(Font)              using `T1/fvm/m/n' instead on input line 58.
-
-LaTeX Font Info:    Font shape `T1/zpllf/m/sc' will be
-(Font)              scaled to size 9.70001pt on input line 72.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/zpllf/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 34.
 )
 \openout4 = `main.mw'.
 
@@ -8078,108 +8194,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 415.
 
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 415.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 415.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
@@ -8208,39 +8225,35 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55711 strings out of 480608
- 1049983 string characters out of 5903631
- 2179207 words of memory out of 5000000
- 69743 multiletter control sequences out of 15000+600000
- 717801 words of font info for 290 fonts, out of 8000000 for 9000
+ 55779 strings out of 480608
+ 1051880 string characters out of 5903631
+ 2183064 words of memory out of 5000000
+ 69839 multiletter control sequences out of 15000+600000
+ 693633 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 120i,19n,128p,10158b,2685s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf-sc.enc}{/
-usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texli
-ve/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{/usr/local/texlive/202
-0/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2020/texmf-d
-ist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2020/texmf-dist/f
-onts/enc/dvips/newtx/ntx-ecth-tlf.enc}{/usr/local/texlive/2020/texmf-dist/fonts
-/enc/dvips/newtx/ntx-ec-lf.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dv
-ips/tex-gyre/q-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/n
-ewpx/NewPXMI.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newpx/N
-ewPXMI_gnu.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmb
-8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb></usr/local
-/texlive/2020/texmf-dist/fonts/type1/public/newpx/pxsys.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2020/
-texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2020/texmf-
-dist/fonts/type1/public/tex-gyre/qhvri.pfb></usr/local/texlive/2020/texmf-dist/
-fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/texmf-dist/fonts/
-type1/public/newpx/zplb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pub
-lic/newpx/zplr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newpx
-/zplri.pfb>
-Output written on main.pdf (86 pages, 3865996 bytes).
+ 120i,20n,128p,10158b,2685s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}{/
+usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/l
+ocal/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf-sc.enc}{/usr/local
+/texlive/2020/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-lf.enc}{/usr/local/texliv
+e/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2020/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/
+enc/dvips/tex-gyre/q-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/newpx/NewPXMI.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/n
+ewpx/NewPXMI_gnu.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ber
+a/fvmr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newpx/p
+xmiaX.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/newpx/pxsys.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/loca
+l/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/newpx/zplr.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/newpx/zplri.pfb>
+Output written on main.pdf (86 pages, 4179205 bytes).
 PDF statistics:
- 1778 PDF objects out of 2073 (max. 8388607)
- 1622 compressed objects within 17 object streams
- 380 named destinations out of 1000 (max. 500000)
- 50239 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1791 PDF objects out of 2073 (max. 8388607)
+ 1630 compressed objects within 17 object streams
+ 372 named destinations out of 1000 (max. 500000)
+ 39499 words of extra memory for PDF output out of 42996 (max. 10000000)
 
