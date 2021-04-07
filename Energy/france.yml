@@ -86,6 +86,61 @@ carbon_costs:
         wind_onshore: 0.6  # tons / kW
         wind_offshore: 0.6  # tons / kW
 
+##################
+# Materials data #
+##################
+
+materials_costs:
+    2020:
+        uranium: # tons / kWh
+            pumped_hydro: 0
+            batteries: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        neodymium: # tons / kW (except for batteries, per kWh)
+            pumped_hydro: 0
+            batteries: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        dysprosium: # tons / kW (except for batteries, per kWh)
+            pumped_hydro: 0
+            batteries: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        lithium: # tons / kW (except for batteries, per kWh)
+            pumped_hydro: 0
+            batteries: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        lead: # tons / kW (except for batteries, per kWh)
+            pumped_hydro: 0
+            batteries: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        copper: # tons / kW
+            pumped_hydro: 0
+            batteries: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+
 
 ###############
 # System data #

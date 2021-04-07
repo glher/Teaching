@@ -31,7 +31,7 @@ def get_power_capacity_need(source, rebuild_need, year=2020):
     production_source, _ = source[0], source[1]
     # initial_p_installed = initial_need / (db['average_load_factor'][year][production_source] * 8760 * 1e-3)
     rebuild_p_installed = rebuild_need / (db['average_load_factor'][year][production_source] * 8760 * 1e-3)
-    print('\nInitial\n========')
+    print('\nInitial\n=======')
     print(f'Installation: {rebuild_p_installed:.1f} GW without storage')
     # return initial_p_installed, rebuild_p_installed
     return rebuild_p_installed
@@ -113,8 +113,11 @@ def get_power_capacity_need_with_storage(source, rebuild_p_installed, storage_in
 
 def get_dismantling():
     # Costs in trillions $
-    investment_cleanup = 1e-6 * db['dismantling_costs'][year]['nuclear'] * db['installed_capacity'][year]['nuclear']
-    print(f'Dismantling of current nuclear: ${1e3 * investment_cleanup:.1f} billions')
+    investment_cleanup = 0
+    if db['installed_capacity'][year]['nuclear'] > 0:
+        print('\nAdditional\n==========')
+        investment_cleanup = 1e-6 * db['dismantling_costs'][year]['nuclear'] * db['installed_capacity'][year]['nuclear']
+        print(f'Dismantling of current nuclear: ${1e3 * investment_cleanup:.1f} billions')
     return investment_cleanup
 
 
@@ -128,10 +131,10 @@ def get_co2(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020
         n_stor_build = int((timeframe - 1) / float(db['lifetimes'][year][storage_source])) + 1
     # Number of grid builds
     # n_grid_build = int((timeframe - 1) / float(db['lifetimes'][year]['grid'])) + 1
-    
+
     print('\nCarbon\n======')
     # Costs in millions $
-    carbon_production = n_prod_build * rebuild_capacity * db['carbon_costs'][year][production_source] # megatons
+    carbon_production = n_prod_build * rebuild_capacity * db['carbon_costs'][year][production_source]  # megatons
     # print(f'Installation: {rebuild_capacity:.1f} GW')
     print(f'Deployment of the production means: {carbon_production:.1f} megatons')
 
@@ -147,6 +150,43 @@ def get_co2(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020
     return total_carbon
 
 
+def get_mat(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020, period=24):
+    production_source, storage_source = source[0], source[1]
+
+    # Number of production builds:
+    n_prod_build = int((timeframe - 1) / float(db['lifetimes'][year][production_source])) + 1
+    # Number of storage builds
+    if storage_capacity > 0:
+        n_stor_build = int((timeframe - 1) / float(db['lifetimes'][year][storage_source])) + 1
+    # Number of grid builds
+    # n_grid_build = int((timeframe - 1) / float(db['lifetimes'][year]['grid'])) + 1
+
+    mat_prod = {}
+    mat_stor = {}
+    print('\nMaterials\n=========')
+
+    print('Deployment of the production means:')
+    for mat in db['materials_costs'][year]:
+        mat_prod[mat] = n_prod_build * rebuild_capacity * db['materials_costs'][year][mat][production_source]  # units?
+        print(f'  --> {mat}: {mat_prod[mat]} MT')
+
+    for mat in db['materials_costs'][year]:
+        if storage_capacity > 0:
+            print('Deployment of the storage means:')
+            mat_stor[mat] = n_stor_build * storage_capacity * period * db['materials_costs'][year][mat][storage_source]
+            print(f'  --> {mat}: {mat_stor[mat]} MT')
+        else:
+            mat_stor[mat] = 0
+
+    # investment_grid = n_grid_build * db['grid_costs'][year] * rebuild_capacity
+    # print(f'Upgrade to the grid: ${1e-3 * investment_grid:.1f} billions')
+    mat_tot = {}
+    for mat in db['materials_costs'][year]:
+        mat_tot[mat] = mat_prod[mat] + mat_stor[mat]
+
+    return mat_tot
+
+
 def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020, period=24):
     production_source, storage_source = source[0], source[1]
 
@@ -158,7 +198,7 @@ def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=202
     # Number of grid builds
     n_grid_build = int((timeframe - 1) / float(db['lifetimes'][year]['grid'])) + 1
 
-    print('\nCosts\n======')
+    print('\nCosts\n=====')
     # Costs in millions $
     investment_production = n_prod_build * rebuild_capacity * db['capital_costs'][year][production_source]
     print(f'Installation: {rebuild_capacity:.1f} GW')
@@ -181,6 +221,7 @@ def get_cost(source, rebuild_capacity, storage_capacity, timeframe=100, year=202
 
 investments = 0
 carbon = 0
+materials = {}
 scenarios = {
     'S1a': {'scenario': '100_renewable',
             'sub_scenario': [('wind_onshore', 'pumped_hydro', 1.0)],
@@ -308,10 +349,24 @@ for sub_scenario in scenario_type['sub_scenario']:
                                  timeframe=timeframe, year=year, period=period)
     total_carbon = get_co2(sub_scenario, rebuild_capacity, energy_capacity,
                            timeframe=timeframe, year=year, period=period)
+    total_materials = get_mat(sub_scenario, rebuild_capacity, energy_capacity,
+                              timeframe=timeframe, year=year, period=period)
     investments += total_investments
     carbon += total_carbon
+    for m in total_materials:
+        try:
+            materials[m] = materials[m] + total_materials[m]
+        except KeyError:
+            materials[m] = total_materials[m]
 
+print('\n\n-----------------------------\n\n')
 cost_dismantling = get_dismantling()
 investments += cost_dismantling
-print(f'\n\nCombined investments: ${investments:.2f} trillions')
-print(f'Combined carbon: {carbon:.2f} MT')
+
+print('\n\n-----------------------------\n\n')
+print(f'Combined investments (over {timeframe:.0f} years): ${investments:.2f} trillions')
+print(f'Combined carbon (over {timeframe:.0f} years): {carbon:.2f} MT')
+
+print(f'Combined materials needs (over {timeframe:.0f} years):')
+for mat in materials:
+    print(f'  --> {mat}: {materials[mat]} MT')
