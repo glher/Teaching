@@ -167,16 +167,28 @@ def get_mat(source, rebuild_capacity, storage_capacity, timeframe=100, year=2020
 
     print('Deployment of the production means:')
     for mat in db['materials_costs'][year]:
-        mat_prod[mat] = n_prod_build * rebuild_capacity * db['materials_costs'][year][mat][production_source]  # units?
-        print(f'  --> {mat}: {mat_prod[mat]} MT')
-
-    for mat in db['materials_costs'][year]:
-        if storage_capacity > 0:
-            print('Deployment of the storage means:')
-            mat_stor[mat] = n_stor_build * storage_capacity * period * db['materials_costs'][year][mat][storage_source]
-            print(f'  --> {mat}: {mat_stor[mat]} MT')
+        if mat == 'uranium':
+            mat_prod[mat] = (n_prod_build * rebuild_capacity * db['average_load_factor'][year][production_source] * 8760
+                             * timeframe * 1e-3 * db['materials_costs'][year][mat][production_source])
+            # kg / kWh --> kT / GWh --> MT / TWh
         else:
-            mat_stor[mat] = 0
+            mat_prod[mat] = 1e-3 * n_prod_build * rebuild_capacity * db['materials_costs'][year][mat][production_source]
+        if mat_prod[mat] > 0 and mat_prod[mat] < 1:
+            print(f'  --> {mat}: {mat_prod[mat]:.3f} MT')
+        else:
+            print(f'  --> {mat}: {mat_prod[mat]:.1f} MT')
+
+    if storage_capacity > 0:
+        print('Deployment of the storage means:')
+        for mat in db['materials_costs'][year]:
+            mat_stor[mat] = 1e-3 * n_stor_build * storage_capacity * period * db['materials_costs'][year][mat][storage_source]
+            # kg / kWh --> tons / MWh --> kT / GWh --> MT / TWh
+            if mat_stor[mat] > 0 and mat_stor[mat] < 1:
+                print(f'  --> {mat}: {mat_stor[mat]:.3f} MT')
+            else:
+                print(f'  --> {mat}: {mat_stor[mat]:.1f} MT')
+    else:
+        mat_stor[mat] = 0
 
     # investment_grid = n_grid_build * db['grid_costs'][year] * rebuild_capacity
     # print(f'Upgrade to the grid: ${1e-3 * investment_grid:.1f} billions')
@@ -227,19 +239,19 @@ scenarios = {
             'sub_scenario': [('wind_onshore', 'pumped_hydro', 1.0)],
             'backup': 1.0},
     'S1b': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'batteries', 1.0)],
+            'sub_scenario': [('wind_onshore', 'batteries_li-ion', 1.0)],
             'backup': 1.0},
     'S1c': {'scenario': '100_renewable',
             'sub_scenario': [('wind_offshore', 'pumped_hydro', 1.0)],
             'backup': 1.0},
     'S1d': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_offshore', 'batteries', 1.0)],
+            'sub_scenario': [('wind_offshore', 'batteries_li-ion', 1.0)],
             'backup': 1.0},
     'S1e': {'scenario': '100_renewable',
             'sub_scenario': [('solar', 'pumped_hydro', 1.0)],
             'backup': 1.0},
     'S1f': {'scenario': '100_renewable',
-            'sub_scenario': [('solar', 'batteries', 1.0)],
+            'sub_scenario': [('solar', 'batteries_li-ion', 1.0)],
             'backup': 1.0},
     'S2a': {'scenario': '100_renewable',
             'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.375),
@@ -247,9 +259,9 @@ scenarios = {
                              ('solar', 'pumped_hydro', 0.5)],
             'backup': 0.1},
     'S2b': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'batteries', 0.375),
-                             ('wind_offshore', 'batteries', 0.125),
-                             ('solar', 'batteries', 0.5)],
+            'sub_scenario': [('wind_onshore', 'batteries_li-ion', 0.375),
+                             ('wind_offshore', 'batteries_li-ion', 0.125),
+                             ('solar', 'batteries_li-ion', 0.5)],
             'backup': 0.1},
     'S2c': {'scenario': '100_renewable',
             'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.225),
@@ -257,9 +269,9 @@ scenarios = {
                              ('solar', 'pumped_hydro', 0.7)],
             'backup': 0.1},
     'S2d': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'batteries', 0.225),
-                             ('wind_offshore', 'batteries', 0.075),
-                             ('solar', 'batteries', 0.7)],
+            'sub_scenario': [('wind_onshore', 'batteries_li-ion', 0.225),
+                             ('wind_offshore', 'batteries_li-ion', 0.075),
+                             ('solar', 'batteries_li-ion', 0.7)],
             'backup': 0.1},
     'S2e': {'scenario': '100_renewable',
             'sub_scenario': [('wind_onshore', 'pumped_hydro', 0.525),
@@ -267,9 +279,9 @@ scenarios = {
                              ('solar', 'pumped_hydro', 0.3)],
             'backup': 0.1},
     'S2f': {'scenario': '100_renewable',
-            'sub_scenario': [('wind_onshore', 'batteries', 0.525),
-                             ('wind_offshore', 'batteries', 0.175),
-                             ('solar', 'batteries', 0.3)],
+            'sub_scenario': [('wind_onshore', 'batteries_li-ion', 0.525),
+                             ('wind_offshore', 'batteries_li-ion', 0.175),
+                             ('solar', 'batteries_li-ion', 0.3)],
             'backup': 0.1},
     'S3a': {'scenario': '100_nuclear',
             'sub_scenario': [('nuclear', '', 1.0)]},
@@ -304,7 +316,7 @@ scenarios = {
                              ('wind_offshore', '', 0.05),
                              ('solar', '', 0.1)]},
 }
-sn = 'S3a'
+sn = 'S1b'
 country = 'france'
 year = 2020
 period = 24*7
@@ -369,4 +381,4 @@ print(f'Combined carbon (over {timeframe:.0f} years): {carbon:.2f} MT')
 
 print(f'Combined materials needs (over {timeframe:.0f} years):')
 for mat in materials:
-    print(f'  --> {mat}: {materials[mat]} MT')
+    print(f'  --> {mat}: {materials[mat]:.1f} MT')
