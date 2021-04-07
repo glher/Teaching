@@ -121,8 +121,8 @@
       \strng{authorbibnamehash}{e80874d1fe37da21734a8c3dd0999a99}
       \strng{authornamehash}{e80874d1fe37da21734a8c3dd0999a99}
       \strng{authorfullhash}{e80874d1fe37da21734a8c3dd0999a99}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific reports}
@@ -197,8 +197,8 @@
       \strng{authorbibnamehash}{0461f43fdfac11a40db78af2061ada6e}
       \strng{authornamehash}{0461f43fdfac11a40db78af2061ada6e}
       \strng{authorfullhash}{fbc8ef390be8a0f50635de88e3c205e9}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
@@ -241,8 +241,8 @@
       \strng{authorbibnamehash}{99d2d073be4cbb78e2b1159e3500b29b}
       \strng{authornamehash}{99d2d073be4cbb78e2b1159e3500b29b}
       \strng{authorfullhash}{3cac6c4c96646f2a277990844271b512}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -275,8 +275,8 @@
       \strng{authorbibnamehash}{17dc7d19ec06176bb5685912ac36393a}
       \strng{authornamehash}{17dc7d19ec06176bb5685912ac36393a}
       \strng{authorfullhash}{17dc7d19ec06176bb5685912ac36393a}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Industrial Ecology}
@@ -318,8 +318,8 @@
       \strng{authorbibnamehash}{ac375dcc78ba28f80aebf222389a5b4e}
       \strng{authornamehash}{ac375dcc78ba28f80aebf222389a5b4e}
       \strng{authorfullhash}{751d08df2de6afb5e3323dc313fbacf6}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Batteries}
@@ -349,8 +349,8 @@
       \strng{authorbibnamehash}{fef141d51a1553056d81292d732eb81c}
       \strng{authornamehash}{fef141d51a1553056d81292d732eb81c}
       \strng{authorfullhash}{fef141d51a1553056d81292d732eb81c}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Report Number C}
@@ -380,8 +380,8 @@
       \strng{authorbibnamehash}{320642d74818e065fa7a9b81b7b4b7e9}
       \strng{authornamehash}{320642d74818e065fa7a9b81b7b4b7e9}
       \strng{authorfullhash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Industrial Ecology}
@@ -423,8 +423,8 @@
       \strng{authorbibnamehash}{309b49f5e6a3e87bbde1bfac994d2373}
       \strng{authornamehash}{309b49f5e6a3e87bbde1bfac994d2373}
       \strng{authorfullhash}{578eb1a0a6754da09fedf8c8d72c60f3}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Industrial Ecology}
@@ -467,8 +467,8 @@
       \strng{authorbibnamehash}{e0fa3193110406aab67e7e27bb851368}
       \strng{authornamehash}{e0fa3193110406aab67e7e27bb851368}
       \strng{authorfullhash}{32b0a791ae0d8a0dbce67ce630e04ca1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Industrial Ecology}
@@ -520,8 +520,8 @@
       \strng{authorbibnamehash}{daeca6aeb9cfb18de0ef80855e4e65c8}
       \strng{authornamehash}{daeca6aeb9cfb18de0ef80855e4e65c8}
       \strng{authorfullhash}{6545d3eb10579e0ee0491aa4c2bc0714}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Ore geology reviews}
@@ -530,6 +530,40 @@
       \field{year}{2012}
       \field{pages}{55\bibrangedash 69}
       \range{pages}{15}
+    \endentry
+    \entry{grancea2020uranium}{report}{}
+      \name{author}{3}{}{%
+        {{hash=19952bcb4ba95630a864bf0f963eeefc}{%
+           family={Grancea},
+           familyi={G\bibinitperiod},
+           given={Luminita},
+           giveni={L\bibinitperiod}}}%
+        {{hash=782243a57437a76992341cb0f97405af}{%
+           family={Mihalasky<Mark},
+           familyi={M\bibinitperiod}}}%
+        {{hash=8b637d3264655a120ed522aaee39f0c7}{%
+           family={Fairclough},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Nuclear Energy Agency}%
+        {International Atomic Energy Agency}%
+      }
+      \strng{namehash}{b3b849a162af3110d36e274fdb928731}
+      \strng{fullhash}{b3b849a162af3110d36e274fdb928731}
+      \strng{bibnamehash}{b3b849a162af3110d36e274fdb928731}
+      \strng{authorbibnamehash}{b3b849a162af3110d36e274fdb928731}
+      \strng{authornamehash}{b3b849a162af3110d36e274fdb928731}
+      \strng{authorfullhash}{b3b849a162af3110d36e274fdb928731}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Uranium 2020: Resources, Production and Demand}
+      \field{type}{techreport}
+      \field{year}{2020}
     \endentry
   \enddatalist
 \endrefsection
