@@ -26,6 +26,7 @@
 
 % Load packages for testing
 \usepackage{blindtext}
+%\usepackage{pdfpages}
 %\usepackage{showframe} % Uncomment to show boxes around the text area, margin, header and footer
 %\usepackage{showlabels} % Uncomment to output the content of \label commands to the document where they are used
 
@@ -297,6 +298,8 @@ Rage, rage against the dying of the light.
 \input{chapters/scenario_computation.tex}
 %\input{chapters/renewable_problem.tex}
 \input{chapters/scenario_assessment_s1s2.tex}
+\includepdf[pages=-,addtotoc={1,addsec,1,{Factsheet I -- A 100\% Renewable Energy Mix in France?},test}]{posters/poster_s2a.pdf}
+\includepdf[pages=-,addtotoc={1,addsec,1,{Factsheet II -- A Pumped Hydroelectric Storage Option in France?},test}]{posters/poster_pumped_storage.pdf}
 \input{chapters/scenario_assessment_s3s4.tex}
 \input{chapters/transition_path.tex}
 
