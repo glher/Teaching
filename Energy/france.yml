@@ -36,7 +36,7 @@ minimum_yearly_load:
     2020: 30
 # Electricity demand in TWh
 electricity_demand:
-    2020: 473.
+    2020: 2000.
 
 
 
