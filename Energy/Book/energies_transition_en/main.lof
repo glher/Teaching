@@ -5,13 +5,7 @@
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Representation of the potential energy from different sources}}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Energy poverty in the world.}}{5}{figure.caption.8}%
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
@@ -19,7 +13,7 @@
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Representation of the potential energy from different sources}}{10}{figure.caption.11}%
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
@@ -29,49 +23,63 @@
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Scenarios S1 - Fully renewable, one-technology, energy storage\relax }}{25}{figure.caption.16}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Scenarios S2 - Fully renewable, technology mix, energy storage\relax }}{28}{figure.caption.17}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Percent of hours in a year contributing to a percent of the output, ranked by importance}}{29}{figure.caption.18}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {13.4}{\ignorespaces Scenarios S3 - Fully nuclear\relax }}{31}{figure.caption.19}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Scenarios S4 - Nuclear and renewable technology mix, no energy storage\relax }}{32}{figure.caption.20}%
-\defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Adjusted $\mathrm {CO_2}$ Emissions per technology. Keep in mind that this is dependent on capacity factors for the indirect carbon emissions.}}{35}{figure.caption.21}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {14.2}{\ignorespaces Adjusted $\mathrm {CO_2}$ Emissions (indirect) for solar and wind power, assuming 30\% capacity factor and 20 years lifetime for wind, and 15\% capacity factor with a 30 years lifetime and a degradation rate of 0.7\% per year for solar.}}{36}{figure.caption.22}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {14.3}{\ignorespaces $\mathrm {CO_2}$ Emissions (indirect) for nuclear power.}}{37}{figure.caption.23}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {14.4}{\ignorespaces $\mathrm {CO_2}$ Emissions (direct) for coal and gas power.}}{37}{figure.caption.24}%
-\defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {15.1}{\ignorespaces Evolution of photovoltaic costs over the last decade, for several system sizes (\$/W)}}{41}{figure.caption.27}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {15.2}{\ignorespaces An interestingly optimistic view of the future... Solar energy manufacturing, installation and maintenance will be absolutely free before the end of the century according to some. A good reminder to be careful with your extrapolations, and the use of logarithmic scales}}{42}{figure.caption.28}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {15.3}{\ignorespaces 2020 capital costs estimate to install various technologies}}{42}{figure.caption.29}%
-\defcounter {refsection}{0}\relax
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {16.1}{\ignorespaces Share of installed power capacity per energy}}{48}{figure.caption.35}%
-\defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {16.2}{\ignorespaces Share of 2020 production per energy}}{49}{figure.caption.36}%
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {18.1}{\ignorespaces Quick schema of the pumped storage station}}{54}{figure.caption.40}%
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Scenarios S1 - Fully renewable, one-technology, energy storage\relax }}{25}{figure.caption.17}%
 \defcounter {refsection}{0}\relax
-\contentsline {figure}{\numberline {18.2}{\ignorespaces Location of selected Li deposits and geographical distribution of global reserves and resources. Green colored labels are sites known or believed to be currently producing.}}{57}{figure.caption.41}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Scenarios S2 - Fully renewable, technology mix, energy storage\relax }}{28}{figure.caption.18}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Percent of hours in a year contributing to a percent of the output, ranked by importance}}{29}{figure.caption.19}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Scenarios S3 - Fully nuclear\relax }}{31}{figure.caption.20}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Scenarios S4 - Nuclear and renewable technology mix, no energy storage\relax }}{32}{figure.caption.21}%
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Adjusted $\mathrm {CO_2}$ Emissions per technology. Keep in mind that this is dependent on capacity factors for the indirect carbon emissions.}}{35}{figure.caption.22}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Adjusted $\mathrm {CO_2}$ Emissions (indirect) for solar and wind power, assuming 30\% capacity factor and 20 years lifetime for wind, and 15\% capacity factor with a 30 years lifetime and a degradation rate of 0.7\% per year for solar.}}{36}{figure.caption.23}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {14.3}{\ignorespaces $\mathrm {CO_2}$ Emissions (indirect) for nuclear power.}}{37}{figure.caption.24}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {14.4}{\ignorespaces $\mathrm {CO_2}$ Emissions (direct) for coal and gas power.}}{37}{figure.caption.25}%
+\defcounter {refsection}{0}\relax
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Evolution of photovoltaic costs over the last decade, for several system sizes (\$/W)}}{41}{figure.caption.28}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {15.2}{\ignorespaces An interestingly optimistic view of the future... Solar energy manufacturing, installation and maintenance will be absolutely free before the end of the century according to some. A good reminder to be careful with your extrapolations, and the use of logarithmic scales}}{42}{figure.caption.29}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {15.3}{\ignorespaces 2020 capital costs estimate to install various technologies}}{42}{figure.caption.30}%
+\defcounter {refsection}{0}\relax
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Share of installed power capacity per energy}}{48}{figure.caption.36}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {16.2}{\ignorespaces Share of 2020 production per energy}}{49}{figure.caption.37}%
+\defcounter {refsection}{0}\relax
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {18.1}{\ignorespaces Quick schema of the pumped storage station}}{54}{figure.caption.41}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {18.2}{\ignorespaces Location of selected Li deposits and geographical distribution of global reserves and resources. Green colored labels are sites known or believed to be currently producing.}}{57}{figure.caption.42}%
+\defcounter {refsection}{0}\relax
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {19.1}{\ignorespaces Filters for nuclear siting potential in Africa\relax }}{65}{figure.caption.46}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {19.2}{\ignorespaces Potential siting location (in green) and scale of unsuitable location (red shade) for regulation considerations. We can see that the green follows the river beds mostly. Water access is by far the limiting factor.}}{66}{figure.caption.47}%
+\defcounter {refsection}{0}\relax
+\contentsline {figure}{\numberline {19.3}{\ignorespaces Potential siting location (in green) and scale of unsuitable location (red shade) for regulation and some economic considerations}}{67}{figure.caption.48}%
 \defcounter {refsection}{0}\relax
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax
