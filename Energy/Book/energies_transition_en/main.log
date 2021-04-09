@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  7 APR 2021 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 APR 2021 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2436,6 +2436,12 @@ LaTeX Warning: Label `test' multiply defined.
 LaTeX Warning: Label `test@cref' multiply defined.
 
 
+LaTeX Warning: Label `test' multiply defined.
+
+
+LaTeX Warning: Label `test@cref' multiply defined.
+
+
 LaTeX Warning: Label `ch:scenario_assessments' multiply defined.
 
 
@@ -3825,7 +3831,7 @@ Package marginnote Info: Margin note 23.1 is on absolute page 23 on input line
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
-<images/power_generation_potential_sources.png, id=631, 650.43pt x 409.53pt>
+<images/power_generation_potential_sources.png, id=634, 650.43pt x 409.53pt>
 File: images/power_generation_potential_sources.png Graphic file (type png)
 <use images/power_generation_potential_sources.png>
 Package pdftex.def Info: images/power_generation_potential_sources.png  used on
@@ -4227,32 +4233,32 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 45.
-<images/S1a.png, id=778, 578.16pt x 433.62pt>
+<images/S1a.png, id=781, 578.16pt x 433.62pt>
 File: images/S1a.png Graphic file (type png)
 <use images/S1a.png>
 Package pdftex.def Info: images/S1a.png  used on input line 50.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S1b.png, id=779, 578.16pt x 433.62pt>
+<images/S1b.png, id=782, 578.16pt x 433.62pt>
 File: images/S1b.png Graphic file (type png)
 <use images/S1b.png>
 Package pdftex.def Info: images/S1b.png  used on input line 50.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S1c.png, id=780, 578.16pt x 433.62pt>
+<images/S1c.png, id=783, 578.16pt x 433.62pt>
 File: images/S1c.png Graphic file (type png)
 <use images/S1c.png>
 Package pdftex.def Info: images/S1c.png  used on input line 52.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S1d.png, id=781, 578.16pt x 433.62pt>
+<images/S1d.png, id=784, 578.16pt x 433.62pt>
 File: images/S1d.png Graphic file (type png)
 <use images/S1d.png>
 Package pdftex.def Info: images/S1d.png  used on input line 52.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S1e.png, id=782, 578.16pt x 433.62pt>
+<images/S1e.png, id=785, 578.16pt x 433.62pt>
 File: images/S1e.png Graphic file (type png)
 <use images/S1e.png>
 Package pdftex.def Info: images/S1e.png  used on input line 54.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S1f.png, id=783, 578.16pt x 433.62pt>
+<images/S1f.png, id=786, 578.16pt x 433.62pt>
 File: images/S1f.png Graphic file (type png)
 <use images/S1f.png>
 Package pdftex.def Info: images/S1f.png  used on input line 54.
@@ -4311,32 +4317,32 @@ Package mdframed Info: mdframed detected package amsthm
 \openout4 = `main.mw'.
 
 Package mdframed Info: Not enough space on this page on input line 112.
-<images/S2a.png, id=813, 578.16pt x 433.62pt>
+<images/S2a.png, id=816, 578.16pt x 433.62pt>
 File: images/S2a.png Graphic file (type png)
 <use images/S2a.png>
 Package pdftex.def Info: images/S2a.png  used on input line 117.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S2b.png, id=814, 578.16pt x 433.62pt>
+<images/S2b.png, id=817, 578.16pt x 433.62pt>
 File: images/S2b.png Graphic file (type png)
 <use images/S2b.png>
 Package pdftex.def Info: images/S2b.png  used on input line 117.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S2c.png, id=815, 578.16pt x 433.62pt>
+<images/S2c.png, id=818, 578.16pt x 433.62pt>
 File: images/S2c.png Graphic file (type png)
 <use images/S2c.png>
 Package pdftex.def Info: images/S2c.png  used on input line 119.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S2d.png, id=816, 578.16pt x 433.62pt>
+<images/S2d.png, id=819, 578.16pt x 433.62pt>
 File: images/S2d.png Graphic file (type png)
 <use images/S2d.png>
 Package pdftex.def Info: images/S2d.png  used on input line 119.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S2e.png, id=817, 578.16pt x 433.62pt>
+<images/S2e.png, id=820, 578.16pt x 433.62pt>
 File: images/S2e.png Graphic file (type png)
 <use images/S2e.png>
 Package pdftex.def Info: images/S2e.png  used on input line 121.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S2f.png, id=818, 578.16pt x 433.62pt>
+<images/S2f.png, id=821, 578.16pt x 433.62pt>
 File: images/S2f.png Graphic file (type png)
 <use images/S2f.png>
 Package pdftex.def Info: images/S2f.png  used on input line 121.
@@ -4346,7 +4352,7 @@ Overfull \hbox (49.8902pt too wide) in paragraph at lines 116--124
  [][] 
  []
 
-<images/renewable_production_hours_ranked.png, id=819, 390.45876pt x 279.0425pt
+<images/renewable_production_hours_ranked.png, id=822, 390.45876pt x 279.0425pt
 >
 File: images/renewable_production_hours_ranked.png Graphic file (type png)
 <use images/renewable_production_hours_ranked.png>
@@ -4472,7 +4478,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 202.
-<images/S3a.png, id=862, 578.16pt x 433.62pt>
+<images/S3a.png, id=865, 578.16pt x 433.62pt>
 File: images/S3a.png Graphic file (type png)
 <use images/S3a.png>
 Package pdftex.def Info: images/S3a.png  used on input line 207.
@@ -4488,32 +4494,32 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 233.
-<images/S4a.png, id=867, 578.16pt x 433.62pt>
+<images/S4a.png, id=870, 578.16pt x 433.62pt>
 File: images/S4a.png Graphic file (type png)
 <use images/S4a.png>
 Package pdftex.def Info: images/S4a.png  used on input line 239.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S4b.png, id=868, 578.16pt x 433.62pt>
+<images/S4b.png, id=871, 578.16pt x 433.62pt>
 File: images/S4b.png Graphic file (type png)
 <use images/S4b.png>
 Package pdftex.def Info: images/S4b.png  used on input line 239.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S4c.png, id=869, 578.16pt x 433.62pt>
+<images/S4c.png, id=872, 578.16pt x 433.62pt>
 File: images/S4c.png Graphic file (type png)
 <use images/S4c.png>
 Package pdftex.def Info: images/S4c.png  used on input line 241.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S4d.png, id=870, 578.16pt x 433.62pt>
+<images/S4d.png, id=873, 578.16pt x 433.62pt>
 File: images/S4d.png Graphic file (type png)
 <use images/S4d.png>
 Package pdftex.def Info: images/S4d.png  used on input line 241.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S4e.png, id=871, 578.16pt x 433.62pt>
+<images/S4e.png, id=874, 578.16pt x 433.62pt>
 File: images/S4e.png Graphic file (type png)
 <use images/S4e.png>
 Package pdftex.def Info: images/S4e.png  used on input line 243.
 (pdftex.def)             Requested size: 241.8463pt x 181.38472pt.
-<images/S4f.png, id=872, 578.16pt x 433.62pt>
+<images/S4f.png, id=875, 578.16pt x 433.62pt>
 File: images/S4f.png Graphic file (type png)
 <use images/S4f.png>
 Package pdftex.def Info: images/S4f.png  used on input line 243.
@@ -4564,7 +4570,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 28.
-<images/co2_tech.png, id=901, 617.30624pt x 604.2575pt>
+<images/co2_tech.png, id=904, 617.30624pt x 604.2575pt>
 File: images/co2_tech.png Graphic file (type png)
 <use images/co2_tech.png>
 Package pdftex.def Info: images/co2_tech.png  used on input line 31.
@@ -4622,7 +4628,7 @@ Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 45.
 
 \openout4 = `main.mw'.
 
-<images/co2_solar_wind.png, id=915, 384.43625pt x 277.035pt>
+<images/co2_solar_wind.png, id=918, 384.43625pt x 277.035pt>
 File: images/co2_solar_wind.png Graphic file (type png)
 <use images/co2_solar_wind.png>
 Package pdftex.def Info: images/co2_solar_wind.png  used on input line 49.
@@ -4703,7 +4709,7 @@ Package marginnote Info: xpos seems to be 133.16534pt on input line 59.
 [35 <./images/co2_tech.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/co2_nuclear.png, id=937, 382.42876pt x 277.035pt>
+<images/co2_nuclear.png, id=941, 382.42876pt x 277.035pt>
 File: images/co2_nuclear.png Graphic file (type png)
 <use images/co2_nuclear.png>
 Package pdftex.def Info: images/co2_nuclear.png  used on input line 62.
@@ -4754,7 +4760,7 @@ Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 67.
 
 \openout4 = `main.mw'.
 
-<images/co2_coal_gas.png, id=942, 618.31pt x 603.25375pt>
+<images/co2_coal_gas.png, id=946, 618.31pt x 603.25375pt>
 File: images/co2_coal_gas.png Graphic file (type png)
 <use images/co2_coal_gas.png>
 Package pdftex.def Info: images/co2_coal_gas.png  used on input line 71.
@@ -4832,7 +4838,7 @@ Package marginnote Info: xpos seems to be 156.45381pt on input line 34.
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<images/solar_costs_evolution.png, id=993, 633.36626pt x 663.47874pt>
+<images/solar_costs_evolution.png, id=996, 633.36626pt x 663.47874pt>
 File: images/solar_costs_evolution.png Graphic file (type png)
 <use images/solar_costs_evolution.png>
 Package pdftex.def Info: images/solar_costs_evolution.png  used on input line 5
@@ -4854,7 +4860,7 @@ Package marginnote Info: xpos seems to be 341.29758pt on input line 55.
 (./main.mw)
 \openout4 = `main.mw'.
 
-<images/dorr_optimistic_solar_costs.png, id=1009, 621.32124pt x 357.335pt>
+<images/dorr_optimistic_solar_costs.png, id=1012, 621.32124pt x 357.335pt>
 File: images/dorr_optimistic_solar_costs.png Graphic file (type png)
 <use images/dorr_optimistic_solar_costs.png>
 Package pdftex.def Info: images/dorr_optimistic_solar_costs.png  used on input 
@@ -4865,7 +4871,7 @@ Package marginnote Info: Margin note 56.1 is on absolute page 56 on input line
 Package marginnote Info: right page because not two side mode on input line 68.
 
 Package marginnote Info: xpos seems to be 70.56247pt on input line 68.
-<images/technology_costs.png, id=1010, 433.62pt x 289.08pt>
+<images/technology_costs.png, id=1013, 433.62pt x 289.08pt>
 File: images/technology_costs.png Graphic file (type png)
 <use images/technology_costs.png>
 Package pdftex.def Info: images/technology_costs.png  used on input line 82.
@@ -5051,13 +5057,13 @@ Package mdframed Info: mdframed detected package amsthm
 \openout4 = `main.mw'.
 
 Package mdframed Info: Not enough space on this page on input line 34.
-<images/installed_capacity_france_2020.png, id=1074, 433.62pt x 289.08pt>
+<images/installed_capacity_france_2020.png, id=1077, 433.62pt x 289.08pt>
 File: images/installed_capacity_france_2020.png Graphic file (type png)
 <use images/installed_capacity_france_2020.png>
 Package pdftex.def Info: images/installed_capacity_france_2020.png  used on inp
 ut line 65.
 (pdftex.def)             Requested size: 304.45824pt x 202.97215pt.
-<images/annual_production_france_2020.png, id=1075, 433.62pt x 289.08pt>
+<images/annual_production_france_2020.png, id=1078, 433.62pt x 289.08pt>
 File: images/annual_production_france_2020.png Graphic file (type png)
 <use images/annual_production_france_2020.png>
 Package pdftex.def Info: images/annual_production_france_2020.png  used on inpu
@@ -5256,12 +5262,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
  \T1/zpllf/b/n/9 Hy-dro-elec-tric Stor-age 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+ [][][][]\T1/zpllf/b/n/9 Factsheet III -- A Hy-dro-gen 
+ []
+
 Package marginnote Info: Margin note 68.2 is on absolute page 68 on input line 
 14.
 Package marginnote Info: right page because not two side mode on input line 14.
 
 Package marginnote Info: xpos seems to be 288.25063pt on input line 14.
-<images/schema_hydro.png, id=1179, 414.54875pt x 199.74625pt>
+<images/schema_hydro.png, id=1184, 414.54875pt x 199.74625pt>
 File: images/schema_hydro.png Graphic file (type png)
 <use images/schema_hydro.png>
 Package pdftex.def Info: images/schema_hydro.png  used on input line 17.
@@ -5359,7 +5370,7 @@ Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 106.
 
 \openout4 = `main.mw'.
 
-<images/lithium_reserves_world.png, id=1215, 862.22125pt x 553.06625pt>
+<images/lithium_reserves_world.png, id=1221, 862.22125pt x 553.06625pt>
 File: images/lithium_reserves_world.png Graphic file (type png)
 <use images/lithium_reserves_world.png>
 Package pdftex.def Info: images/lithium_reserves_world.png  used on input line 
@@ -5463,7 +5474,7 @@ Package mdframed Info: mdframed detected package amsthm
  changed the theorem header of amsthm
 (mdframed)              on input line 218.
 )
-<posters/poster_s2a.pdf, id=1255, 2392.87677pt x 3383.03302pt>
+<posters/poster_s2a.pdf, id=1261, 2392.87677pt x 3383.03302pt>
 File: posters/poster_s2a.pdf Graphic file (type pdf)
 <use posters/poster_s2a.pdf>
 Package pdftex.def Info: posters/poster_s2a.pdf  used on input line 301.
@@ -5472,7 +5483,7 @@ File: posters/poster_s2a.pdf Graphic file (type pdf)
 <use posters/poster_s2a.pdf>
 Package pdftex.def Info: posters/poster_s2a.pdf  used on input line 301.
 (pdftex.def)             Requested size: 304.43967pt x 430.41473pt.
-<posters/poster_s2a.pdf, id=1258, page=1, 2392.87677pt x 3383.03302pt>
+<posters/poster_s2a.pdf, id=1264, page=1, 2392.87677pt x 3383.03302pt>
 File: posters/poster_s2a.pdf Graphic file (type pdf)
 <use posters/poster_s2a.pdf, page 1>
 Package pdftex.def Info: posters/poster_s2a.pdf , page1 used on input line 301.
@@ -5508,7 +5519,7 @@ Package pdftex.def Info: posters/poster_s2a.pdf , page1 used on input line 301.
  [61 <./posters/poster_s2a.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<posters/poster_pumped_storage.pdf, id=1306, 2392.87677pt x 3383.03302pt>
+<posters/poster_pumped_storage.pdf, id=1312, 2392.87677pt x 3383.03302pt>
 File: posters/poster_pumped_storage.pdf Graphic file (type pdf)
 <use posters/poster_pumped_storage.pdf>
 Package pdftex.def Info: posters/poster_pumped_storage.pdf  used on input line 
@@ -5519,7 +5530,7 @@ File: posters/poster_pumped_storage.pdf Graphic file (type pdf)
 Package pdftex.def Info: posters/poster_pumped_storage.pdf  used on input line 
 302.
 (pdftex.def)             Requested size: 304.43967pt x 430.41473pt.
-<posters/poster_pumped_storage.pdf, id=1309, page=1, 2392.87677pt x 3383.03302p
+<posters/poster_pumped_storage.pdf, id=1315, page=1, 2392.87677pt x 3383.03302p
 t>
 File: posters/poster_pumped_storage.pdf Graphic file (type pdf)
 <use posters/poster_pumped_storage.pdf, page 1>
@@ -5552,10 +5563,49 @@ t line 302.
 [62 <./posters/poster_pumped_storage.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
+<posters/poster_hydrogen.pdf, id=1371, 2392.87677pt x 3383.03302pt>
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf>
+Package pdftex.def Info: posters/poster_hydrogen.pdf  used on input line 303.
+(pdftex.def)             Requested size: 304.43967pt x 430.41473pt.
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf>
+Package pdftex.def Info: posters/poster_hydrogen.pdf  used on input line 303.
+(pdftex.def)             Requested size: 304.43967pt x 430.41473pt.
+<posters/poster_hydrogen.pdf, id=1374, page=1, 2392.87677pt x 3383.03302pt>
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf, page 1>
+Package pdftex.def Info: posters/poster_hydrogen.pdf , page1 used on input line
+ 303.
+(pdftex.def)             Requested size: 2392.87096pt x 3383.02481pt.
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf, page 1>
+Package pdftex.def Info: posters/poster_hydrogen.pdf , page1 used on input line
+ 303.
+(pdftex.def)             Requested size: 597.70656pt x 845.03351pt.
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf, page 1>
+Package pdftex.def Info: posters/poster_hydrogen.pdf , page1 used on input line
+ 303.
+(pdftex.def)             Requested size: 597.70656pt x 845.03351pt.
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf, page 1>
+Package pdftex.def Info: posters/poster_hydrogen.pdf , page1 used on input line
+ 303.
+(pdftex.def)             Requested size: 597.70656pt x 845.03351pt.
+File: posters/poster_hydrogen.pdf Graphic file (type pdf)
+<use posters/poster_hydrogen.pdf, page 1>
+Package pdftex.def Info: posters/poster_hydrogen.pdf , page1 used on input line
+ 303.
+(pdftex.def)             Requested size: 597.70656pt x 845.03351pt.
+\openout4 = `main.mw'.
 
-(./chapters/scenario_assessment_s3s4.tex
+ [63 <./posters/poster_hydrogen.pdf>] (./main.mw)
+\openout4 = `main.mw'.
+
+ (./chapters/scenario_assessment_s3s4.tex
 chapter 19.
-Package marginnote Info: Margin note 77.1 is on absolute page 77 on input line 
+Package marginnote Info: Margin note 78.1 is on absolute page 78 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -5585,14 +5635,14 @@ Package biblatex Info: Redefining '\kaobiblio@sidecite' on input line 15.
 
 \openout4 = `main.mw'.
 
-Package marginnote Info: Margin note 77.2 is on absolute page 77 on input line 
+Package marginnote Info: Margin note 78.2 is on absolute page 78 on input line 
 24.
 Package marginnote Info: right page because not two side mode on input line 24.
 
 Package marginnote Info: xpos seems to be 343.74744pt on input line 24.
 \openout4 = `main.mw'.
 
-[63
+[64
 
 
 ] (./main.mw)
@@ -5600,7 +5650,7 @@ Package marginnote Info: xpos seems to be 343.74744pt on input line 24.
 
 \openout4 = `main.mw'.
 
- [64] (./main.mw)
+ [65] (./main.mw)
 \openout4 = `main.mw'.
 
 Package mdframed Info: mdframed detected package amsthm 
@@ -5612,18 +5662,18 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./chapters/transition_path.tex
 \openout4 = `main.mw'.
 
- [65]
+ [66]
 (./main.mw)
 \openout4 = `main.mw'.
 
 
 chapter 20.
-Package marginnote Info: Margin note 80.1 is on absolute page 80 on input line 
+Package marginnote Info: Margin note 81.1 is on absolute page 81 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
 
-LaTeX Warning: Hyper reference `sec:renewable_problem' on page 66 undefined on 
+LaTeX Warning: Hyper reference `sec:renewable_problem' on page 67 undefined on 
 input line 16.
 
 
@@ -5637,7 +5687,7 @@ ine 16.
 
 Package hyperref Warning: Suppressing link with empty target on input line 16.
 
-Package marginnote Info: Margin note 80.2 is on absolute page 80 on input line 
+Package marginnote Info: Margin note 81.2 is on absolute page 81 on input line 
 20.
 Package marginnote Info: right page because not two side mode on input line 20.
 
@@ -5650,7 +5700,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 24.
 \openout4 = `main.mw'.
 
-[66
+[67
 
 
 ] (./main.mw)
@@ -5665,7 +5715,7 @@ Package mdframed Info: mdframed detected package amsthm
 )
 \openout4 = `main.mw'.
 
- [67] (./main.mw)
+ [68] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5704,7 +5754,7 @@ Package mdframed Info: mdframed detected package amsthm
 part without number
 \openout4 = `main.mw'.
 
-[68
+[69
 
 
 
@@ -5745,7 +5795,7 @@ part without number
 
  (./chapters/world_needs.tex
 chapter 21.
-Package marginnote Info: Margin note 83.1 is on absolute page 83 on input line 
+Package marginnote Info: Margin note 84.1 is on absolute page 84 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -5758,7 +5808,7 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./chapters/not_all_doom.tex
 \openout4 = `main.mw'.
 
- [69
+ [70
 
 
 
@@ -5767,7 +5817,7 @@ Package mdframed Info: mdframed detected package amsthm
 
 
 chapter 22.
-Package marginnote Info: Margin note 84.1 is on absolute page 84 on input line 
+Package marginnote Info: Margin note 85.1 is on absolute page 85 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
@@ -5780,7 +5830,7 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./chapters/mental_health.tex
 \openout4 = `main.mw'.
 
- [70
+ [71
 
 
 ] (./main.mw)
@@ -5788,13 +5838,13 @@ Package mdframed Info: mdframed detected package amsthm
 
 
 chapter 23.
-Package marginnote Info: Margin note 85.1 is on absolute page 85 on input line 
+Package marginnote Info: Margin note 86.1 is on absolute page 86 on input line 
 2.
 Package marginnote Info: right page because not two side mode on input line 2.
 Package marginnote Info: xpos seems to be 70.56247pt on input line 2.
 \openout4 = `main.mw'.
 
-[71
+[72
 
 
 ] (./main.mw)
@@ -5809,7 +5859,7 @@ Package mdframed Info: mdframed detected package amsthm
 )
 \openout4 = `main.mw'.
 
- [72] (./main.mw)
+ [73] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5848,7 +5898,7 @@ Package mdframed Info: mdframed detected package amsthm
 part without number
 \openout4 = `main.mw'.
 
-[73
+[74
 
 
 
@@ -5858,7 +5908,7 @@ part without number
  (./chapters/takeaway.tex)
 \openout4 = `main.mw'.
 
- [74
+ [75
 
 
 ] (./main.mw)
@@ -5900,7 +5950,7 @@ part without number
 part without number
 \openout4 = `main.mw'.
 
-[75
+[76
 
 
 
@@ -5943,7 +5993,7 @@ part without number
 chapter A.
 \openout4 = `main.mw'.
 
-[76
+[77
 
 
 
@@ -5956,7 +6006,7 @@ Package mdframed Info: mdframed detected package amsthm
 )
 \openout4 = `main.mw'.
 
- [77] (./main.mw)
+ [78] (./main.mw)
 \openout4 = `main.mw'.
 
 *geometry* verbose mode - [ newgeometry ] result:
@@ -5996,7 +6046,7 @@ chapter without number
 (./main.nls
 \openout4 = `main.mw'.
 
- [78
+ [79
 
 
 
@@ -6014,16 +6064,16 @@ chapter without number
 \openout4 = `main.mw'.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 LaTeX Font Info:    Font shape `T1/zpllf/m/it' will be
-(Font)              scaled to size 8.73001pt on input line 371.
+(Font)              scaled to size 8.73001pt on input line 372.
 (./main.gls)
 \openout4 = `main.mw'.
 
- [79
+ [80
 
 
 ] (./main.mw)
@@ -6035,12 +6085,12 @@ runsystem(makeindex main.idx)...executed safely (allowed).
 
  (./main.ind)
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 306.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 307.
 See the caption package documentation for explanation.
 
 \openout4 = `main.mw'.
 
-[80
+[81
 
 
 
@@ -6048,8 +6098,8 @@ See the caption package documentation for explanation.
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 419.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
  (./main.aux
 \openout4 = `main.mw'.
 
@@ -8583,9 +8633,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 419.
 
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 419.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 419.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 420.
 
 
 LaTeX Warning: There were undefined references.
@@ -8614,10 +8680,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56048 strings out of 480608
- 1056547 string characters out of 5903631
- 2186478 words of memory out of 5000000
- 70064 multiletter control sequences out of 15000+600000
+ 56064 strings out of 480608
+ 1056968 string characters out of 5903631
+ 2186609 words of memory out of 5000000
+ 70074 multiletter control sequences out of 15000+600000
  702644 words of font info for 295 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  120i,20n,128p,10158b,2685s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -8647,10 +8713,10 @@ ve/2020/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/202
 f-dist/fonts/type1/public/newpx/zplb.pfb></usr/local/texlive/2020/texmf-dist/fo
 nts/type1/public/newpx/zplr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
 /public/newpx/zplri.pfb>
-Output written on main.pdf (94 pages, 8092035 bytes).
+Output written on main.pdf (95 pages, 8859818 bytes).
 PDF statistics:
- 2021 PDF objects out of 2073 (max. 8388607)
- 1781 compressed objects within 18 object streams
- 391 named destinations out of 1000 (max. 500000)
- 40674 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2066 PDF objects out of 2073 (max. 8388607)
+ 1814 compressed objects within 19 object streams
+ 393 named destinations out of 1000 (max. 500000)
+ 40702 words of extra memory for PDF output out of 42996 (max. 10000000)
 
