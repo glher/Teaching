@@ -58,9 +58,22 @@ We define the S1 scenarios as being the 100\% single renewable energy scenarios.
 \labfig{scenarios_s1}
 \end{figure*}
 
+An important point to consider when developing a scenario is the capacity of electricity you need to install in order to obtain the necessary energy output produced at the end of any given year. In theory, a wind turbine rated at 1 MW could output $1 \times 8760 = 8760$ MWh. But in reality, its output (varying by location) is around 30\% that because of down time and low wind periods. Consequently it only gives you $1 \times 8760 \times 0.3 = 2628$ MWh. So if your need over the year are 8760 MWh, you will want to install 4 of those wind turbines. Aggregated over the year then, you will get the output energy you need. This 30\% example value is called a capacity factor, or a load factor, which we will note $f$.
 
+The amount of capacity you would need to install is shown in equation~\ref{eqn_power_installed}.
 
-By its nature, a grid composed of 100\% renewable resources is not viable to deliver a society similar to what we are all used to currently, and what I'm fairly certain we all wish for the future\sidenote[][-2mm]{This does not mean no consumption adaptation, it simply means we are looking to lower the bar of necessary changes to let it be realistic}. We will use the two most prevalent technologies in the discussions, pumped hydroelectricity storage and batteries. So, exactly how much storage do we need?
+\begin{remark}
+In order to obtain the energy generated over a year in Wh, one needs to multiply the power installed by the number of hours in a year, during which energy is generated\sidenote[][-2mm]{Mind the units! Recall that $E_a$ is in Terawatt-hour, which is a thousand Gigawatt-hour and a billion kilowatt-hour. So, the $P_i$ obtained will be in Terawatt. We are most used to dealing with installed capacity in Gigawatt, which implies a multiplication by $10^{-3}$ of your result}.
+
+\begin{equation}\label{eqn_power_installed}
+P_i = \frac{E_a}{f * 8760}
+\end{equation}
+
+\end{remark}
+
+In other words, if you need to generate at least $E_a$ energy, you will need to install $P_i$ capacity. You will produce just what you need over the yearly period. Of course, since you do not control when the wind blows, you do not control when you get that energy and would have to plan around.
+
+By its nature, a grid composed of 100\% renewable resources is not viable to deliver a society similar to what we are all used to currently, and what I'm fairly certain we all wish for the future\sidenote[][-2mm]{This does not mean no consumption adaptation, it simply means we are looking to lower the bar of necessary changes to let it be realistic}. As we have discussed, the energy needs to be stored to be used when needed. We will use the two most prevalent technologies in the discussions, pumped hydroelectricity storage and batteries. So, exactly how much storage do we need?
 
 To answer this question, the first thing we need to know is:
 
@@ -68,29 +81,62 @@ To answer this question, the first thing we need to know is:
 \item What is the maximum period of time where our needs could be unmet?
 \end{itemize}
 
-An important thing to note here is that when we say that the needs are not meet, it does not mean that we get no power from our installed capacity. It means that we do not get enough power from our installed capacity. Ten days of wind production at 20\% is equivalent to two days of no wind at all.
+An important thing to note here is that when we say that the needs are not met, it does not mean that we get no power from our installed capacity. It means that we do not get enough power from our installed capacity. Ten days of wind production at 20\% of average is equivalent to two days of no wind at all.
 
-Common scenarios are a gloomy week, or a sustained storm. In those cases, solar and wind production will be hampered. It is not unreasonable, and pretty accepted, to think that 7 days of storage would be needed. Keep in mind that if you do not have enough storage in place and run out, the whole economy stops. We will modify the duration to test the sensitivity to storage need, from 1 to 7 days.
+Common scenarios are a gloomy week, or a sustained storm. In those cases, solar and wind production will be hampered. It is not unreasonable, and pretty much accepted, to think that 7 days of storage would be needed. Keep in mind that if you do not have enough storage in place and run out, the whole economy stops. We will leave the option to modify the duration to test the sensitivity to storage need, from 1 to 7 days.
+
 
 
 \begin{remark}
-The energy to store is given by~\ref{energy_store}, $t$ varying between 1 and 7 days (it has to be given in number of hours).
+The energy to store is given by~\ref{energy_store}, $t$ varying between 1 and 7 days.
 
 \begin{equation}\label{energy_store}
-E_s = t * \frac{E_a}{8760}
+E_s = t * \frac{E_a}{365}
 \end{equation}
 
 \end{remark}
 
-Round-trip efficiency represent the fraction of the electricity that you put in that you can expect to get back. Indeed, you will not get back everything you sent to your storage, due to cable losses, inverter or mechanical losses, and various other factors. This efficiency is variable between technologies and over time. A good approximation is between 65\% and 85\%\sidenote[][-2mm]{As an example, for pumped storage, the main sources of losses are approximately 5\% to the network itself, 80\% to the pumping stations and 85\% to the turbines, which translates to 65\%, and thus a loss to storage of 35\%.}. 
+Due to cable losses, inverter or mechanical losses, and various other factors, you will not get back everything you sent to your storage.
+Round-trip efficiency represent the fraction of the electricity that you put in that you can expect to get back. This efficiency is variable between technologies and over time. A good approximation is between 65\% and 85\%\sidenote[][-2mm]{As an example, for pumped storage, the main sources of losses are approximately 5\% to the network itself, 80\% to the pumping stations and 85\% to the turbines, which translates to 65\%, and thus a loss to storage of 35\%.}. 
 
-This has a strong implications. In order to get back the energy you would need, you have to send $\frac{1}{0.85} = 1.18$ to $\frac{1}{0.65} = 1.55$ times as much electricity. This has a potential impact on the capacity that has to be installed to begin with.
+This has a strong implications. In order to get back the energy you would need, you have to send $\frac{1}{0.85} = 1.18$ to $\frac{1}{0.65} = 1.55$ times as much electricity. This has an impact on the capacity that has to be installed to begin with, as you need to overbuild your grid accordingly.
 
-We will assume that this does not matter for our first order calculation, and that we have enough power generation to fill in sufficient storage power capacity by default. Additionally, we consider that the extra power generated when demand is low can be easily curtailed or used in alternate, non-time sensitive process. This encompasses hydrogen production or desalination, for example, two energy intensive processes\sidenote[][-2mm]{Energy is only one of the drivers of these processes challenges.}.
 
-All the scenarios discussed will consider the existing grid, decommission what needs to be decommissioned, and rebuild everything from scratch to a 100\% technology penetration for a period of 100 years.
+\begin{remark}
+The updated capacity to install, accounting for storage, now becomes:
 
-For simplicity sake, we do not consider the currently installed capacity of the given production technology. This does not impact the results, given the scale and timeframe of the transitions.
+\begin{equation}\label{eqn_power_installed}
+P_i = \frac{1}{e} * \frac{E_a}{f * 8760}
+\end{equation}
+
+\end{remark}
+
+%We will assume that this does not matter for our first order calculation, and that we have enough power generation to fill in sufficient storage power capacity by default. Additionally, we consider that the extra power generated when demand is low can be easily curtailed or used in alternate, non-time sensitive process. This encompasses hydrogen production or desalination, for example, two energy intensive processes\sidenote[][-2mm]{Energy is only one of the drivers of these processes challenges.}.
+
+%All the scenarios discussed will consider the existing grid, decommission what needs to be decommissioned, and rebuild everything from scratch to a 100\% technology penetration for a period of 100 years.
+
+%For simplicity sake, we do not consider the currently installed capacity of the given production technology. This does not impact the results, given the scale and timeframe of the transitions.
+
+% - Compute the necessary installed capacity to meet demand over the year according to the capacity factor
+
+% - This means that every last drop is needed over the year, if you lose some, you don't meet your energy needs
+
+% - Storage comes down to how much can you use right away
+ %   --> Wind and solar production graphs show that 80% of production happens in 40% and 20% of the time.
+%    --> So, for wind, you need to store 60% and for solar, you need to store around 80%
+%    --> That's assuming that things don't match, and that demand is mostly constant. If it's always windy when you need energy, and not windy when you don't, that's much better.
+%    Extremes:
+%    --> If you can use 100% of your energy because demand and production are in sync, you don't need storage and meet your need
+%    --> If you have solar and need your energy only at night, you need to have 100% storage backups
+%    Actual data: https://www.eia.gov/todayinenergy/detail.php?id=46117
+%    --> While demand goes down at night, it's not that huge, we can use the 80% most productive hour as a good proxy  
+%    --> 7 days of no wind ---> one of the extreme
+%    --> 7 days of no sun ---> one of the extreme
+%    ----> Nothing unreasonable if a technology on its own
+
+% - Storage is needed for dispatch, but with losses this means you need to increase your installed capacity (overbuild) to compensate
+%    --> According to the scenario picked above, decide how much storage you want
+
 
 
 \section{Scenarios S2}
@@ -125,7 +171,7 @@ In those scenarios, we will play with the type of renewable mix we develop durin
 \labfig{scenarios_s2}
 \end{figure*}
 
-We chose those shares in each scenario, but keep in mind that it can be modified at will, and that we can account for a mix of the storage technologies too. Storage need will be impacted by a renewable mix, as they would be able to compensate the weaknesses of one another up to a point.
+We chose those shares in each scenario, but keep in mind that it can be modified at will, and that we can account for a mix of the storage technologies too. Storage need will be impacted by a renewable mix, as they would be able to compensate the weaknesses of one another up to a point. While in the previous section we consider the event of the production means going down for an extended period of time likely, here we assume that it is not the case, and that the need for storage is much reduced.
 
 
 %We have seen an approximation, which we will use for our simplified scenarios S1 through S6\todo{Improve this part. We can maybe remove the production hours graphs and simply assume that we need to meet consumption assumption an X day period to compensate for. We need to show how a mix impacts the storage needs by combining hourly data from both wind and solar over a period. The question is thus to find hourly data for solar production in a given year and combine it with hourly data for wind production in the same year and same location, to compute the storage requirements}. Let's see how we can factor in a more realistic system, where a mix of renewable energies is used, with wind, solar and hydro working in unison over larger areas.
@@ -133,7 +179,7 @@ We chose those shares in each scenario, but keep in mind that it can be modified
 The first thing we need to know is:
 
 \begin{itemize}
-\item Given a mix of renewable energies, what is the maximum period of time where our needs are not met?
+\item Given a mix of renewable energies, what is the maximum period of time when our needs are not met?
 \end{itemize}
 
 This will vary depending on the mix you define.
@@ -155,7 +201,7 @@ Another way of interpreting this graph is that 80\% of solar power production is
 
 Wind is less predictable, but has more contributing hours during a year. You do not have a clear cycle like nights and days, and it varies a bit more regionally than the sun irradiance. 80\% of the production from wind power comes from 60\% of the time, leaving you at risk during 40\%. Using this data, what we can conclude as a first order approximation is that your needs, with solar, would be covered 30\% of the time, while they would be covered 60\% of the time for wind\sidenote[][-2mm]{A complex model can give better results there, by combining the solar or wind data with an estimation of the hourly load notably, at the risk of over-optimization leading to a less resilient grid and more frequent blackouts. Our approach is still a pretty good first order approximation of the scale we are talking about.}.
 
-Consequently, we can say that in the most favorable situation, wind would cover for solar at night, and wind is low only during the day.
+Consequently, we can say that in the most favorable situation, wind would cover for solar at night, and wind is low only during the sunny day.
 
 \begin{remark}
 In that case, based on a reasonable 80\% of the total production being viable:
@@ -169,7 +215,7 @@ So, on first order approximation, we can say that 10\% of the energy need cannot
 
 \end{remark}
 
-One can consider adding hydroelectricity or geothermal to the mix and think that this could meet 100\% of the demands and to not have a storage requirements~\sidecite{hoste2009matching,brown2018synergies}. It has however been shown to be reliant on assumptions that are on the very optimistic side~\sidecite{boretti2020cost,clack2017evaluation}, notably because of short term strong variability. A different way to look at it is that it may work for larger regions with strong interconnections and links, such as the European Union and the United States of America, and in a beautifully engineered infrastructure which would have to be flawless\sidenote[][-2mm]{From a purely geopolitical and national security perspective, it is not far-fetched to consider the impact on balance of power at small and abrupt time scale.}.
+One can consider adding hydroelectricity or geothermal to the mix and think that this could meet 100\% of the demands and to not have a storage requirements~\sidecite{hoste2009matching,brown2018synergies}. It has however been shown to be reliant on assumptions that are on the very optimistic side~\sidecite{boretti2020cost,clack2017evaluation}, notably because of short term strong variability. A different way to look at it is that it may work for larger regions with strong interconnections and links, such as the European Union and the United States of America, and in a beautifully engineered infrastructure which would have to be flawless\sidenote[][-2mm]{From a purely geopolitical and national security perspective, it is not far-fetched to consider the impact on balance of power at small and abrupt time scale.}, but this is not the most common situation in the real world.
 
 %In this section, we will consider the short term unpredictable variability of solar and wind, and consider that even only 10\% of the energy needs have to come from storage\sidenote[][*6]{Keep in mind that while this is theoretically possible, it is physically unlikely to be the case. That's the limitation with theoretical models, they tend to assume that everything works a bit too much as expected}.
 
@@ -182,24 +228,51 @@ In this renewable energy mix scenario, which does imply an important paradigm sh
 E_s = f_s * t * \frac{E_a}{8760}
 \end{equation}
 
-Here, we assume, as seen previously, that an optimist assumption for the fraction of energy to store is $f_s = 10\%$.
+Here, we assume, as seen previously, that an optimist assumption for the fraction of energy to store is $f_s = 10\%$. One may disagree with the upper limit we set of 7 days. This is fine, and this is the reason why an optimistic 1 day is also computed.
 
 
+\end{remark}
+
+We are making the assumption here that the grid is able to deal with a lot of excess energy, or that this is used for non-time-dependent processes like hydrogen production, desalination, or other. This comes with grid requirements which can be very difficult to meet.
+
+Grids have been designed to accommodate for around the power capacity that is currently installed, in a mostly centralized, optimized, system. In order to move to a 100\% renewable system, hence mostly decentralized, non-optimized, system, grid developments will be necessary, and transmission lines will have to be built. In terms of cost, it is no secret that it is a lot more expensive to install 500 lines of 100 MW (accommodating an installed capacity of 50 GW) than 25 lines of 2 GW (accommodating the same installed capacity). Materials, public works, distance covered, all those and more factor into the increased price.
+
+More importantly, the installed capacity being greater, the grid has to be reinforced to account for the maximum expected output. While the load factor over the year is relatively low for wind or solar, you will have peaks throughout the year at up to 70\% and 90\% of the installed capacity respectively\sidenote[][-2mm]{A sunny day at noon, a windy day on all your wind farms, and all of the sudden you have way more energy than you know what to do with!}. 
+
+You are presented with two basic options for this energy.
+\begin{itemize}
+\item Store it
+\item Use it
+\end{itemize}
+
+The first option is to of course use the power generated in your grid, up to the point where the demand is met. Next, you need to store the remainder for future use, as long as you have the installed storage power capacity. Given your requirements, this has to be done without fail, as the system has been sized to be efficient. A third option of accepting the loss and curtail your production is not feasible in our scenarios, as that would mean not meeting the demand by definition. One can (and would have to in the real world constraints) imagine scenarios where the installed capacity is even more overbuilt to account for curtailment and grid limitations.
+
+
+\begin{remark}
+Consequently, the grid should be ready to deal with an excess power up to what is given in the following equation.
+
+\begin{equation}\label{excess_power}
+P_e = P_i * p_{max} - P_{min}
+\end{equation}
 \end{remark}
 
 
 \section{Scenarios S3}
 
-The S3 scenarios are made up of only one scenario, a 100\% nuclear grid. In order to get to this, we will first get rid of all the existing installed capacity, with the associated dismantling costs, and rebuild everything from scratch to cover the entirety of a country electricity needs.
+The S3 scenarios are made up of only three scenarios, a 100\% conventional nuclear grid, a 50\% conventional, 50\% Small Modular Reactor grid and a 60\% Advanced Reactors, 20\% conventional, and 20\% Small Modular Reactor grid. In order to get to this, we will first get rid of all the existing installed capacity, with the associated dismantling costs, and rebuild everything from scratch to cover the entirety of a country electricity needs.
 
 Nuclear has shown that it can follow loads on short time scale. While some may disagree that a 100\% nuclear could function efficiently due to this issue, it is still a reasonable assumption to make.
 
 
 \begin{kaobox}[frametitle=S3 scenarios]
 \begin{itemize}
-	\item \textbf{S3a:} 100\% Nuclear
+	\item \textbf{S3a:} 100\% Conventional Nuclear Reactors
+	\item \textbf{S3b:} 50\% Conventional Nuclear Reactors, 50\% Small Modular Reactors
+	\item \textbf{S3c:} 60\% Advanced Nuclear Reactors, 20\% Conventional Nuclear Reactors, 20\% Small Modular Reactors
 \end{itemize}
 \end{kaobox}
+
+Add in a graph for S3b and S3c
 
 
 \begin{figure*}

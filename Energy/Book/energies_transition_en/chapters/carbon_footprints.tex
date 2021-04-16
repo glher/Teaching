@@ -10,6 +10,13 @@ In this chapter I will go over estimating the carbon footprints for each technol
 
 Fossil fuels emit a lot of carbon equivalent gases into the atmosphere. For several generation sources, often referred to as "clean", there is no direct greenhouse gases emissions. This is the case for nuclear, wind, solar, geothermal, biomass and hydroelectricity. However, this does not mean that these technologies do not have a carbon footprint. Indeed, the intensive manufacturing process of the capture elements (wind turbines, solar panels, reactor buildings, \ldots) emit a non negligible amount of $\mathrm{CO_2}$. These emissions are denoted "indirect".
 
+When discussing installed capacity and energy produced, it is important to consider the load factors, or capacity factors. These measures represent how often one generates the optimal output from a technology. In other words, say you have a power plant with a capacity of 1 GW. THis means that in theory, you could get 8760 GWh of energy out of it. But if it's off 50\% of the time, and operating at 75\% of its power for the rest of time, you will only get 3285 GWh out, or 37.5\% of the theoretical maximum. THe capacity factor of your plant is then 37.5\%. While some load factors are artificially reduced\sidenote[][*-1]{Nuclear and thermal power plants suffer in part from having to follow the load, and in part due to a market effect}, some are physically limited\sidenote[][*2]{Wind, Solar, and Hydroelectric generate power only when the wind is blowing, the sun is shining, and sufficient water level is in a reservoir}. France proves to be a good benchmark for a real world case study of nuclear at a large scale, as the lower load factor (in the 60-70\% range, compared to values in the 90\% neighborhood for countries such as the USA, as we will see later) demonstrates the ability of nuclear energy to “load-follow”. On the other hand, production of electricity from solar and wind installed capacity is cheap and even close to free\sidenote[][*1]{Solar and wind indeed do not have any fuel cost, though they do have some maintenance costs}, so a lower value here would be dictated almost entirely by physical limitations in the current market-driven grid.
+
+
+\begin{kaobox}[frametitle=Load Follow]
+Load-Following is the act of quickly adapting the production to the demand by ramping up or down the output of the power plant.
+\end{kaobox}
+
 \begin{kaobox}[frametitle=A look at some values]
 
 Let us take a step back and consider how the emissions are usually scored. You will see values given in $gCO_2/kWh$. This is a value one has to be careful with, as a kWh may not be representative of an indirect emission. Solar is usually cited at around 50 g per kWh.

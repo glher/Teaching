@@ -1,8 +1,8 @@
 \setchapterpreamble[u]{\margintoc}
-\chapter{Scenarios Case Study}
-\labch{scenario_computation}
+\chapter{Scenarios S1}
+\labch{scenario_s1_computation}
 
-In this chapter I will go over computing the amount of capacity to install, the amount of storage to install, the impact to expect on the grid, and the resulting values given for each scenarios
+In this chapter I will go over computing the amount of capacity to install, the amount of storage to install, the impact to expect on the grid, and the resulting values given for the 100\% renewable, one-technology only, S1 scenarios. We will discuss how to compute the estimated transition costs, carbon impacts, and materials needs for each scenario. The following chapter will contain the results for each of the representative countries, and related discussions.
 
 
 \begin{table}[ht]
@@ -41,13 +41,15 @@ We have seen from \vrefch{transition_needs} the amount of energy to be produced 
 An important factor to consider now is the capacity of electricity you need to install in order to obtain this necessary energy produced at the end of any given year. This is shown in equation~\ref{eqn_power_installed}.
 
 \begin{remark}
-In order to obtain the energy generated over a year in Wh, one needs to multiply the power installed by the number of hours in a year\sidenote[][-2mm]{Mind the units! Recall that $E_a$ is in Terrawatt-hour, which is a thousand Gigawatt-hour and a billion kilowatt-hour. So, the $P_i$ obtained will be in Terrawatt. We are most used to dealing with installed capacity in Gigawatt, which implies a multiplication by $10^{-3}$ of your result}.
+In order to obtain the energy generated over a year in Wh, one needs to multiply the power installed by the number of hours in a year\sidenote[][-2mm]{Mind the units! Recall that $E_a$ is in Terawatt-hour, which is a thousand Gigawatt-hour and a billion kilowatt-hour. So, the $P_i$ obtained will be in Terawatt. We are most used to dealing with installed capacity in Gigawatt, which implies a multiplication by $10^{-3}$ of your result}.
 
 \begin{equation}\label{eqn_power_installed}
 P_i = \frac{E_a}{f * 8760}
 \end{equation}
 
 \end{remark}
+
+In other words, if you need to generate at least $E_a$ energy, you will need to install $P_i$ capacity. You will produce more than you need at some times, and will need to get rid of that excess energy.
 
 \section{Storage Requirements}
 
@@ -68,29 +70,7 @@ While this may seem to not take advantage of a combining effect, this is actuall
 
 \section{Grid impact}
 
-We are making the assumption here that the grid is able to deal with a lot of excess energy, or that this is used for non-time-dependent processes like hydrogen production, desalination, or other. This comes with grid requirements which can be very difficult to meet.
 
-Grids have been designed to accommodate for around the power capacity that is currently installed, in a mostly centralized, optimized, system. In order to move to a 100\% renewable system, hence mostly decentralized, non-optimized, system, grid developments will be necessary, and transmission lines will have to be built. In terms of cost, it is no secret that it is a lot more expensive to install 500 lines of 100 MW (accommodating an installed capacity of 50 GW) than 25 lines of 2 GW (accommodating the same installed capacity). Materials, public works, distance covered, all those and more factor into the increased price.
-
-More importantly, the installed capacity being greater, the grid has to be reinforced to account for the maximum expected output. While the load factor over the year is relatively low for wind or solar, you will have peaks throughout the year at up to 70\% and 90\% of the installed capacity respectively\sidenote[][-2mm]{A sunny day at noon, a windy day on all your wind farms, and all of the sudden you have way more energy than you know what to do with!}. 
-
-You are presented with three basic options for this energy.
-\begin{itemize}
-\item Store it
-\item Use it
-\item Dump it
-\end{itemize}
-
-The first option is to store it for future use as long as you have the installed storage power capacity. Given your requirements, this has to be done in priority. The second option is to use that excess energy for auxiliary uses, such as hydrogen production. This is not as simple as it seems, and is unfortunately not a magical solution, though it has a lot of merits. The third option is to accept the loss and curtail your production.
-
-
-\begin{remark}
-Consequently, the grid should be ready to deal with an excess power up to what is given in the following equation.
-
-\begin{equation}\label{excess_power}
-P_e = P_i * p_{max} - P_{min}
-\end{equation}
-\end{remark}
 
 \section{Scenarios Results - Dollar Costs}
 

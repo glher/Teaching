@@ -178,133 +178,125 @@
 \defcounter {refsection}{0}\relax
 \contentsline {part}{\nonumberline Transition Scenarios and Technology Costs}{22}{part*.15}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {13}Transition Scenarios}{23}{chapter.13}%
+\contentsline {chapter}{\numberline {13}Technology Costs}{23}{chapter.13}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {26}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {27}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.1}Scenarios S1}{24}{section.13.1}%
+\contentsline {section}{\numberline {13.1}Nuclear}{23}{section.13.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.1}Scenarios S1}{24}{section.13.1}
+\contentsline {mtocsection}{\numberline {13.1}Nuclear}{23}{section.13.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.2}Scenarios S2}{26}{section.13.2}%
+\contentsline {section}{\numberline {13.2}Gas with Carbon Capture}{24}{section.13.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.2}Scenarios S2}{26}{section.13.2}
+\contentsline {mtocsection}{\numberline {13.2}Gas with Carbon Capture}{24}{section.13.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.3}Scenarios S3}{30}{section.13.3}%
+\contentsline {section}{\numberline {13.3}Solar}{24}{section.13.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.3}Scenarios S3}{30}{section.13.3}
+\contentsline {mtocsection}{\numberline {13.3}Solar}{24}{section.13.3}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.4}Scenarios S4}{31}{section.13.4}%
+\contentsline {section}{\numberline {13.4}Wind}{26}{section.13.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.4}Scenarios S4}{31}{section.13.4}
+\contentsline {mtocsection}{\numberline {13.4}Wind}{26}{section.13.4}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {13.5}The Digest}{33}{section.13.5}%
+\contentsline {section}{\numberline {13.5}Storage}{27}{section.13.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {13.5}The Digest}{33}{section.13.5}
+\contentsline {mtocsection}{\numberline {13.5}Storage}{27}{section.13.5}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {14}Carbon Footprints}{34}{chapter.14}%
+\contentsline {section}{\numberline {13.6}Grid}{28}{section.13.6}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.6}Grid}{28}{section.13.6}
+\defcounter {refsection}{0}\relax
+\contentsline {section}{\numberline {13.7}The Digest}{29}{section.13.7}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {13.7}The Digest}{29}{section.13.7}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {14}Carbon Footprints}{30}{chapter.14}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {28}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {29}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {14.1}Direct versus Indirect emissions}{34}{section.14.1}%
+\contentsline {section}{\numberline {14.1}Direct versus Indirect emissions}{30}{section.14.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {14.1}Direct versus Indirect emissions}{34}{section.14.1}
+\contentsline {mtocsection}{\numberline {14.1}Direct versus Indirect emissions}{30}{section.14.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {14.2}Technologies footprint}{35}{section.14.2}%
+\contentsline {section}{\numberline {14.2}Technologies footprint}{31}{section.14.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {14.2}Technologies footprint}{35}{section.14.2}
+\contentsline {mtocsection}{\numberline {14.2}Technologies footprint}{31}{section.14.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {14.3}The Digest}{38}{section.14.3}%
+\contentsline {section}{\numberline {14.3}The Digest}{34}{section.14.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {14.3}The Digest}{38}{section.14.3}
+\contentsline {mtocsection}{\numberline {14.3}The Digest}{34}{section.14.3}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {15}Technology Costs}{39}{chapter.15}%
+\contentsline {chapter}{\numberline {15}Transition Scenarios}{35}{chapter.15}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {30}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {31}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.1}Nuclear}{39}{section.15.1}%
+\contentsline {section}{\numberline {15.1}Scenarios S1}{36}{section.15.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.1}Nuclear}{39}{section.15.1}
+\contentsline {mtocsection}{\numberline {15.1}Scenarios S1}{36}{section.15.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.2}Gas with Carbon Capture}{40}{section.15.2}%
+\contentsline {section}{\numberline {15.2}Scenarios S2}{39}{section.15.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.2}Gas with Carbon Capture}{40}{section.15.2}
+\contentsline {mtocsection}{\numberline {15.2}Scenarios S2}{39}{section.15.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.3}Solar}{40}{section.15.3}%
+\contentsline {section}{\numberline {15.3}Scenarios S3}{43}{section.15.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.3}Solar}{40}{section.15.3}
+\contentsline {mtocsection}{\numberline {15.3}Scenarios S3}{43}{section.15.3}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.4}Wind}{42}{section.15.4}%
+\contentsline {section}{\numberline {15.4}Scenarios S4}{44}{section.15.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.4}Wind}{42}{section.15.4}
+\contentsline {mtocsection}{\numberline {15.4}Scenarios S4}{44}{section.15.4}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.5}Storage}{43}{section.15.5}%
+\contentsline {section}{\numberline {15.5}The Digest}{46}{section.15.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.5}Storage}{43}{section.15.5}
+\contentsline {mtocsection}{\numberline {15.5}The Digest}{46}{section.15.5}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.6}Grid}{44}{section.15.6}%
+\contentsline {part}{\nonumberline First Order System Assessments}{47}{part*.33}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.6}Grid}{44}{section.15.6}
-\defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {15.7}The Digest}{45}{section.15.7}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {15.7}The Digest}{45}{section.15.7}
-\defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline First Order System Assessments}{46}{part*.33}%
-\defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {16}The Transition Needs}{47}{chapter.16}%
+\contentsline {chapter}{\numberline {16}The Transition Needs}{48}{chapter.16}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {32}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {33}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {16.1}France}{48}{section.16.1}%
+\contentsline {section}{\numberline {16.1}Current Energy Sources}{49}{section.16.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {16.1}France}{48}{section.16.1}
+\contentsline {mtocsection}{\numberline {16.1}Current Energy Sources}{49}{section.16.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {16.2}United States of America}{50}{section.16.2}%
+\contentsline {section}{\numberline {16.2}Current Carbon Emissions}{49}{section.16.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {16.2}United States of America}{50}{section.16.2}
+\contentsline {mtocsection}{\numberline {16.2}Current Carbon Emissions}{49}{section.16.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {16.3}Brazil}{50}{section.16.3}%
+\contentsline {section}{\numberline {16.3}Scenarios Pathway}{49}{section.16.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {16.3}Brazil}{50}{section.16.3}
+\contentsline {mtocsection}{\numberline {16.3}Scenarios Pathway}{49}{section.16.3}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {16.4}China}{50}{section.16.4}%
+\contentsline {section}{\numberline {16.4}The Digest}{51}{section.16.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {16.4}China}{50}{section.16.4}
+\contentsline {mtocsection}{\numberline {16.4}The Digest}{51}{section.16.4}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {16.5}Nigeria}{50}{section.16.5}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {16.5}Nigeria}{50}{section.16.5}
-\defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {16.6}The Digest}{50}{section.16.6}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {16.6}The Digest}{50}{section.16.6}
-\defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {17}Scenarios Case Study}{51}{chapter.17}%
+\contentsline {chapter}{\numberline {17}Scenarios S1}{52}{chapter.17}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {34}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {35}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {17.1}How Many GigaWatts?}{51}{section.17.1}%
+\contentsline {section}{\numberline {17.1}How Many GigaWatts?}{52}{section.17.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {17.1}How Many GigaWatts?}{51}{section.17.1}
+\contentsline {mtocsection}{\numberline {17.1}How Many GigaWatts?}{52}{section.17.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {17.2}Storage Requirements}{51}{section.17.2}%
+\contentsline {section}{\numberline {17.2}Storage Requirements}{53}{section.17.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {17.2}Storage Requirements}{51}{section.17.2}
+\contentsline {mtocsection}{\numberline {17.2}Storage Requirements}{53}{section.17.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {17.3}Grid impact}{52}{section.17.3}%
+\contentsline {section}{\numberline {17.3}Grid impact}{53}{section.17.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {17.3}Grid impact}{52}{section.17.3}
+\contentsline {mtocsection}{\numberline {17.3}Grid impact}{53}{section.17.3}
 \defcounter {refsection}{0}\relax
 \contentsline {section}{\numberline {17.4}Scenarios Results - Dollar Costs}{53}{section.17.4}%
 \defcounter {refsection}{0}\relax
@@ -314,178 +306,178 @@
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {17.5}Scenarios Results - CO2 saved by country}{53}{section.17.5}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {17.6}The Digest}{53}{section.17.6}%
+\contentsline {section}{\numberline {17.6}The Digest}{54}{section.17.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {17.6}The Digest}{53}{section.17.6}
+\contentsline {mtocsection}{\numberline {17.6}The Digest}{54}{section.17.6}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {18}Scenario Assessments -- Renewable}{54}{chapter.18}%
+\contentsline {chapter}{\numberline {18}Scenario Assessments -- Renewable}{55}{chapter.18}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {36}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {37}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.1}Pumped Storage Locations}{54}{section.18.1}%
+\contentsline {section}{\numberline {18.1}Pumped Storage Locations}{55}{section.18.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.1}Pumped Storage Locations}{54}{section.18.1}
+\contentsline {mtocsection}{\numberline {18.1}Pumped Storage Locations}{55}{section.18.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.2}Materials I -- Lithium and Lead}{55}{section.18.2}%
+\contentsline {section}{\numberline {18.2}Materials I -- Lithium and Lead}{56}{section.18.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.2}Materials I -- Lithium and Lead}{55}{section.18.2}
+\contentsline {mtocsection}{\numberline {18.2}Materials I -- Lithium and Lead}{56}{section.18.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.3}Materials II -- Rare Earth Materials}{57}{section.18.3}%
+\contentsline {section}{\numberline {18.3}Materials II -- Rare Earth Materials}{58}{section.18.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.3}Materials II -- Rare Earth Materials}{57}{section.18.3}
+\contentsline {mtocsection}{\numberline {18.3}Materials II -- Rare Earth Materials}{58}{section.18.3}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.4}Materials III -- Copper}{58}{section.18.4}%
+\contentsline {section}{\numberline {18.4}Materials III -- Copper}{59}{section.18.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.4}Materials III -- Copper}{58}{section.18.4}
+\contentsline {mtocsection}{\numberline {18.4}Materials III -- Copper}{59}{section.18.4}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.5}Materials IV -- Platinum}{59}{section.18.5}%
+\contentsline {section}{\numberline {18.5}Materials IV -- Platinum}{60}{section.18.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.5}Materials IV -- Platinum}{59}{section.18.5}
+\contentsline {mtocsection}{\numberline {18.5}Materials IV -- Platinum}{60}{section.18.5}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.6}Locations I -- Renewable Siting}{59}{section.18.6}%
+\contentsline {section}{\numberline {18.6}Locations I -- Renewable Siting}{60}{section.18.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.6}Locations I -- Renewable Siting}{59}{section.18.6}
+\contentsline {mtocsection}{\numberline {18.6}Locations I -- Renewable Siting}{60}{section.18.6}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.7}Health Production Impact}{59}{section.18.7}%
+\contentsline {section}{\numberline {18.7}Health Production Impact}{60}{section.18.7}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.7}Health Production Impact}{59}{section.18.7}
+\contentsline {mtocsection}{\numberline {18.7}Health Production Impact}{60}{section.18.7}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {18.8}The Digest}{60}{section.18.8}%
+\contentsline {section}{\numberline {18.8}The Digest}{61}{section.18.8}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.8}The Digest}{60}{section.18.8}
+\contentsline {mtocsection}{\numberline {18.8}The Digest}{61}{section.18.8}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\nonumberline \ignorespaces Factsheet I -- A 100\% Renewable Energy Mix in France?}{61}{section*.43}%
-\defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {18.8}}{61}{section*.43}
-\defcounter {refsection}{0}\relax
-\contentsline {section}{\nonumberline \ignorespaces Factsheet II -- A Pumped Hydroelectric Storage Option in France?}{62}{section*.44}%
+\contentsline {section}{\nonumberline \ignorespaces Factsheet I -- A 100\% Renewable Energy Mix in France?}{62}{section*.44}%
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {18.8}}{62}{section*.44}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\nonumberline \ignorespaces Factsheet III -- A Hydrogen Economy at Scale?}{63}{section*.45}%
+\contentsline {section}{\nonumberline \ignorespaces Factsheet II -- A Pumped Hydroelectric Storage Option in France?}{63}{section*.45}%
 \defcounter {refsection}{0}\relax
 \contentsline {mtocsection}{\numberline {18.8}}{63}{section*.45}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {19}Scenario Assessments -- Nuclear}{64}{chapter.19}%
+\contentsline {section}{\nonumberline \ignorespaces Factsheet III -- A Hydrogen Economy at Scale?}{64}{section*.46}%
+\defcounter {refsection}{0}\relax
+\contentsline {mtocsection}{\numberline {18.8}}{64}{section*.46}
+\defcounter {refsection}{0}\relax
+\contentsline {chapter}{\numberline {19}Scenario Assessments -- Nuclear}{65}{chapter.19}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {38}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {39}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.1}Locations II -- Nuclear Siting}{64}{section.19.1}%
+\contentsline {section}{\numberline {19.1}Locations II -- Nuclear Siting}{65}{section.19.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.1}Locations II -- Nuclear Siting}{64}{section.19.1}
+\contentsline {mtocsection}{\numberline {19.1}Locations II -- Nuclear Siting}{65}{section.19.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.2}Materials V -- Uranium}{67}{section.19.2}%
+\contentsline {section}{\numberline {19.2}Materials V -- Uranium}{68}{section.19.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.2}Materials V -- Uranium}{67}{section.19.2}
+\contentsline {mtocsection}{\numberline {19.2}Materials V -- Uranium}{68}{section.19.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.3}Public Opinion}{68}{section.19.3}%
+\contentsline {section}{\numberline {19.3}Public Opinion}{69}{section.19.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.3}Public Opinion}{68}{section.19.3}
+\contentsline {mtocsection}{\numberline {19.3}Public Opinion}{69}{section.19.3}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.4}Waste}{68}{section.19.4}%
+\contentsline {section}{\numberline {19.4}Waste}{69}{section.19.4}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.4}Waste}{68}{section.19.4}
+\contentsline {mtocsection}{\numberline {19.4}Waste}{69}{section.19.4}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.5}Timeline}{68}{section.19.5}%
+\contentsline {section}{\numberline {19.5}Timeline}{69}{section.19.5}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.5}Timeline}{68}{section.19.5}
+\contentsline {mtocsection}{\numberline {19.5}Timeline}{69}{section.19.5}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.6}Economical mix}{69}{section.19.6}%
+\contentsline {section}{\numberline {19.6}Economical mix}{70}{section.19.6}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.6}Economical mix}{69}{section.19.6}
+\contentsline {mtocsection}{\numberline {19.6}Economical mix}{70}{section.19.6}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {19.7}The Digest}{69}{section.19.7}%
+\contentsline {section}{\numberline {19.7}The Digest}{70}{section.19.7}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.7}The Digest}{69}{section.19.7}
+\contentsline {mtocsection}{\numberline {19.7}The Digest}{70}{section.19.7}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\nonumberline \ignorespaces Factsheet IV -- Can a Nuclear Reactor be Anywhere?}{70}{section*.49}%
+\contentsline {section}{\nonumberline \ignorespaces Factsheet IV -- Can a Nuclear Reactor be Anywhere?}{71}{section*.50}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {19.7}}{70}{section*.49}
+\contentsline {mtocsection}{\numberline {19.7}}{71}{section*.50}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {20}The Transition Path}{71}{chapter.20}%
+\contentsline {chapter}{\numberline {20}The Transition Path}{72}{chapter.20}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {40}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {41}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {20.1}Risk Matrix}{71}{section.20.1}%
+\contentsline {section}{\numberline {20.1}Risk Matrix}{72}{section.20.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {20.1}Risk Matrix}{71}{section.20.1}
+\contentsline {mtocsection}{\numberline {20.1}Risk Matrix}{72}{section.20.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {20.2}What does this mean?}{72}{section.20.2}%
+\contentsline {section}{\numberline {20.2}What does this mean?}{73}{section.20.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {20.2}What does this mean?}{72}{section.20.2}
+\contentsline {mtocsection}{\numberline {20.2}What does this mean?}{73}{section.20.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {20.3}The Digest}{72}{section.20.3}%
+\contentsline {section}{\numberline {20.3}The Digest}{73}{section.20.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {20.3}The Digest}{72}{section.20.3}
+\contentsline {mtocsection}{\numberline {20.3}The Digest}{73}{section.20.3}
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline A path forward?}{73}{part*.51}%
+\contentsline {part}{\nonumberline A path forward?}{74}{part*.52}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {21}The World Needs}{74}{chapter.21}%
+\contentsline {chapter}{\numberline {21}The World Needs}{75}{chapter.21}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {42}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {43}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {21.1}The Digest}{74}{section.21.1}%
+\contentsline {section}{\numberline {21.1}The Digest}{75}{section.21.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {21.1}The Digest}{74}{section.21.1}
+\contentsline {mtocsection}{\numberline {21.1}The Digest}{75}{section.21.1}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {22}The World is Gone, Long Lives the World}{75}{chapter.22}%
+\contentsline {chapter}{\numberline {22}The World is Gone, Long Lives the World}{76}{chapter.22}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {44}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {45}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {22.1}Falling Short}{75}{section.22.1}%
+\contentsline {section}{\numberline {22.1}Falling Short}{76}{section.22.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {22.1}Falling Short}{75}{section.22.1}
+\contentsline {mtocsection}{\numberline {22.1}Falling Short}{76}{section.22.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {22.2}The Digest}{75}{section.22.2}%
+\contentsline {section}{\numberline {22.2}The Digest}{76}{section.22.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {22.2}The Digest}{75}{section.22.2}
+\contentsline {mtocsection}{\numberline {22.2}The Digest}{76}{section.22.2}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {23}Mental Health -- Coping with the situation}{76}{chapter.23}%
+\contentsline {chapter}{\numberline {23}Mental Health -- Coping with the situation}{77}{chapter.23}%
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {46}
 \defcounter {refsection}{0}\relax
 \etoc@startlocaltoc {47}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {23.1}Humans Like Groups}{76}{section.23.1}%
+\contentsline {section}{\numberline {23.1}Humans Like Groups}{77}{section.23.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {23.1}Humans Like Groups}{76}{section.23.1}
+\contentsline {mtocsection}{\numberline {23.1}Humans Like Groups}{77}{section.23.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {23.2}The Digest}{77}{section.23.2}%
+\contentsline {section}{\numberline {23.2}The Digest}{78}{section.23.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {23.2}The Digest}{77}{section.23.2}
+\contentsline {mtocsection}{\numberline {23.2}The Digest}{78}{section.23.2}
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Life is Short, this Book is Long\ldots }{78}{part*.53}%
+\contentsline {part}{\nonumberline Life is Short, this Book is Long\ldots }{79}{part*.54}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Summary}{79}{chapter*.54}%
+\contentsline {chapter}{Summary}{80}{chapter*.55}%
 \defcounter {refsection}{0}\relax
-\contentsline {part}{\nonumberline Appendix}{80}{part*.56}%
+\contentsline {part}{\nonumberline Appendix}{81}{part*.57}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\numberline {A}On Some Mathematical Information}{81}{appendix.A}%
+\contentsline {chapter}{\numberline {A}On Some Mathematical Information}{82}{appendix.A}%
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {A.1}First Order Calculations}{81}{section.A.1}%
+\contentsline {section}{\numberline {A.1}First Order Calculations}{82}{section.A.1}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {A.1}First Order Calculations}{81}{section.A.1}
+\contentsline {mtocsection}{\numberline {A.1}First Order Calculations}{82}{section.A.1}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {A.2}Units}{82}{section.A.2}%
+\contentsline {section}{\numberline {A.2}Units}{83}{section.A.2}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {A.2}Units}{82}{section.A.2}
+\contentsline {mtocsection}{\numberline {A.2}Units}{83}{section.A.2}
 \defcounter {refsection}{0}\relax
-\contentsline {section}{\numberline {A.3}Violin plots}{82}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Violin plots}{83}{section.A.3}%
 \defcounter {refsection}{0}\relax
-\contentsline {mtocsection}{\numberline {A.3}Violin plots}{82}{section.A.3}
+\contentsline {mtocsection}{\numberline {A.3}Violin plots}{83}{section.A.3}
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Bibliography}{83}{chapter*.57}%
+\contentsline {chapter}{\nonumberline Bibliography}{84}{chapter*.58}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{\nonumberline Notation}{84}{chapter*.58}%
+\contentsline {chapter}{\nonumberline Notation}{85}{chapter*.59}%
 \defcounter {refsection}{0}\relax
-\contentsline {chapter}{Alphabetical Index}{85}{section*.59}%
+\contentsline {chapter}{Alphabetical Index}{86}{section*.60}%
