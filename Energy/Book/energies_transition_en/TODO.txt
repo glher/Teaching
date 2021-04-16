@@ -5,7 +5,8 @@ Case Studies:
 
 - Hydrogen economy
 - Nuclear siting (Africa case)
-- Nuclear Uranium (map of resources)
+- World transition effect on materials for various scenarios
+- Nuclear Uranium (map of resources) --> And seawater extraction
 - Nuclear Waste
 
 
@@ -19,4 +20,3 @@ Chapter 16:
 Chapter 17:
 
 - Get the case study results
-
