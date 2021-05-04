@@ -321,6 +321,7 @@ country = 'france'
 year = 2020
 period = 24*7
 timeframe = 100
+storage_accounting = True
 
 scenario_type = scenarios[sn]
 scenario = scenario_type['scenario']
@@ -354,7 +355,7 @@ for sub_scenario in scenario_type['sub_scenario']:
             backup = scenario_type['backup']
         energy_capacity = get_storage(sub_scenario, rebuild_capacity, period=period, year=2020, backup=backup)
         rebuild_capacity = get_power_capacity_need_with_storage(sub_scenario, rebuild_capacity, energy_capacity,
-                                                                year=year)
+                                                                year=year, doit=storage_accounting)
         # max_storage = maximum_renewable_production[sub_scenario] * rebuild_capacity - minimum_yearly_load[year]
         # print(max_storage)
     total_investments = get_cost(sub_scenario, rebuild_capacity, energy_capacity,

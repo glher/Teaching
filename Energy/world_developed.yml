@@ -1,0 +1,195 @@
+# FRANCE
+
+
+
+#####################
+# Current situation #
+#####################
+
+# Installed capacity in GWe
+installed_capacity:
+    2020:
+        nuclear: 63
+        thermal: 18.9
+        hydro: 25.7
+        solar: 10.4
+        wind: 17.6
+        biomass: 2.2
+# Annual production values in TWh
+annual_production:
+    2020:
+        nuclear: 335.4
+        thermal: 37.6
+        hydro: 65.1
+        solar: 12.6
+        wind: 39.7
+        biomass: 9.6
+# Average load factor
+average_load_factor:
+    2020:
+        nuclear: 0.65
+        solar: 0.14
+        wind_onshore: 0.25
+        wind_offshore: 0.40
+# The minimum yearly load seen in France during the year
+minimum_yearly_load:
+    2020: 30
+# Electricity demand in TWh
+electricity_demand:
+    2020: 2000.
+
+
+
+################
+# System costs #
+################
+
+# Cost of system in $/kW
+capital_costs:
+    2020:
+        nuclear: 6100
+        solar: 950
+        wind_onshore: 1436
+        wind_offshore: 4077
+# Cost of decommisionning in $/kW
+dismantling_costs:
+    2020:
+        nuclear: 1000
+# Cost of storage in $/kW for power capacity and $/kWh for energy capacity
+# Note that the $/kWh is used
+storage_costs:
+    2020:
+        pumped_hydro:
+            energy_capacity: 105
+            power_capacity: 2638
+        compressed_air:
+            energy_capacity: 155
+            power_capacity: 1669
+        batteries_li-ion:
+            energy_capacity: 300
+            power_capacity: 1446
+# Cost of upgrading the grid in $/kW installed
+grid_costs:
+    2020: 500.
+
+###############
+# Carbon data #
+###############
+
+carbon_costs:
+    2020:
+        pumped_hydro: 0
+        batteries_li-ion: 0.1  # tons/kWh capacity
+        compressed_air: 0
+        nuclear: 4.5  # tons / kW
+        solar: 1  # tons / kW
+        wind_onshore: 0.6  # tons / kW
+        wind_offshore: 0.6  # tons / kW
+
+##################
+# Materials data #
+##################
+
+materials_costs:
+    2020:
+        uranium: # kg / kWh
+            # 10 kg NatU feed --> 1 kg UO2 at 5% (https://www.world-nuclear.org/information-library/nuclear-fuel-cycle/conversion-enrichment-and-fabrication/uranium-enrichment.aspx)
+            # Assume burnup of 50,000 MWd/tons
+            # 1 MWd = 24,000 kWh
+            # Then, this means 50,000 * 24,000 kWh per ton, or 50,000 * 24,000 kWh per 1,000 kg
+            # 1 kg UO2 --> 50,000 * 24 = 1.2e6 kWh_th per kg
+            # Assuming 0.33 conversion factor, this means that:
+            # 1 kg UO2 --> 396,000 kWh
+            # So, 400,000 kWh --> 1 kg UO2 --> 10 kg NatU
+            # 1 kWh --> 2.5e-5 kg
+            pumped_hydro: 0
+            batteries_li-ion: 0  
+            compressed_air: 0
+            nuclear: 2.5e-5
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        neodymium: # kg / kW (except for batteries_li-ion, per kWh)
+            pumped_hydro: 0
+            batteries_li-ion: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0.180
+            wind_offshore: 0.180
+        dysprosium: # kg / kW (except for batteries_li-ion, per kWh)
+            pumped_hydro: 0
+            batteries_li-ion: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0.03
+            wind_offshore: 0.03
+        lithium: # kg / kW (except for batteries_li-ion, per kWh)
+            pumped_hydro: 0
+            batteries_li-ion: 0.130  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        lead: # kg / kW (except for batteries_li-ion, per kWh)
+            pumped_hydro: 0
+            batteries_li-ion: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 0
+            wind_onshore: 0
+            wind_offshore: 0
+        copper: # kg / kW
+            pumped_hydro: 0
+            batteries_li-ion: 0  
+            compressed_air: 0
+            nuclear: 0
+            solar: 5
+            wind_onshore: 2
+            wind_offshore: 2
+
+
+###############
+# System data #
+###############
+
+# Round trip storage loss (https://www.eia.gov/todayinenergy/detail.php?id=46756,
+# https://scholar.utc.edu/cgi/viewcontent.cgi?article=1130&context=theses&httpsredir=1&referer=)
+storage_loss:
+    2020:
+        pumped_hydro: 0.7
+        batteries_li-ion: 0.8
+        compressed_air: 0.3
+# Lifetime of technologies in years
+lifetimes:
+    2020:
+        pumped_hydro: 100
+        batteries_li-ion: 15
+        compressed_air: 25
+        nuclear: 60
+        solar: 25
+        wind_onshore: 25
+        wind_offshore: 20
+        grid: 50
+# Maximum production at any given time over a year. That is, 70% of wind onshore capacity being activated at the same
+# time is the maximum you can expect, based on historical data.
+# This is not considered in the storage need, as we assume that we would find localized ways of dealing with surplus
+# by hydrogen creation, etc. This is nonetheless dangerous for the grid, as it means a very large load it may not be
+# ready for.
+maximum_renewable_production:
+    2020:
+        wind_onshore: 0.7
+        wind_offshore: 0.7
+        solar: 0.8
+# This is the storage capacity expressed as a percent of the installed capacity. It depends on the
+# fact that 80% of the production is performed by ~60% of the time (and thus, 20% of the production during the
+# remaining 40%) for wind, and by ~20% of the time (and thus, 20% of the production during the remaining
+# 80%) for solar. Consequently, we want to account for this low-generation period with storage abilities.
+# Consequently, batteries_li-ion are used to compensate for the 20% low-generation share.
+backup_capacity:
+    2020:
+        wind_onshore: 0.1
+        wind_offshore: 0.1
+        solar: 0.1

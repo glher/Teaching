@@ -52,9 +52,62 @@ The data for the current energy generation mix in the world is obtained.
 
 
 
-\todo{Approximately two-thirds of this feeds heat engines (power plants, cars, etc.), at an average efficiency of 30\%, delivering 0.6 TW of useful work in the bargain. The other (approximate) third is direct heat (lots of this in industrial process heat), and electricity from nuclear and hydro sources. Imagining that we replace our heat engines with direct electricity and electrified transport, we need less total power, accounting for some inefficiency.}
 
-Assuming an extremely optimistic electrification of the world transport sectors and other heat engines, let us assume that only 150000 TWh of energy will be needed every year. Note that this is probably on the very, very low end of future needs.
+Energy use:
+
+Primary energy includes heat conversion. The IEA gives estimates of the total final consumption~\sidecite{iea2020statistics}, in millions of tons of oil equivalent (MTOE). In an all electric world, this is what matters. From that, let's try and see what cannot be transitioned for now.
+
+The fossil fuels consumption to replace is consequently 1000 MTOE for coal, 4000 MTOE of Oil, and 1500 MTOE of Natural Gas. Coal is used at 30\% for iron and steel production, at 10\% for petrochemical uses, and 20\% for non-metallic minerals, with another 5\% for non-energy use. The transition pathways for those applications seem difficult to achieve soon. The rest of the coal consumption, roughly 35\%, could be transitioned. Oil is used for industrial consumption (plastics notably) and for non-energy applications such as lubricants and other products. We can assume that 75\% of the energy consumed from oil could be transitioned, notably from the transportation sector. 12\% of natural gas is used for non-energy purposes, and we can approximate that 85\% could be transitioned to clean energy.
+
+%Coal: 1000 MTOE
+%--> 30\% iron and steel
+%--> 10\% petrochemical
+%--> 20\% non-metallic minerals
+%--> 5\% non-energy use
+%--> Rest (35\%) could transition
+
+%Oil: 4000 MTOE
+%--> 16\% non energy (lubricants etc)
+%--> 8\% industrial (plastics etc)
+%--> Rest (75\%) could transition
+
+%Gas: 1500 MTOE
+%--> 12\% non energy
+%--> Rest (85\%) could transition
+
+So, we could transition around $0.35 * 1000 + 0.75 * 4000 + 0.85 * 1500 = 4625 MTOE$. This represents 70\% of the fossil fuels consumption today. Note that fossil fuels account for around 70\% of the total energy consumption themselves.
+
+%0.35 * 1070 + 0.75 * 3985 + 0.85 * 1502 = 4640 out of 6557 MTOE, or 70%
+
+%In 2017, fossil fuels accounted for 6557 MTOE out of 9717 MTOE, or around 70\%
+
+
+The world today uses ~160,000 TWh of equivalent primary energy. It breaks down, roughly to:
+
+\begin{itemize}
+\item Oil: 55,000 TWh (primary)
+\item Natural Gas: 40,000 TWh (primary)
+\item Coal: 45,000 TWh (primary)
+\item Nuclear: 7,000 TWh (electricity)
+\item Hydro: 10,000 TWh (electricity)
+\item Renewable: 8,000 TWh (electricity)
+\end{itemize}
+
+In the case of fossil fuels, we see that the primary energy consumed is given. This is due to the fact that there is a penalty to using heat engine, as it's not a very efficient process, and approximately two third of the primary energy is lost in the process of converting to electricity. We want to assess the needs in a 100\% electrified world. This means that we can get rid of the heat efficiency issue for fossil fuels notably and replace with a more efficient electricity use.
+
+We have seen above that we can imagine replacing around 70\% of our fossil fuels needs with electricity. This represents around 100,000 TWh, distributed across three main sectors: transportation, electricity, and direct heat. No change in energy consumption is to be expected from the direct heat sector, and renewables will have trouble making a dent in that sector. It consists mostly of industrial processes requiring very high temperatures. Biomass or waste fuels could be used, but could encounter a not-renewable-anymore issue.
+
+Transportation represents around a third of the fossil fuel use. The efficiency of a modern gasoline car is around 30\%. The efficiency of an EV is around 75\%. In order to replace all the gasoline used in transportation, we need to replace approximately 50,000 TWh of fossil fuel (oil). If our EVs were 100\% efficient at converting electricity to power, we would need 30\% of the 50,000 TWh, or 15,000 TWh. Since they are around 75\% efficient, our actual need is 15,000 TWh divided by 75\%, or 20,000 TWh\sidenote[][-2mm]{This represents a heat rate conversion factor of 40\%. You may find that number when people compare primary energy between fossil fuels and renewables.}. Consequently, if the entire transportation sector were to switch to electric vehicles, the energy requirements would drop from 50,000 TWh to 20,000 TWh, or by 60\%.
+
+Electricity represents around another third of the fossil fuels uses. For the power plants part, we can assume a relatively similar heat rate to convert. We do have a higher efficiency in a turbine than in a gasoline car, but we also have a higher efficiency of our renewable energy production system than batteries trips. Here we want to transition approximately 50,000 TWh again. So we get, using our 40\% efficiency conversion factor, a drop in our energy requirements from 50,000 TWh to 20,000 TWh again, or another 60\% drop.
+
+
+From these first order estimates, we conclude that maximizing the electrification of the energy grid would mean that we go from around 160,000 TWh to 100,000 TWh, or a 35 to 40\% drop, all else being equal (EOSP scenario). In the EPSO scenario, the needs would increase, and consequently we would have to meet 130,000 TWh via electricity.
+
+
+It's important to note that those estimates are very optimistic, both in terms of actual transition feasibility and in terms of future energy needs. It assumes the transition of the entire world transportation sector (so, not one gasoline powered car left), and of most things that can technically transition to an electricity source.
+
+%Assuming an extremely optimistic electrification of the world transport sectors and other heat engines, let us assume that only 150000 TWh of energy will be needed every year. Note that this is probably on the very, very low end of future needs.
 
 \section{Current Carbon Emissions}
 

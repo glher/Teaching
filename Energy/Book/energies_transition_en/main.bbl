@@ -19,6 +19,275 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{louwen2016re}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3e1d165d899fa3d303aeae951deed408}{%
+           family={Louwen},
+           familyi={L\bibinitperiod},
+           given={Atse},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a919fcd38f37436bde8997f94cbc75aa}{%
+           family={Van\bibnamedelima Sark},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Wilfried\bibnamedelima GJHM},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=3f01f6b2a98f01fd308c7faf0c963f2e}{%
+           family={Faaij},
+           familyi={F\bibinitperiod},
+           given={Andr{é}\bibnamedelima PC},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bf0a3629a4b0f5542fb2dd4c09fc3874}{%
+           family={Schropp},
+           familyi={S\bibinitperiod},
+           given={Ruud\bibnamedelima EI},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{99d2d073be4cbb78e2b1159e3500b29b}
+      \strng{fullhash}{3cac6c4c96646f2a277990844271b512}
+      \strng{bibnamehash}{99d2d073be4cbb78e2b1159e3500b29b}
+      \strng{authorbibnamehash}{99d2d073be4cbb78e2b1159e3500b29b}
+      \strng{authornamehash}{99d2d073be4cbb78e2b1159e3500b29b}
+      \strng{authorfullhash}{3cac6c4c96646f2a277990844271b512}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{Re-assessment of net energy production and greenhouse gas emissions avoidance after 40 years of photovoltaics development}
+      \field{volume}{7}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+    \endentry
+    \entry{dolan2012life}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f43143a9ee0e20158898e55e5747b2b5}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Stacey\bibnamedelima L},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Garvin\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{17dc7d19ec06176bb5685912ac36393a}
+      \strng{fullhash}{17dc7d19ec06176bb5685912ac36393a}
+      \strng{bibnamehash}{17dc7d19ec06176bb5685912ac36393a}
+      \strng{authorbibnamehash}{17dc7d19ec06176bb5685912ac36393a}
+      \strng{authornamehash}{17dc7d19ec06176bb5685912ac36393a}
+      \strng{authorfullhash}{17dc7d19ec06176bb5685912ac36393a}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{title}{Life cycle greenhouse gas emissions of utility-scale wind power: Systematic review and harmonization}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{S136\bibrangedash S154}
+      \range{pages}{-1}
+    \endentry
+    \entry{dai2019life}{article}{}
+      \name{author}{4}{}{%
+        {{hash=174614b2b571a4bd6304014161d98acd}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e61cfe50b1486b48855cb810d9ce5f9f}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Jarod\bibnamedelima C},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=50ec9f82656f2b513d5a8fc2e218dc82}{%
+           family={Gaines},
+           familyi={G\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=405aa02bca140f939bbe12e95a79804b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{ac375dcc78ba28f80aebf222389a5b4e}
+      \strng{fullhash}{751d08df2de6afb5e3323dc313fbacf6}
+      \strng{bibnamehash}{ac375dcc78ba28f80aebf222389a5b4e}
+      \strng{authorbibnamehash}{ac375dcc78ba28f80aebf222389a5b4e}
+      \strng{authornamehash}{ac375dcc78ba28f80aebf222389a5b4e}
+      \strng{authorfullhash}{751d08df2de6afb5e3323dc313fbacf6}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Batteries}
+      \field{number}{2}
+      \field{title}{Life cycle analysis of lithium-ion batteries for automotive applications}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{pages}{48}
+      \range{pages}{1}
+    \endentry
+    \entry{emilsson2019lithium}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0a49109408ed0108c4e40d9b29600140}{%
+           family={Emilsson},
+           familyi={E\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8372f5ab54053f9a1bea5cca979db5ca}{%
+           family={Dahll{ö}f},
+           familyi={D\bibinitperiod},
+           given={Lisbeth},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef141d51a1553056d81292d732eb81c}
+      \strng{fullhash}{fef141d51a1553056d81292d732eb81c}
+      \strng{bibnamehash}{fef141d51a1553056d81292d732eb81c}
+      \strng{authorbibnamehash}{fef141d51a1553056d81292d732eb81c}
+      \strng{authornamehash}{fef141d51a1553056d81292d732eb81c}
+      \strng{authorfullhash}{fef141d51a1553056d81292d732eb81c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Report Number C}
+      \field{title}{Lithium-ion vehicle battery production. Status 2019 on energy use, CO2 emissions, use of metals, products environmental footprint, and recycling}
+      \field{volume}{444}
+      \field{year}{2019}
+    \endentry
+    \entry{warner2012life}{article}{}
+      \name{author}{2}{}{%
+        {{hash=10247fc5007f399455003be6e1246a6e}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={Ethan\bibnamedelima S},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Garvin\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{320642d74818e065fa7a9b81b7b4b7e9}
+      \strng{fullhash}{320642d74818e065fa7a9b81b7b4b7e9}
+      \strng{bibnamehash}{320642d74818e065fa7a9b81b7b4b7e9}
+      \strng{authorbibnamehash}{320642d74818e065fa7a9b81b7b4b7e9}
+      \strng{authornamehash}{320642d74818e065fa7a9b81b7b4b7e9}
+      \strng{authorfullhash}{320642d74818e065fa7a9b81b7b4b7e9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{title}{Life cycle greenhouse gas emissions of nuclear electricity generation: Systematic review and harmonization}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{S73\bibrangedash S92}
+      \range{pages}{-1}
+    \endentry
+    \entry{o2014life}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b51b21aeefac26e38274b49139db53f8}{%
+           family={O'Donoughue},
+           familyi={O\bibinitperiod},
+           given={Patrick\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Garvin\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f43143a9ee0e20158898e55e5747b2b5}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={Stacey\bibnamedelima L},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b0e95b24e44e94458ad11797154bb793}{%
+           family={Vorum},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{309b49f5e6a3e87bbde1bfac994d2373}
+      \strng{fullhash}{578eb1a0a6754da09fedf8c8d72c60f3}
+      \strng{bibnamehash}{309b49f5e6a3e87bbde1bfac994d2373}
+      \strng{authorbibnamehash}{309b49f5e6a3e87bbde1bfac994d2373}
+      \strng{authornamehash}{309b49f5e6a3e87bbde1bfac994d2373}
+      \strng{authorfullhash}{578eb1a0a6754da09fedf8c8d72c60f3}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{number}{1}
+      \field{title}{Life cycle greenhouse gas emissions of electricity generated from conventionally produced natural gas: systematic review and harmonization}
+      \field{volume}{18}
+      \field{year}{2014}
+      \field{pages}{125\bibrangedash 144}
+      \range{pages}{20}
+    \endentry
+    \entry{whitaker2012life}{article}{}
+      \name{author}{4}{}{%
+        {{hash=53125c2d8bc45191a4d0df22ccc00f95}{%
+           family={Whitaker},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Garvin\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6d6fabec7170efbe0f00fac0cd30fd5f}{%
+           family={O’Donoughue},
+           familyi={O\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b0e95b24e44e94458ad11797154bb793}{%
+           family={Vorum},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{e0fa3193110406aab67e7e27bb851368}
+      \strng{fullhash}{32b0a791ae0d8a0dbce67ce630e04ca1}
+      \strng{bibnamehash}{e0fa3193110406aab67e7e27bb851368}
+      \strng{authorbibnamehash}{e0fa3193110406aab67e7e27bb851368}
+      \strng{authornamehash}{e0fa3193110406aab67e7e27bb851368}
+      \strng{authorfullhash}{32b0a791ae0d8a0dbce67ce630e04ca1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{title}{Life cycle greenhouse gas emissions of coal-fired electricity generation: Systematic review and harmonization}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{S53\bibrangedash S72}
+      \range{pages}{-1}
+    \endentry
     \entry{hoste2009matching}{article}{}
       \name{author}{3}{}{%
         {{hash=268ea6366e84543c498b15eedde0f363}{%
@@ -43,8 +312,8 @@
       \strng{authorbibnamehash}{d77e58f6d1d99fb94cdf800499de6ccf}
       \strng{authornamehash}{d77e58f6d1d99fb94cdf800499de6ccf}
       \strng{authorfullhash}{d77e58f6d1d99fb94cdf800499de6ccf}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sanford University, Department of Civil and Environmental Engineering}
@@ -88,8 +357,8 @@
       \strng{authorbibnamehash}{85437fe07696e4c57f916c83d4ba5581}
       \strng{authornamehash}{85437fe07696e4c57f916c83d4ba5581}
       \strng{authorfullhash}{34fea52f102919c5e14e06cc705cbb4c}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Energy}
@@ -121,8 +390,8 @@
       \strng{authorbibnamehash}{e80874d1fe37da21734a8c3dd0999a99}
       \strng{authornamehash}{e80874d1fe37da21734a8c3dd0999a99}
       \strng{authorfullhash}{e80874d1fe37da21734a8c3dd0999a99}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific reports}
@@ -197,8 +466,8 @@
       \strng{authorbibnamehash}{0461f43fdfac11a40db78af2061ada6e}
       \strng{authornamehash}{0461f43fdfac11a40db78af2061ada6e}
       \strng{authorfullhash}{fbc8ef390be8a0f50635de88e3c205e9}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
@@ -209,274 +478,28 @@
       \field{pages}{6722\bibrangedash 6727}
       \range{pages}{6}
     \endentry
-    \entry{louwen2016re}{article}{}
-      \name{author}{4}{}{%
-        {{hash=3e1d165d899fa3d303aeae951deed408}{%
-           family={Louwen},
-           familyi={L\bibinitperiod},
-           given={Atse},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a919fcd38f37436bde8997f94cbc75aa}{%
-           family={Van\bibnamedelima Sark},
-           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={Wilfried\bibnamedelima GJHM},
-           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=3f01f6b2a98f01fd308c7faf0c963f2e}{%
-           family={Faaij},
-           familyi={F\bibinitperiod},
-           given={Andr{é}\bibnamedelima PC},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=bf0a3629a4b0f5542fb2dd4c09fc3874}{%
-           family={Schropp},
-           familyi={S\bibinitperiod},
-           given={Ruud\bibnamedelima EI},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+    \entry{iea2020statistics}{report}{}
+      \name{author}{1}{}{%
+        {{hash=18fdbec513c87989c7580f31bb7f03ab}{%
+           family={IEA},
+           familyi={I\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
+      \list{institution}{1}{%
+        {International Energy Agency}%
       }
-      \strng{namehash}{99d2d073be4cbb78e2b1159e3500b29b}
-      \strng{fullhash}{3cac6c4c96646f2a277990844271b512}
-      \strng{bibnamehash}{99d2d073be4cbb78e2b1159e3500b29b}
-      \strng{authorbibnamehash}{99d2d073be4cbb78e2b1159e3500b29b}
-      \strng{authornamehash}{99d2d073be4cbb78e2b1159e3500b29b}
-      \strng{authorfullhash}{3cac6c4c96646f2a277990844271b512}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \strng{namehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{fullhash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{bibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authorbibnamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authornamehash}{18fdbec513c87989c7580f31bb7f03ab}
+      \strng{authorfullhash}{18fdbec513c87989c7580f31bb7f03ab}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature Communications}
-      \field{number}{1}
-      \field{title}{Re-assessment of net energy production and greenhouse gas emissions avoidance after 40 years of photovoltaics development}
-      \field{volume}{7}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 9}
-      \range{pages}{9}
-    \endentry
-    \entry{dolan2012life}{article}{}
-      \name{author}{2}{}{%
-        {{hash=f43143a9ee0e20158898e55e5747b2b5}{%
-           family={Dolan},
-           familyi={D\bibinitperiod},
-           given={Stacey\bibnamedelima L},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
-           family={Heath},
-           familyi={H\bibinitperiod},
-           given={Garvin\bibnamedelima A},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{17dc7d19ec06176bb5685912ac36393a}
-      \strng{fullhash}{17dc7d19ec06176bb5685912ac36393a}
-      \strng{bibnamehash}{17dc7d19ec06176bb5685912ac36393a}
-      \strng{authorbibnamehash}{17dc7d19ec06176bb5685912ac36393a}
-      \strng{authornamehash}{17dc7d19ec06176bb5685912ac36393a}
-      \strng{authorfullhash}{17dc7d19ec06176bb5685912ac36393a}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Industrial Ecology}
-      \field{title}{Life cycle greenhouse gas emissions of utility-scale wind power: Systematic review and harmonization}
-      \field{volume}{16}
-      \field{year}{2012}
-      \field{pages}{S136\bibrangedash S154}
-      \range{pages}{-1}
-    \endentry
-    \entry{dai2019life}{article}{}
-      \name{author}{4}{}{%
-        {{hash=174614b2b571a4bd6304014161d98acd}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={Qiang},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=e61cfe50b1486b48855cb810d9ce5f9f}{%
-           family={Kelly},
-           familyi={K\bibinitperiod},
-           given={Jarod\bibnamedelima C},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=50ec9f82656f2b513d5a8fc2e218dc82}{%
-           family={Gaines},
-           familyi={G\bibinitperiod},
-           given={Linda},
-           giveni={L\bibinitperiod}}}%
-        {{hash=405aa02bca140f939bbe12e95a79804b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Multidisciplinary Digital Publishing Institute}%
-      }
-      \strng{namehash}{ac375dcc78ba28f80aebf222389a5b4e}
-      \strng{fullhash}{751d08df2de6afb5e3323dc313fbacf6}
-      \strng{bibnamehash}{ac375dcc78ba28f80aebf222389a5b4e}
-      \strng{authorbibnamehash}{ac375dcc78ba28f80aebf222389a5b4e}
-      \strng{authornamehash}{ac375dcc78ba28f80aebf222389a5b4e}
-      \strng{authorfullhash}{751d08df2de6afb5e3323dc313fbacf6}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Batteries}
-      \field{number}{2}
-      \field{title}{Life cycle analysis of lithium-ion batteries for automotive applications}
-      \field{volume}{5}
-      \field{year}{2019}
-      \field{pages}{48}
-      \range{pages}{1}
-    \endentry
-    \entry{emilsson2019lithium}{article}{}
-      \name{author}{2}{}{%
-        {{hash=0a49109408ed0108c4e40d9b29600140}{%
-           family={Emilsson},
-           familyi={E\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod}}}%
-        {{hash=8372f5ab54053f9a1bea5cca979db5ca}{%
-           family={Dahll{ö}f},
-           familyi={D\bibinitperiod},
-           given={Lisbeth},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{fef141d51a1553056d81292d732eb81c}
-      \strng{fullhash}{fef141d51a1553056d81292d732eb81c}
-      \strng{bibnamehash}{fef141d51a1553056d81292d732eb81c}
-      \strng{authorbibnamehash}{fef141d51a1553056d81292d732eb81c}
-      \strng{authornamehash}{fef141d51a1553056d81292d732eb81c}
-      \strng{authorfullhash}{fef141d51a1553056d81292d732eb81c}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Report Number C}
-      \field{title}{Lithium-ion vehicle battery production. Status 2019 on energy use, CO2 emissions, use of metals, products environmental footprint, and recycling}
-      \field{volume}{444}
-      \field{year}{2019}
-    \endentry
-    \entry{warner2012life}{article}{}
-      \name{author}{2}{}{%
-        {{hash=10247fc5007f399455003be6e1246a6e}{%
-           family={Warner},
-           familyi={W\bibinitperiod},
-           given={Ethan\bibnamedelima S},
-           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
-           family={Heath},
-           familyi={H\bibinitperiod},
-           given={Garvin\bibnamedelima A},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \strng{fullhash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \strng{bibnamehash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \strng{authorbibnamehash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \strng{authornamehash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \strng{authorfullhash}{320642d74818e065fa7a9b81b7b4b7e9}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Industrial Ecology}
-      \field{title}{Life cycle greenhouse gas emissions of nuclear electricity generation: Systematic review and harmonization}
-      \field{volume}{16}
-      \field{year}{2012}
-      \field{pages}{S73\bibrangedash S92}
-      \range{pages}{-1}
-    \endentry
-    \entry{o2014life}{article}{}
-      \name{author}{4}{}{%
-        {{hash=b51b21aeefac26e38274b49139db53f8}{%
-           family={O'Donoughue},
-           familyi={O\bibinitperiod},
-           given={Patrick\bibnamedelima R},
-           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
-           family={Heath},
-           familyi={H\bibinitperiod},
-           given={Garvin\bibnamedelima A},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=f43143a9ee0e20158898e55e5747b2b5}{%
-           family={Dolan},
-           familyi={D\bibinitperiod},
-           given={Stacey\bibnamedelima L},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=b0e95b24e44e94458ad11797154bb793}{%
-           family={Vorum},
-           familyi={V\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{309b49f5e6a3e87bbde1bfac994d2373}
-      \strng{fullhash}{578eb1a0a6754da09fedf8c8d72c60f3}
-      \strng{bibnamehash}{309b49f5e6a3e87bbde1bfac994d2373}
-      \strng{authorbibnamehash}{309b49f5e6a3e87bbde1bfac994d2373}
-      \strng{authornamehash}{309b49f5e6a3e87bbde1bfac994d2373}
-      \strng{authorfullhash}{578eb1a0a6754da09fedf8c8d72c60f3}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Industrial Ecology}
-      \field{number}{1}
-      \field{title}{Life cycle greenhouse gas emissions of electricity generated from conventionally produced natural gas: systematic review and harmonization}
-      \field{volume}{18}
-      \field{year}{2014}
-      \field{pages}{125\bibrangedash 144}
-      \range{pages}{20}
-    \endentry
-    \entry{whitaker2012life}{article}{}
-      \name{author}{4}{}{%
-        {{hash=53125c2d8bc45191a4d0df22ccc00f95}{%
-           family={Whitaker},
-           familyi={W\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f9f5f4aa71b96f6afa536488703d98e2}{%
-           family={Heath},
-           familyi={H\bibinitperiod},
-           given={Garvin\bibnamedelima A},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=6d6fabec7170efbe0f00fac0cd30fd5f}{%
-           family={O’Donoughue},
-           familyi={O\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-        {{hash=b0e95b24e44e94458ad11797154bb793}{%
-           family={Vorum},
-           familyi={V\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{e0fa3193110406aab67e7e27bb851368}
-      \strng{fullhash}{32b0a791ae0d8a0dbce67ce630e04ca1}
-      \strng{bibnamehash}{e0fa3193110406aab67e7e27bb851368}
-      \strng{authorbibnamehash}{e0fa3193110406aab67e7e27bb851368}
-      \strng{authornamehash}{e0fa3193110406aab67e7e27bb851368}
-      \strng{authorfullhash}{32b0a791ae0d8a0dbce67ce630e04ca1}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Industrial Ecology}
-      \field{title}{Life cycle greenhouse gas emissions of coal-fired electricity generation: Systematic review and harmonization}
-      \field{volume}{16}
-      \field{year}{2012}
-      \field{pages}{S53\bibrangedash S72}
-      \range{pages}{-1}
+      \field{title}{Key World Energy Statistics 2020}
+      \field{type}{techreport}
+      \field{year}{2020}
     \endentry
     \entry{kesler2012global}{article}{}
       \name{author}{6}{}{%
@@ -557,8 +580,8 @@
       \strng{authorbibnamehash}{b3b849a162af3110d36e274fdb928731}
       \strng{authornamehash}{b3b849a162af3110d36e274fdb928731}
       \strng{authorfullhash}{b3b849a162af3110d36e274fdb928731}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Uranium 2020: Resources, Production and Demand}
